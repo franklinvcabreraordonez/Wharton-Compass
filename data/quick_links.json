@@ -1,0 +1,13 @@
+[
+  {"category": "Research", "title": "CURF: Center for Undergraduate Research and Fellowships", "url": "https://curf.upenn.edu", "note": "Penn's hub for research and fellowships", "checked": "2026-11-03"},
+  {"category": "Research", "title": "CURF fellowships", "url": "https://curf.upenn.edu/fellowships", "note": "Major grants and fellowships", "checked": "2026-11-03"},
+  {"category": "Internships and careers", "title": "Penn Career Services", "url": "https://careerservices.upenn.edu", "note": "Advising, workshops, and internship resources", "checked": "2026-11-03"},
+  {"category": "Courses", "title": "Penn Course Review", "url": "https://penncoursereview.com", "note": "Ratings and reviews for Penn courses", "checked": "2026-11-03"},
+  {"category": "Courses", "title": "Penn Course Plan", "url": "https://penncourseplan.com", "note": "Build and compare course schedules", "checked": "2026-11-03"},
+  {"category": "Clubs", "title": "Penn Clubs", "url": "https://pennclubs.com", "note": "Official directory of student organizations", "checked": "2026-11-03"},
+  {"category": "Clubs", "title": "Wharton CampusGroups", "url": "https://groups.wharton.upenn.edu", "note": "Wharton club pages and events", "checked": "2026-11-03"},
+  {"category": "Events", "title": "Wharton events calendar", "url": "https://groups.wharton.upenn.edu/calendar", "note": "Public events from Wharton groups", "checked": "2026-11-03"},
+  {"category": "Wharton life", "title": "MyWharton", "url": "https://my.wharton.upenn.edu", "note": "Wharton portal; sign in with PennKey", "checked": "2026-11-03"},
+  {"category": "Wharton life", "title": "Wharton Undergraduate Inside", "url": "https://undergrad-inside.wharton.upenn.edu", "note": "Undergraduate division news and resources", "checked": "2026-11-03"},
+  {"category": "Wharton life", "title": "Wharton Computing Student Support", "url": "https://support.wharton.upenn.edu", "note": "Help with Wharton accounts, calendars, and tools", "checked": "2026-11-03"}
+]

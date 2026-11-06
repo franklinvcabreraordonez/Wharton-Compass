@@ -1,0 +1,13 @@
+{
+  "source": "https://groups.wharton.upenn.edu/whcouncil/recruitment/",
+  "note": "When Wharton Council posts this year's dates, copy them into entries. Each entry needs a label and a when. Anything in entries replaces the last-year box on the page.",
+  "entries": [],
+  "last_year": {
+    "label": "Spring 2026",
+    "items": [
+      {"label": "Wharton Club Fair", "when": "January 16, 3 to 6 PM"},
+      {"label": "Centralized application opens", "when": "January 16, 6 PM"},
+      {"label": "Centralized application deadline", "when": "January 30, 11:59 PM"}
+    ]
+  }
+}

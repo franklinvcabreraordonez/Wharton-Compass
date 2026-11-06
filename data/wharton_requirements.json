@@ -1,0 +1,638 @@
+{
+ "catalog": "2026-27",
+ "applies_to": "Single-degree Wharton students (BS in Economics) entering in Fall 2026 or later",
+ "not_covered": "Coordinated dual-degree students, Joseph Wharton Scholars, and students who entered before Fall 2026 follow different requirements.",
+ "source": "https://catalog.upenn.edu/undergraduate/wharton/curriculum/",
+ "checked": "2026-11-05",
+ "total_cu": 37,
+ "plan_note": "Sample sequence from the catalog's plan of study, shown on its Individualized concentration page. Plans for specific concentrations may differ in years three and four. The standard load is 4 to 5 CU per semester.",
+ "categories": [
+  {
+   "id": "first-year",
+   "title": "First-year foundations",
+   "note": "",
+   "items": [
+    {
+     "id": "econ",
+     "name": "Introductory Economics for Business (BEPP 1000)",
+     "cu": 1,
+     "options": [
+      "BEPP 1000",
+      "ECON 0100",
+      "ECON 0200"
+     ],
+     "note": "ECON 0100 plus ECON 0200 can stand in. One counts here, and the other counts toward Liberal Arts & Sciences or an Unrestricted Elective.",
+     "accept": [
+      "BEPP 1000",
+      "ECON 0100",
+      "ECON 0200"
+     ]
+    },
+    {
+     "id": "calc",
+     "name": "Calculus (MATH 1400 or MATH 1070)",
+     "cu": 1,
+     "options": [
+      "MATH 1400",
+      "MATH 1070"
+     ],
+     "note": "Either course satisfies this.",
+     "accept": [
+      "MATH 1400",
+      "MATH 1070"
+     ]
+    },
+    {
+     "id": "writ",
+     "name": "Critical Writing Seminar (WRIT 0020, 0021, 0100, 0110, or 0120 to 0990)",
+     "cu": 1,
+     "options": [
+      "WRIT 0020",
+      "WRIT 0021",
+      "WRIT 0100",
+      "WRIT 0110",
+      "WRIT"
+     ],
+     "note": "",
+     "accept": [
+      "WRIT 0020",
+      "WRIT 0021",
+      "WRIT 0100",
+      "WRIT 0110"
+     ],
+     "accept_range": [
+      {
+       "dept": "WRIT",
+       "min": 120,
+       "max": 990
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "leadership",
+   "title": "Leadership Journey",
+   "note": "",
+   "items": [
+    {
+     "id": "wh1010",
+     "name": "Business and You (WH 1010)",
+     "cu": 0.5,
+     "options": [
+      "WH 1010"
+     ],
+     "note": "",
+     "accept": [
+      "WH 1010"
+     ]
+    },
+    {
+     "id": "wh2010",
+     "name": "Business Communication for Impact (WH 2010 or WH 2011)",
+     "cu": 0.5,
+     "options": [
+      "WH 2010",
+      "WH 2011"
+     ],
+     "note": "WH 2011, Global Business Communication for Impact, also counts.",
+     "accept": [
+      "WH 2010",
+      "WH 2011"
+     ]
+    },
+    {
+     "id": "mgmt3010",
+     "name": "Teamwork and Interpersonal Influence (MGMT 3010)",
+     "cu": 0.5,
+     "options": [
+      "MGMT 3010"
+     ],
+     "note": "",
+     "accept": [
+      "MGMT 3010"
+     ]
+    },
+    {
+     "id": "capstone",
+     "name": "Senior Capstone (a course with attribute WUCP)",
+     "cu": 0.5,
+     "options": [],
+     "note": "One course with attribute WUCP. For capstones offered from Fall 2027, all Business Fundamentals and the Leadership Journey courses must be finished first.",
+     "link": "https://undergrad-inside.wharton.upenn.edu/senior-capstone",
+     "link_label": "Capstone details",
+     "accept": []
+    }
+   ]
+  },
+  {
+   "id": "fundamentals",
+   "title": "Business Fundamentals (11 CU)",
+   "note": "Honors versions count in place of the regular course (BEPP 2508, FNCE 1008, FNCE 1018, LGST 1008, LGST 1018, MKTG 1018, STAT 1018, STAT 1028). Wharton's 2025-26 handbook says these must be taken for a grade, not pass/fail. Confirm that for your year.",
+   "items": [
+    {
+     "id": "acct1010",
+     "name": "Accounting and Financial Reporting (ACCT 1010)",
+     "cu": 1,
+     "options": [
+      "ACCT 1010"
+     ],
+     "note": "",
+     "accept": [
+      "ACCT 1010"
+     ]
+    },
+    {
+     "id": "acct1020",
+     "name": "Strategic Cost Analysis (ACCT 1020)",
+     "cu": 1,
+     "options": [
+      "ACCT 1020"
+     ],
+     "note": "",
+     "accept": [
+      "ACCT 1020"
+     ]
+    },
+    {
+     "id": "bepp2500",
+     "name": "Managerial Economics (BEPP 2500)",
+     "cu": 1,
+     "options": [
+      "BEPP 2500",
+      "BEPP 2508"
+     ],
+     "note": "BEPP 2508 is the honors version.",
+     "accept": [
+      "BEPP 2500",
+      "BEPP 2508"
+     ]
+    },
+    {
+     "id": "fnce1000",
+     "name": "Corporate Finance (FNCE 1000)",
+     "cu": 1,
+     "options": [
+      "FNCE 1000",
+      "FNCE 1008"
+     ],
+     "note": "FNCE 1008 is the honors version.",
+     "accept": [
+      "FNCE 1000",
+      "FNCE 1008"
+     ]
+    },
+    {
+     "id": "fnce1010",
+     "name": "Monetary Economics and the Global Economy (FNCE 1010)",
+     "cu": 1,
+     "options": [
+      "FNCE 1010",
+      "FNCE 1018"
+     ],
+     "note": "FNCE 1018 is the honors version.",
+     "accept": [
+      "FNCE 1010",
+      "FNCE 1018"
+     ]
+    },
+    {
+     "id": "lgst",
+     "name": "Ethics and Social Responsibility (LGST 1000) or Law and Social Values (LGST 1010)",
+     "cu": 1,
+     "options": [
+      "LGST 1000",
+      "LGST 1010",
+      "LGST 1008",
+      "LGST 1018"
+     ],
+     "note": "One of the two, or an honors version (LGST 1008 or LGST 1018).",
+     "accept": [
+      "LGST 1000",
+      "LGST 1010",
+      "LGST 1008",
+      "LGST 1018"
+     ]
+    },
+    {
+     "id": "mgmt1010",
+     "name": "Introduction to Management (MGMT 1010)",
+     "cu": 1,
+     "options": [
+      "MGMT 1010"
+     ],
+     "note": "",
+     "accept": [
+      "MGMT 1010"
+     ]
+    },
+    {
+     "id": "mktg1010",
+     "name": "Introduction to Marketing (MKTG 1010)",
+     "cu": 1,
+     "options": [
+      "MKTG 1010",
+      "MKTG 1018"
+     ],
+     "note": "MKTG 1018 is the honors version.",
+     "accept": [
+      "MKTG 1010",
+      "MKTG 1018"
+     ]
+    },
+    {
+     "id": "oidd1010",
+     "name": "Introduction to Operations, Information and Decisions (OIDD 1010)",
+     "cu": 1,
+     "options": [
+      "OIDD 1010"
+     ],
+     "note": "",
+     "accept": [
+      "OIDD 1010"
+     ]
+    },
+    {
+     "id": "stat1",
+     "name": "Introductory Business Statistics (STAT 1010)",
+     "cu": 1,
+     "options": [
+      "STAT 1010",
+      "STAT 1018",
+      "STAT 4300",
+      "ESE 3010"
+     ],
+     "note": "Alternatives that also count: STAT 4300 Probability, ESE 3010 Engineering Probability, or the honors version STAT 1018.",
+     "accept": [
+      "STAT 1010",
+      "STAT 1018",
+      "STAT 4300",
+      "ESE 3010"
+     ]
+    },
+    {
+     "id": "stat2",
+     "name": "Introductory Business Statistics, second course (STAT 1020)",
+     "cu": 1,
+     "options": [
+      "STAT 1020",
+      "STAT 1028",
+      "STAT 4310",
+      "ESE 4020"
+     ],
+     "note": "Alternatives that also count: STAT 4310 Statistical Inference, ESE 4020 Statistics for Data Science, or the honors version STAT 1028.",
+     "accept": [
+      "STAT 1020",
+      "STAT 1028",
+      "STAT 4310",
+      "ESE 4020"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "flex",
+   "title": "Flex Fundamentals",
+   "note": "",
+   "items": [
+    {
+     "id": "wuge",
+     "name": "Global Economy, Business & Society",
+     "cu": 1,
+     "options": [],
+     "note": "One course with attribute WUGE.",
+     "link": "https://catalog.upenn.edu/attributes/wuge/",
+     "link_label": "Courses with this attribute"
+    },
+    {
+     "id": "wuti",
+     "name": "Technology, Innovation & Analytics",
+     "cu": 1,
+     "options": [],
+     "note": "One course with attribute WUTI.",
+     "link": "https://catalog.upenn.edu/attributes/wuti/",
+     "link_label": "Courses with this attribute"
+    }
+   ]
+  },
+  {
+   "id": "las",
+   "title": "Liberal arts & sciences",
+   "note": "The catalog counts Liberal Arts & Sciences as 7 CU in total. The pieces below overlap. A Penn course that satisfies the foreign language requirement can double-count as Humanities or Flexible Gen Ed, and two Cross-Cultural Perspectives courses can double-count as Humanities, Natural Science, Social Science, or Flexible Gen Ed.",
+   "items": [
+    {
+     "id": "fl",
+     "name": "Foreign language",
+     "cu": null,
+     "options": [],
+     "note": "Two semesters at the beginner level of a language other than English, or show equivalent proficiency."
+    },
+    {
+     "id": "hum",
+     "name": "Humanities",
+     "cu": 1,
+     "options": [],
+     "note": "One course with attribute WUHM.",
+     "link": "https://catalog.upenn.edu/attributes/wuhm/",
+     "link_label": "Courses with this attribute"
+    },
+    {
+     "id": "nsme",
+     "name": "Natural Science, Math & Engineering",
+     "cu": 1,
+     "options": [],
+     "note": "One course with attribute WUNM.",
+     "link": "https://catalog.upenn.edu/attributes/wunm/",
+     "link_label": "Courses with this attribute"
+    },
+    {
+     "id": "ss",
+     "name": "Social Science",
+     "cu": 1,
+     "options": [],
+     "note": "One course with attribute WUSS.",
+     "link": "https://catalog.upenn.edu/attributes/wuss/",
+     "link_label": "Courses with this attribute"
+    },
+    {
+     "id": "fge1",
+     "name": "Flexible Gen Ed (1 of 3)",
+     "cu": 1,
+     "options": [],
+     "note": "Approved undergraduate coursework taken outside of Wharton."
+    },
+    {
+     "id": "fge2",
+     "name": "Flexible Gen Ed (2 of 3)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    },
+    {
+     "id": "fge3",
+     "name": "Flexible Gen Ed (3 of 3)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    },
+    {
+     "id": "ccp1",
+     "name": "Cross-Cultural Perspectives (1 of 3)",
+     "cu": 1,
+     "options": [],
+     "note": "Substantial cross-cultural content. At most one may be on U.S. cultural diversity (attribute WUCU). Non-U.S. courses carry WUCN. Wharton's page says these may not be taken pass/fail.",
+     "link": "https://catalog.upenn.edu/attributes/",
+     "link_label": "Course attribute index"
+    },
+    {
+     "id": "ccp2",
+     "name": "Cross-Cultural Perspectives (2 of 3)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    },
+    {
+     "id": "ccp3",
+     "name": "Cross-Cultural Perspectives (3 of 3)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "breadth",
+   "title": "Business Breadth (3 CU)",
+   "note": "Upper-level, non-fundamental Wharton courses from three different Wharton departments, outside your concentration. No more than 1 CU from any one department, except WH courses. They must be taken for a grade. Per Wharton's Business Breadth page, these do not count: WH 1508 and 1500, HCMG 1010, MGMT 1110, MGMT 1170, MGMT 1980, OIDD 1050. One second-concentration course can double-count here. Confirm the current list on the page.",
+   "items": [
+    {
+     "id": "br1",
+     "name": "Business Breadth course (1 of 3)",
+     "cu": 1,
+     "options": [],
+     "note": "",
+     "link": "https://undergrad-inside.wharton.upenn.edu/business-breadth/",
+     "link_label": "Business Breadth rules"
+    },
+    {
+     "id": "br2",
+     "name": "Business Breadth course (2 of 3)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    },
+    {
+     "id": "br3",
+     "name": "Business Breadth course (3 of 3)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "concentration",
+   "title": "Concentration (4 CU)",
+   "note": "Requirements differ by concentration and are set by the departments. With a second concentration, three of its CUs can count toward Unrestricted Electives.",
+   "items": [
+    {
+     "id": "co1",
+     "name": "Concentration course (1 of 4)",
+     "cu": 1,
+     "options": [],
+     "note": "",
+     "link": "https://catalog.upenn.edu/undergraduate/wharton/concentrations/",
+     "link_label": "Concentration list"
+    },
+    {
+     "id": "co2",
+     "name": "Concentration course (2 of 4)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    },
+    {
+     "id": "co3",
+     "name": "Concentration course (3 of 4)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    },
+    {
+     "id": "co4",
+     "name": "Concentration course (4 of 4)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "electives",
+   "title": "Unrestricted electives (5 CU)",
+   "note": "Any approved coursework.",
+   "items": [
+    {
+     "id": "el1",
+     "name": "Elective (1 of 5)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    },
+    {
+     "id": "el2",
+     "name": "Elective (2 of 5)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    },
+    {
+     "id": "el3",
+     "name": "Elective (3 of 5)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    },
+    {
+     "id": "el4",
+     "name": "Elective (4 of 5)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    },
+    {
+     "id": "el5",
+     "name": "Elective (5 of 5)",
+     "cu": 1,
+     "options": [],
+     "note": ""
+    }
+   ]
+  }
+ ],
+ "plan": [
+  {
+   "year": "First year",
+   "terms": [
+    {
+     "term": "Fall",
+     "cu": 4.5,
+     "items": [
+      "BEPP 1000 (1 CU)",
+      "WH 1010 (0.5 CU)",
+      "A math or statistics course (1 CU)",
+      "2 to 3 other courses (2 CU)"
+     ],
+     "id": "Y1F"
+    },
+    {
+     "term": "Spring",
+     "cu": 5.0,
+     "items": [
+      "A math or statistics course (1 CU)",
+      "Two Business Fundamentals courses (2 CU)",
+      "1 to 2 other courses (2 CU)"
+     ],
+     "id": "Y1S"
+    }
+   ]
+  },
+  {
+   "year": "Second year",
+   "terms": [
+    {
+     "term": "Fall",
+     "cu": 4.5,
+     "items": [
+      "WH 2010 (0.5 CU)",
+      "2 to 3 Business Fundamentals (2 CU)",
+      "1 to 2 other courses (2 CU)"
+     ],
+     "id": "Y2F"
+    },
+    {
+     "term": "Spring",
+     "cu": 5.0,
+     "items": [
+      "2 to 3 Business Fundamentals (3 CU)",
+      "1 to 2 other courses (2 CU)"
+     ],
+     "id": "Y2S"
+    }
+   ]
+  },
+  {
+   "year": "Third year",
+   "terms": [
+    {
+     "term": "Fall",
+     "cu": 4.5,
+     "items": [
+      "MGMT 3010 (0.5 CU)",
+      "Courses toward your concentration and other remaining requirements (4 CU)"
+     ],
+     "id": "Y3F"
+    },
+    {
+     "term": "Spring",
+     "cu": 4.5,
+     "items": [
+      "Courses toward your concentration and other remaining requirements (4.5 CU)"
+     ],
+     "id": "Y3S"
+    }
+   ]
+  },
+  {
+   "year": "Fourth year",
+   "terms": [
+    {
+     "term": "Fall",
+     "cu": 4.5,
+     "items": [
+      "Leadership Journey capstone and courses toward other remaining requirements (4.5 CU)"
+     ],
+     "id": "Y4F"
+    },
+    {
+     "term": "Spring",
+     "cu": 4.5,
+     "items": [
+      "Courses toward remaining requirements (4.5 CU)"
+     ],
+     "id": "Y4S"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "label": "Wharton curriculum (catalog)",
+   "url": "https://catalog.upenn.edu/undergraduate/wharton/curriculum/"
+  },
+  {
+   "label": "Concentrations",
+   "url": "https://catalog.upenn.edu/undergraduate/wharton/concentrations/"
+  },
+  {
+   "label": "Minors",
+   "url": "https://catalog.upenn.edu/undergraduate/wharton/minors/"
+  },
+  {
+   "label": "Business Breadth rules",
+   "url": "https://undergrad-inside.wharton.upenn.edu/business-breadth/"
+  },
+  {
+   "label": "Senior Capstone",
+   "url": "https://undergrad-inside.wharton.upenn.edu/senior-capstone"
+  },
+  {
+   "label": "Coordinated dual-degree programs",
+   "url": "https://undergrad-inside.wharton.upenn.edu/coordinated-dual-degree/"
+  },
+  {
+   "label": "Wharton Undergraduate Division",
+   "url": "https://undergrad-inside.wharton.upenn.edu"
+  }
+ ]
+}

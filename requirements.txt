@@ -1,0 +1,6 @@
+requests
+python-dotenv
+google-genai
+icalendar
+beautifulsoup4
+pypdf
