@@ -1,0 +1,52 @@
+name: Refresh courses
+
+on:
+  schedule:
+    - cron: "23 8 1 * *"   # the 1st of every month at 08:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-courses
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install packages
+        run: pip install -r requirements.txt
+
+      - name: Download every course and build the site files
+        run: |
+          python ingest/fetch_all_courses.py
+          python ingest/build_courses.py
+
+      - name: Download Wharton course attributes
+        continue-on-error: true   # a layout change on Penn's pages should not stop the course refresh
+        run: python ingest/fetch_attributes.py
+
+      - name: Save changes
+        run: |
+          git config user.name "data-refresh-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Refresh courses $(date -u +%F)"
+            git pull --rebase origin "${{ github.ref_name }}"
+            git push origin "HEAD:${{ github.ref_name }}"
+          fi

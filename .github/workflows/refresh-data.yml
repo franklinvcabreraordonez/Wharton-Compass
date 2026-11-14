@@ -1,0 +1,60 @@
+name: Refresh clubs and events
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # every day at 09:17 UTC
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install packages
+        run: pip install -r requirements.txt
+
+      - name: Download clubs and events
+        run: |
+          python ingest/clubs.py
+          python ingest/events.py
+          python ingest/fetch_details.py
+          python ingest/fetch_extras.py
+          python ingest/events_wharton.py
+
+      - name: Tag new clubs with AI
+        continue-on-error: true   # the free daily limit or a missing key should not stop the refresh
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python ingest/tag_clubs.py
+
+      - name: Build the data the site reads
+        run: python ingest/build.py
+
+      - name: Save changes
+        run: |
+          git config user.name "data-refresh-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Refresh data $(date -u +%F)"
+            git pull --rebase origin "${{ github.ref_name }}"
+            git push origin "HEAD:${{ github.ref_name }}"
+          fi

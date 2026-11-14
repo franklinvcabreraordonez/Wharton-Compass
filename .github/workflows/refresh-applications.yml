@@ -1,0 +1,48 @@
+name: Refresh application dates
+
+on:
+  schedule:
+    - cron: "41 7 * * 1"   # every Monday at 07:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-applications
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install packages
+        run: pip install -r requirements.txt
+
+      - name: Download the club list, then each club's application dates
+        run: |
+          python ingest/clubs.py
+          python ingest/fetch_applications.py
+
+      - name: Save changes
+        run: |
+          git config user.name "data-refresh-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Refresh application dates $(date -u +%F)"
+            git pull --rebase origin "${{ github.ref_name }}"
+            git push origin "HEAD:${{ github.ref_name }}"
+          fi
