@@ -1,0 +1,862 @@
+======================================================================
+accounting-bs.pdf
+ACCT 2120 Financial Measurement and Disclosure 1
+Select three of the following: 3
+ACCT 2420 Financial Reporting and Business Analysis
+ACCT 2430 Accounting for Mergers, Acquisitions, and
+Complex Financial Structures
+ACCT 2640 Climate and Financial Markets
+ACCT 2700 Forensic Analytics
+ACCT 2900 Accounting for Entrepreneurs
+ACCT 2970 Taxes and Business Strategy 1
+ACCT 3990 Independent Study
+FNCE 2070 Valuation
+
+======================================================================
+artificial-intelligence-business-bs.pdf
+Foundational Methods Pillar (F)
+Required Course
+STAT 4230 Applied Machine Learning in Business 1
+Complete one additional course unit from the Foundational
+Methods (F) Electives:
+1
+FNCE 2370 Data Science for Finance
+FNCE 2800 FinTech
+HCMG 3570 Healthcare Data and Analytics
+MKTG 2370 Applied Neuroscience for Business
+Decisions
+MKTG 2680 Contagious: How Things Catch On
+OIDD 2210 Optimization and Analytics
+OIDD 3140 Enabling Technologies
+OIDD 3190 Advanced Decision Systems: Evolutionary
+Computation
+OIDD 3250 Computer Simulation Models
+OIDD 4690 Information Strategy and Economics
+OIDD 4770 Introduction to Python for Data Science
+STAT 4240 Text Analytics
+STAT 4420 Introduction to Bayesian Data Analysis
+STAT 4710 Modern Data Mining
+STAT 4730 Data Science Using ChatGPT
+STAT/OIDD
+4810
+Convex Optimization for Statistics and
+Data Science
+STAT 4850 Foundations of Deep Learning with
+Applications
+Impact and Ethics (I) Pillar
+Required Course
+LGST 2420 Big Data, Big Responsibilities: Toward
+Accountable Artiﬁcial Intelligence
+0.5
+Complete one and a half additional course units from the
+Impact and Ethics (I) Electives:
+1.5
+LGST 2990 Seminar in Law and Society
+MGMT 2140 Market Dynamics and Technical Change
+MKTG 2340 Augmented Creativity
+MKTG 2270 Analytics and AI in Digital Marketing and
+Social Media
+MGMT 2360 Innovation, Change, and Entrepreneurship
+MGMT 2430 Work and Technology: Choices and
+Outcomes
+MKTG 2790 AI in Our Lives: The Behavioral Science of
+Autonomous Technology
+OIDD 2550 Artiﬁcial Intelligence, Business, and Society
+
+======================================================================
+behavioral-economics-bs.pdf
+BEPP 2200 Behavioral Economics, Markets, and Public
+Policy
+1
+OIDD 2900 Decision Processes 1
+Complete two course units of BHEC electives 2
+BEPP 2010 American Public Policy through an
+Economic Lens
+BEPP 2610 Climate Risks and Opportunities
+BEPP 2840 Game Theory for Business and Life
+BEPP 3050 Risk Management
+ECON 4100 Game Theory
+ECON 4140 Decision Making Under Uncertainty
+FNCE 2390 Behavioral Finance
+MKTG 2110 Consumer Behavior
+OIDD 2910 Negotiations
+OIDD 2920 Advanced Negotiation
+OIDD 3190 Advanced Decision Systems: Evolutionary
+Computation
+
+======================================================================
+business-analytics-bs.pdf
+Complete one course unit of Advanced Data Analysis
+competency 1
+1
+ACCT 2700 Forensic Analytics
+BEPP 2800 Applied Data Analysis
+CIS 4190/5190 Applied Machine Learning 2
+CIS 5200/5190 Machine Learning 2
+CIS 2450 Big Data Analytics
+or CIS 5450 Big Data Analytics
+COMM 3130 Computational Text Analysis for
+Communication Research
+ESE 3050 Foundations of Data Science
+ESE 3060 Deep Learning: A Hands-on Introduction
+FNCE 2170 Financial Derivatives
+FNCE 2370 Data Science for Finance
+FNCE 2800 FinTech
+HCMG 3570 Healthcare Data and Analytics
+MGMT 2930 People Analytics
+MKTG 2120 Data and Analysis for Marketing Decisions
+MKTG 2270 Analytics and AI in Digital Marketing and
+Social Media
+MKTG 3090 Experiments for Business Decision Making
+(Center Special Topic)
+MKTG 4760 Applied Probability Models in Marketing
+OIDD 2200 Operations Management Analytics
+OIDD 2550 Artiﬁcial Intelligence, Business, and Society
+OIDD 3140 Enabling Technologies
+OIDD 3150 Databases for Analytics
+OIDD 3190 Advanced Decision Systems: Evolutionary
+Computation
+OIDD 4690 Information Strategy and Economics
+OIDD 4770 Introduction to Python for Data Science
+OIDD 5250 Thinking with Models: Business Analytics
+for Energy and Sustainability
+REAL 3700 Real Estate Data Analytics
+STAT 4050 Statistical Computing with R
+STAT 4220 Predictive Analytics for Business
+STAT 4230 Applied Machine Learning in Business
+STAT 4310 Statistical Inference
+STAT 4350 Forecasting Methods for Management
+STAT 4420 Introduction to Bayesian Data Analysis
+STAT 4700 Data Analytics and Statistical Computing
+STAT 4710 Modern Data Mining
+STAT 4750 Sample Survey Design
+STAT 4770 Introduction to Python for Data Science
+STAT 5200 Applied Econometrics I
+Complete one course unit of Data Collection competency 1
+ACCT 2700 Forensic Analytics
+CIS 4500 Database and Information Systems
+CIS 5450 Big Data Analytics
+COMM 3130 Computational Text Analysis for
+Communication Research
+FNCE 2370 Data Science for Finance
+HCMG 3570 Healthcare Data and Analytics
+MGMT 2930 People Analytics
+MKTG 3090 Experiments for Business Decision Making
+(Center Special Topic)
+OIDD 1050 Analytics in Excel VBA
+OIDD 2550 Artiﬁcial Intelligence, Business, and Society
+OIDD 3140 Enabling Technologies
+OIDD 3150 Databases for Analytics
+OIDD 3190 Advanced Decision Systems: Evolutionary
+Computation
+OIDD 4690 Information Strategy and Economics
+OIDD 4770 Introduction to Python for Data Science
+OIDD 5250 Thinking with Models: Business Analytics
+for Energy and Sustainability
+REAL 3700 Real Estate Data Analytics
+STAT 4050 Statistical Computing with R
+STAT 4100 Data Collection and Acquisition: Strategies
+and Platforms
+STAT 4220 Predictive Analytics for Business
+STAT 4350 Forecasting Methods for Management
+STAT 4700 Data Analytics and Statistical Computing
+STAT 4710 Modern Data Mining
+STAT 4750 Sample Survey Design
+STAT 4770 Introduction to Python for Data Science
+Complete one course unit of Optimization competency 1
+2026-27 Catalog | Generated 09/04/26
+Business Analytics, BS 3
+ESE 3060 Deep Learning: A Hands-on Introduction
+ESE 5060 Introduction to Optimization Theory
+FNCE 2050 Investment Management
+FNCE 2170 Financial Derivatives
+OIDD 2200 Operations Management Analytics
+OIDD 2210 Optimization and Analytics
+OIDD 2360 Scaling Operations in Technology Ventures:
+Linking Strategy and Execution
+OIDD 5250 Thinking with Models: Business Analytics
+for Energy and Sustainability
+STAT 4350 Forecasting Methods for Management
+Complete one additional course unit from above BUAN
+electives or the equivalent from the following:
+1
+ESE 3010 Engineering Probability
+LGST 2420 Big Data, Big Responsibilities: Toward
+Accountable Artiﬁcial Intelligence
+OIDD 2210 Optimization and Analytics
+OIDD 3190 Advanced Decision Systems: Evolutionary
+Computation
+OIDD 3800 Operations Analytics Capstone
+STAT 4300 Probability
+STAT 4330 Stochastic Processes
+
+======================================================================
+business-economics-public-policy-bs.pdf
+Business Economics and Public Policy Fundamentals
+Select one of the following: 1
+BEPP 2010 American Public Policy through an
+Economic Lens
+BEPP 2840 Game Theory for Business and Life
+BEPP 3050 Risk Management
+Business Economics and Public Policy Electives
+Select three of the following: 1 3
+BEPP 2020 Consumer Financial Decision Making
+BEPP 2030 Business in the Global Political
+Environment.
+BEPP 2080 Housing Markets
+BEPP 2110 Tax Policy and Practice in the Philadelphia
+Community
+BEPP 2200 Behavioral Economics, Markets, and Public
+Policy
+BEPP 2300 Urban Fiscal Policy
+BEPP 2330 Consumers, Firms and Markets in
+Developing Countries
+BEPP 2360 International Housing Comparisons
+BEPP 2610 Climate Risks and Opportunities
+BEPP 2630 Environmental & Energy Economics and
+Policy
+BEPP 2640 Climate and Financial Markets
+BEPP 2800 Applied Data Analysis
+BEPP 2890 Economic Globalization: Policy, History and
+Contemporary Issues
+HCMG 2020 The Economics and Financing of Health
+Care Delivery
+HCMG 2150 Management and Economics of
+Pharmaceutical and Biotech Industries
+HCMG 2500 Health Care Reform and the Future of the
+American Health Care System
+HCMG 3520 Health Services Delivery: A Managerial
+Economic Approach
+FNCE 2050 Investment Management
+FNCE 2170 Financial Derivatives
+FNCE 2190 International Financial Markets and
+Cryptocurrencies
+OIDD 2900 Decision Processes
+OIDD 3140 Enabling Technologies
+
+======================================================================
+entrepreneurship-innovation-bs.pdf
+Entrepreneurship & Innovation Foundation Courses: 1 1
+Required:
+MGMT 2300 Entrepreneurship
+Select:
+MGMT 2120 Social Entrepreneurship
+or MGMT 2670Entrepreneurship and Technological Innovation
+Select three course units from the set of approved courses
+listed below: 2
+3
+Select a minimum of one course unit from Entrepreneurial
+Activity Within Organizations:
+LGST 2130 Legal Aspect of Entrepreneurship
+MGMT 1170 Global Growth of Emerging Firms
+MGMT 2120 Social Entrepreneurship
+MGMT 2130 Entrepreneurship through Acquisition
+MGMT 2140 Market Dynamics and Technical Change 3
+MGMT 2290 Intellectual Property Strategy for the
+Innovation-Driven Enterprise
+MGMT 2310 Entrepreneurship Launchpad
+MGMT 2330 Strategies and Practices of Family-
+Controlled Companies
+MGMT 2360 Innovation, Change, and Entrepreneurship
+MGMT 2670 Entrepreneurship and Technological
+Innovation
+MGMT 2910 Negotiations
+MKTG 2270 Analytics and AI in Digital Marketing and
+Social Media 4
+MKTG 2340 Augmented Creativity
+MKTG 2470 Marketing Strategy for Technology
+Platforms
+OIDD 2360 Scaling Operations in Technology Ventures:
+Linking Strategy and Execution
+OIDD 3140 Enabling Technologies
+OIDD 4150 Product Design
+REAL 3750 Real Estate Disruptions
+REAL 3960 Real Estate Entrepreneurship
+Select a minimum of one course unit from Ecosystem
+Surrounding the Organization:
+FNCE 2500 Venture Capital and the Finance of
+Innovation
+FNCE 2510 The Finance of Buyouts and Acquisitions
+LGST 2050 Antitrust and Big Tech
+LGST 2130 Legal Aspect of Entrepreneurship
+LGST 2220 Internet Law, Privacy, and Cybersecurity
+MGMT 1170 Global Growth of Emerging Firms
+MGMT 2130 Entrepreneurship through Acquisition
+MGMT 2140 Market Dynamics and Technical Change 3
+MGMT 2290 Intellectual Property Strategy for the
+Innovation-Driven Enterprise
+MGMT 2330 Strategies and Practices of Family-
+Controlled Companies
+MGMT 2490 Mergers and Acquisitions
+MGMT 2640 Venture Capital and Entrepreneurial
+Management
+MGMT 2670 Entrepreneurship and Technological
+Innovation
+MGMT 2910 Negotiations
+OIDD 3140 Enabling Technologies
+OIDD 4150 Product Design
+REAL 3750 Real Estate Disruptions
+REAL 3960 Real Estate Entrepreneurship
+
+======================================================================
+finance-bs.pdf
+Select four of the following: 4
+FNCE 2020 Consumer Financial Decision Making
+FNCE 2030 Advanced Corporate Finance
+FNCE 2050 Investment Management
+FNCE 2070 Valuation
+FNCE 2090 Real Estate Investment: Analysis and
+Financing
+FNCE 2170 Financial Derivatives
+FNCE 2190 International Financial Markets and
+Cryptocurrencies
+FNCE 2250 Fixed Income Securities
+FNCE 2300 Urban Fiscal Policy
+FNCE 2310 Global Valuation and Risk Analysis
+FNCE 2320 International Banking
+FNCE 2370 Data Science for Finance
+FNCE 2380 Capital Markets
+FNCE 2390 Behavioral Finance
+FNCE 2400 Central Banks, Macroeconomic Policy and
+Financial Markets
+FNCE 2450 Hedge Funds
+FNCE 2500 Venture Capital and the Finance of
+Innovation
+FNCE 2510 The Finance of Buyouts and Acquisitions
+FNCE 2530 Distressed Investing and Value Creation
+FNCE 2540 ESG and Impact Investing
+FNCE 2560 Energy Finance
+FNCE 2570 Foundations of Asset Pricing
+FNCE 2610 Climate Risks and Opportunities
+FNCE 2680 Trading Securities
+FNCE 2800 FinTech
+FNCE 2830 Strategic Equity Finance
+FNCE 2910 Corporate Restructuring
+FNCE 2970 Taxes and Business Strategy
+FNCE 3900 Advanced Seminar: Introduction to Finance
+Research
+FNCE 3990 Supervised Study in Finance
+FNCE 4010 Advanced Topics in PE
+FNCE 4020 Shareholder Activism
+
+======================================================================
+health-care-management-policy-bs.pdf
+HCMG 1010 Health Care Systems 1
+Select three full credit units of the following: 3
+HCMG 2020 The Economics and Financing of Health
+Care Delivery
+HCMG 2040 Comparative Health Care Systems
+HCMG 2130 Health Care Strategy and Management: the
+Business of Health Care
+HCMG 2150 Management and Economics of
+Pharmaceutical and Biotech Industries
+HCMG 2500 Health Care Reform and the Future of the
+American Health Care System
+HCMG 3220 The Health Care Ecosystem: Evolution,
+Structure and Current Issues
+HCMG 3330 Leading the Health Care Workforce
+HCMG 3490 The Structure & Functions of a Modern
+Health Plan
+HCMG 3520 Health Services Delivery: A Managerial
+Economic Approach
+HCMG 3530 Medical Technology: Markets, Policy, and
+Strategy
+HCMG 3570 Healthcare Data and Analytics
+HCMG 3910 Health Care Entrepreneurship
+
+======================================================================
+impact-value-sustainable-business-bs.pdf
+Impact, Value and Sustainable Business - Social and
+Governance Factors Track Requirements
+Undergraduate students must take a total of four credit
+units from this overall list of courses, with at least 3 credit
+units from the list of Social and Governance courses and
+up to 1 credit unit from overall list of courses approved for
+the concentration (whether Environmental or Social and
+Governance):
+4
+Environmental:
+ACCT/BEPP
+2640
+Climate and Financial Markets
+FNCE/BEPP/
+OIDD 2610
+Climate Risks and Opportunities
+BEPP/OIDD
+2630
+Environmental & Energy Economics and
+Policy
+LGST 2150 Environmental Management: Law & Policy
+LGST 2600 Climate & Environmental Leadership in
+Action (SNF Paideia Program)
+MGMT 8970 Global Modular Course A (on Sustainability;
+in Germany, by application)
+OIDD 5250 Thinking with Models: Business Analytics
+for Energy and Sustainability
+Social and Governance:
+ACCT 2700 Forensic Analytics
+BEPP 2010 American Public Policy through an
+Economic Lens
+BEPP/FNCE/
+REAL 2300
+Urban Fiscal Policy
+FNCE 2540 ESG and Impact Investing
+FNCE 4020 Shareholder Activism 1
+LGST 2020 Law of Corporate Management and
+Finance
+LGST 2080 Employment Law: Practical Considerations
+for Managers
+LGST 2160 Emerging Economies
+LGST 2180 Diversity and the Law
+LGST 2190 Law and Policy in International Business
+LGST 2200 International Business Ethics
+LGST 2240 Human Rights and Globalization
+LGST 2260 Markets, Morality & the Future of
+Capitalism
+LGST 2300 Social Impact and Responsibility:
+Foundations
+LGST 2420 Big Data, Big Responsibilities: Toward
+Accountable Artiﬁcial Intelligence
+LGST 2430 Other People's Money: The Law, Politics,
+and History of Financial Institutions
+2026-27 Catalog | Generated 09/04/26
+Impact, Value and Sustainable Business, BS 5
+MGMT 2090 The Political Environment of the
+Multinational Firm
+MGMT 2120 Social Entrepreneurship
+MGMT 2240 Leading Across Cultural and Relational
+Differences
+MGMT 2410 Leading for Impact: Tackling the Biggest
+Societal Challenges
+MGMT 2420 Corporate Goverance, Executive
+Compsenation and the Board
+MKTG 3530 Special Topics (The Business of Wellness:
+Marketing and Consumption)
+Students may replace up to one credit of coursework from the
+above-listed courses with a course from this pre-approved list
+of courses outside of Wharton that bears a clear relationship
+to the core of the concentration.
+CBE 5050 Carbon Capture
+EAS
+3010/5010
+Climate Policy and Technology
+EAS
+3060/5060
+Electricity and Systems Markets
+EAS
+4020/5020
+Renewable Energy and Its Impacts:
+Technology, Environment, Economics,
+Sustainability.
+EAS 5050 Climate Policy and Technology
+ENMG 5120 Energy Geopolitics and National Security
+ENMG 5400 Decarbonization & Net Zero
+ENVS 6300 The Future of water
+ENVS 6530 Corporate Sustainability Strategies
+ENVS 6550 Life Cycle Assessment
+LAW 9190 Law Seminar (Energy Law and Climate
+Change)
+MSE 5480 Materials Science and Market Signals in
+Clean Energy Supply Chains
+MSE 7900 Selected Topics in Materials Science and
+Engineering (Energy, Water, and Materials
+for the AI Economy)
+Recommended courses to supplement IVSB-SOGO
+Concentration
+Impact Analytics
+For students interested in Impact analytics, we note that
+while the STAT Department does not have courses that count
+toward the four required credit units for the concentration, the
+following courses may be of special interest:
+STAT 4100 Data Collection and Acquisition: Strategies
+and Platforms
+STAT 4220 Predictive Analytics for Business
+STAT 4230 Applied Machine Learning in Business
+STAT 4240 Text Analytics
+STAT
+4350/5350
+Forecasting Methods for Management
+or STAT 7110Forecasting Methods for Management
+STAT 4420 Introduction to Bayesian Data Analysis
+STAT
+4700/5030
+Data Analytics and Statistical Computing
+STAT
+4710/5710
+Modern Data Mining
+STAT 4750 Sample Survey Design
+STAT 4770 Introduction to Python for Data Science
+STAT/OIDD
+4810
+Convex Optimization for Statistics and
+Data Science
+or STAT/
+OIDD 5810
+Convex Optimization for Statistics and Data Science
+STAT 5900 Causal Inference
+
+======================================================================
+individualized-bs.pdf
+Select four WIDV courses 1 4
+
+======================================================================
+leading-across-differences-bs.pdf
+At least 1.5 credit units must come from these foundational
+courses:
+1.5
+LGST 2420 Big Data, Big Responsibilities: Toward
+Accountable Artiﬁcial Intelligence
+MGMT 2240 Leading Across Cultural and Relational
+Differences
+MGMT 2280 Navigating Difﬁcult Conversations in
+Business and Beyond
+MGMT 2390 Leading and Managing Teams
+MGMT 2950 Synchrony at Work
+MGMT 2380 Organizational Behavior
+The remaining 2.5 credit units may also be selected from
+these courses:
+2.5
+LGST 2080 Employment Law: Practical Considerations
+for Managers
+LGST 2180 Diversity and the Law
+MGMT 2410 Leading for Impact: Tackling the Biggest
+Societal Challenges
+MGMT/OIDD/
+LGST 2910
+Negotiations
+MGMT/OIDD
+2930
+People Analytics
+OIDD 2900 Decision Processes
+With permission from the Management Department Faculty
+Advisor, up to 1 cu may be composed of relevant Global
+Modular Courses, Global Virtual Courses, Research Theses,
+Independent Studies with signiﬁcantly related content, or
+related coursework from the College of Arts & Sciences
+
+======================================================================
+legal-studies-business-ethics-bs.pdf
+Select four of the following: 4
+LGST 2020 Law of Corporate Management and
+Finance
+LGST 2040 Real Estate Law
+LGST 2050 Antitrust and Big Tech
+LGST 2070 The Sports Industry: Business and Legal
+Aspects
+LGST 2080 Employment Law: Practical Considerations
+for Managers
+LGST 2130 Legal Aspect of Entrepreneurship
+LGST 2140 International Business Transactions
+LGST 2150 Environmental Management: Law & Policy
+LGST 2160 Emerging Economies
+LGST 2180 Diversity and the Law
+LGST 2190 Law and Policy in International Business
+LGST 2200 International Business Ethics
+LGST 2220 Internet Law, Privacy, and Cybersecurity
+LGST 2240 Human Rights and Globalization
+LGST 2260 Markets, Morality & the Future of
+Capitalism
+LGST 2280 Sports Law
+LGST 2300 Social Impact and Responsibility:
+Foundations
+LGST 2420 Big Data, Big Responsibilities: Toward
+Accountable Artiﬁcial Intelligence
+LGST 2430 Other People's Money: The Law, Politics,
+and History of Financial Institutions
+LGST 2910 Negotiations
+LGST 2920 Advanced Negotiation
+LGST 2990 Seminar in Law and Society
+
+======================================================================
+management-general-track-bs.pdf
+Select 4 course units of MGMT courses 1,2 4
+
+======================================================================
+management-multinational-management-track-bs.pdf
+Required: 1
+MGMT 1110 Multinational Management
+Choose at least 2 credit units from the following: 2
+MGMT 1170 Global Growth of Emerging Firms
+MGMT 2090 The Political Environment of the
+Multinational Firm
+MGMT
+2750/8750
+Comparative Capitalism
+MGMT 2880 Managing and Competing in China
+Any MGMT Elective worth 1 credit unit 1
+
+======================================================================
+management-organizational-effectiveness-track-bs.pdf
+Choose at least 3 credit units from the following: 3
+MGMT 2240 Leading Across Cultural and Relational
+Differences
+MGMT 2280 Navigating Difﬁcult Conversations in
+Business and Beyond
+MGMT 2380 Organizational Behavior
+MGMT 2390 Leading and Managing Teams
+MGMT 2420 Corporate Goverance, Executive
+Compsenation and the Board
+MGMT 2430 Work and Technology: Choices and
+Outcomes
+MGMT 2480 How to be the Boss
+MGMT 2910 Negotiations
+MGMT 2930 People Analytics
+MGMT 2950 Synchrony at Work
+Any MGMT Elective worth 1 credit unit (in range 1011-4180) 1
+
+======================================================================
+management-strategic-management-track-bs.pdf
+Required: 1
+MGMT 2230 Business Strategy
+Choose at least 2 credit units from the following: 2
+MGMT 2110 Competitive Strategy
+MGMT 2140 Market Dynamics and Technical Change
+MGMT 2250 Value Creation and Value Capture in
+American Business History
+MGMT 2370 Management of Technology
+MGMT 2420 Corporate Goverance, Executive
+Compsenation and the Board
+MGMT 2490 Mergers and Acquisitions
+Any MGMT Elective worth 1 credit unit 1
+
+======================================================================
+marketing-bs.pdf
+MKTG 2110 Consumer Behavior 1
+Select one of the following: 1
+MKTG 2120 Data and Analysis for Marketing Decisions
+MKTG 3090 Experiments for Business Decision Making
+(Center Special Topic) 4
+MKTG 4710 Models for Marketing Strategy 7
+MKTG 4760 Applied Probability Models in Marketing
+MKTG 9400
+& MKTG 9410
+Measurement and Data Analysis in
+Marketing - Part A
+and Measurement and Data Analysis in
+Marketing - Part B 1
+MKTG 9420
+& MKTG 9430
+Research Methods in Marketing - Part A
+and Research Methods in Marketing - Part
+B 1
+Select two course units from the following: 2
+MKTG 2250 Principles of Retailing
+MKTG 2270 Analytics and AI in Digital Marketing and
+Social Media
+MKTG 2340 Augmented Creativity
+MKTG 2370 Applied Neuroscience for Business
+Decisions 5
+MKTG 2380 Consumer Neuroscience 6
+MKTG 2390 Visual Marketing
+MKTG 2470 Marketing Strategy for Technology
+Platforms
+MKTG 2520 Marketing Analytics
+MKTG 2540 Pricing Policy 2
+MKTG 2650 Principles of Advertising
+MKTG 2680 Contagious: How Things Catch On
+( experimental) 4
+MKTG 2770 Marketing Strategy
+MKTG 2780 Strategic Brand Management
+MKTG 2790 AI in Our Lives: The Behavioral Science of
+Autonomous Technology ( experimental) 4
+MKTG 2880 Pricing Strategies 2
+MKTG 3060 Retail Merchandising (Center Special
+Topic) 4
+MKTG 3090 Experiments for Business Decision Making
+(Center Special Topic) 4
+MKTG 3990 Independent Study
+MKTG 4010 Marketing Analytics Capstone: Learning by
+Doing
+MKTG 4710 Models for Marketing Strategy 7
+MKTG 4760 Applied Probability Models in Marketing
+
+======================================================================
+marketing-communication-bs.pdf
+MARKETING &
+COMMUNICATION, BS
+Marketing professionals must understand the communication process
+and the most effective methods of conveying information, regardless
+of whether they intend to focus on advertising, the development of
+web-based initiatives, or the conduct of market research. Students in
+this dual concentration will augment their understanding of the core
+concepts taught in their marketing courses and be better prepared for
+employment or graduate study. The dual concentration in marketing and
+communication allows Wharton students concentrating in marketing
+to take four courses in the Annenberg School of Communication and
+have this cluster of courses recognized on their transcript as a second
+concentration.
+Students who wish to pursue a second concentration in communication
+must ﬁrst declare a primary concentration in marketing. The
+concentration in communication may not be used as a primary or sole
+concentration.
+For more information: https://marketing.wharton.upenn.edu/programs/
+undergraduate/marketing-and-communication-dual-concentration/
+The degree and major requirements displayed are intended as a guide
+for students entering in the Fall of 2026 and later. Students should
+consult with their academic program regarding ﬁnal certiﬁcations and
+requirements for graduation.
+
+======================================================================
+marketing-operations-management-bs.pdf
+Required OIDD Courses
+Select two course units from the following: 2
+OIDD 2200 Operations Management Analytics
+OIDD 2360 Scaling Operations in Technology Ventures:
+Linking Strategy and Execution
+OIDD 3140 Enabling Technologies
+OIDD 4110 How to Make Things: Production
+Prototyping Studio
+OIDD 4150 Product Design
+OIDD 6590 Advanced Topics: Supply Chain Analytics
+Required MKTG Courses 1
+Select two course units from the following: 2
+MKTG 2250 Principles of Retailing
+MKTG 2270 Analytics and AI in Digital Marketing and
+Social Media
+MKTG 2340 Augmented Creativity
+MKTG 2470 Marketing Strategy for Technology
+Platforms
+MKTG 2540 Pricing Policy
+MKTG 2680 Contagious: How Things Catch On
+MKTG 2770 Marketing Strategy
+MKTG 2790 AI in Our Lives: The Behavioral Science of
+Autonomous Technology
+MKTG 2880 Pricing Strategies
+MKTG 4760 Applied Probability Models in Marketing
+MKTG 4710 Models for Marketing Strategy
+
+======================================================================
+operations-information-decisions-decision-processes-track-bs.pdf
+OIDD 2900 Decision Processes 1
+OIDD 2910 Negotiations 1
+Complete two course units of Decision Processes electives 2
+OIDD 2000 Grit Lab: Fostering Passion and
+Perseverance in Ourselves and Others (SNF
+Paideia Program Course)
+OIDD 2210 Optimization and Analytics (Formerly OIDD
+3210)
+OIDD 2610 Climate Risks and Opportunities
+OIDD 2920 Advanced Negotiation
+OIDD 2990 Judgment & Decision Making Research
+Immersion
+OIDD 3190 Advanced Decision Systems: Evolutionary
+Computation
+OIDD 4690 Information Strategy and Economics
+BEPP 2840 Game Theory for Business and Life
+MGMT 2380 Organizational Behavior
+MGMT 2950 Synchrony at Work
+FNCE 2390 Behavioral Finance 1
+MKTG 2110 Consumer Behavior
+MKTG 2370 Applied Neuroscience for Business
+Decisions
+MKTG 2380 Consumer Neuroscience
+PSYC 2737 Judgment and Decisions (PPE 153)
+PSYC 2750 Behavioral Economics and Psychology
+
+======================================================================
+operations-information-decisions-general-track-bs.pdf
+Four CUs of courses with the WUOD Attribute (https://
+catalog.upenn.edu/attributes/wuod/)
+4
+
+======================================================================
+operations-information-decisions-information-systems-track-bs.pdf
+Take any four CU from the following list of electives: 4
+OIDD 1050 Analytics in Excel VBA
+OIDD 2550 Artiﬁcial Intelligence, Business, and Society
+OIDD 2900 Decision Processes
+OIDD 3140 Enabling Technologies
+OIDD 3150 Databases for Analytics
+OIDD 3190 Advanced Decision Systems: Evolutionary
+Computation
+OIDD 4690 Information Strategy and Economics
+
+======================================================================
+operations-information-decisions-operations-management-science-track-bs.pdf
+OIDD 2200 Operations Management Analytics 1
+or OIDD 2210 Optimization and Analytics
+Complete three course units of Operations Management/
+Management Science electives
+3
+OIDD 2200 Operations Management Analytics
+OIDD 2210 Optimization and Analytics
+OIDD 2360 Scaling Operations in Technology Ventures:
+Linking Strategy and Execution
+OIDD 3800 Operations Analytics Capstone
+OIDD 4150 Product Design
+OIDD 6970 Retail Operations
+
+======================================================================
+real-estate-bs.pdf
+REAL/FNCE 2090 Real Estate Investment: Analysis and
+Financing 1
+1
+Select three course units from the following: 3
+REAL/LGST
+2040
+Real Estate Law
+REAL 2050 Global Real Estate: Risk, Politics and
+Culture
+REAL/BEPP
+2080
+Housing Markets
+REAL 2150 Urban Real Estate Economics
+REAL/FNCE/
+BEPP 2300
+Urban Fiscal Policy
+REAL/BEPP
+2360
+International Housing Comparisons
+REAL 2400 Advanced Real Estate Investment and
+Analysis
+REAL 3210 Real Estate Development 2
+REAL 3700 Real Estate Data Analytics
+REAL 3750 Real Estate Disruptions
+REAL 3960 Real Estate Entrepreneurship
+REAL 3990 Independent Study
+
+======================================================================
+retailing-bs.pdf
+RETAILING, BS
+The secondary concentration in retailing provides an interdisciplinary
+overview of the retailing industry, combining courses in core retailing
+skills with industry-relevant electives from Wharton and the College of
+Arts & Sciences.
+For more information: https://marketing.wharton.upenn.edu/programs/
+undergraduate/retailing-secondary-concentration/
+The degree and major requirements displayed are intended as a guide
+for students entering in the Fall of 2026 and later. Students should
+consult with their academic program regarding ﬁnal certiﬁcations and
+requirements for graduation.
+
+======================================================================
+statistics-data-science-bs.pdf
+Required for all concentrations:
+STAT 4300 Probability 1 1
+Additionally select 3 CU's from the following electives: 3
+STAT 4050 Statistical Computing with R
+STAT 4100 Data Collection and Acquisition: Strategies
+and Platforms
+STAT 4220 Predictive Analytics for Business
+STAT 4230 Applied Machine Learning in Business
+STAT 4240 Text Analytics
+STAT 4320 Mathematical Statistics
+STAT 4330 Stochastic Processes
+STAT 4350 Forecasting Methods for Management
+STAT 4420 Introduction to Bayesian Data Analysis
+STAT 4700 Data Analytics and Statistical Computing
+STAT 4710 Modern Data Mining
+STAT 4730 Data Science Using ChatGPT
+STAT 4750 Sample Survey Design
+STAT 4760 Applied Probability Models in Marketing
+STAT 4770 Introduction to Python for Data Science
+STAT 4800 Advanced Statistical Computing
+STAT 4810 Convex Optimization for Statistics and
+Data Science
+STAT 4830 Numerical Optimization for Data Science
+and Machine Learning
+STAT 4850 Foundations of Deep Learning with
+Applications
+STAT 4920 Community Data Science
+STAT 5350 Forecasting Methods for Management
+STAT 5900 Causal Inference

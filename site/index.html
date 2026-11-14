@@ -295,6 +295,66 @@ button.lk{font-family:var(--sans);cursor:pointer}
 .council p,.council li{font-size:.92rem;color:var(--ink);margin:3px 0}
 .council ul{margin:6px 0 0;padding-left:18px}
 
+/* what's next */
+.nextgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.nx{background:var(--soft);border-radius:24px;padding:22px 24px}
+.nx h3{margin:0 0 2px;font-size:1.3rem}
+.nxsub{margin:0 0 10px;color:var(--muted);font-size:.9rem}
+.nxi{display:grid;grid-template-columns:70px minmax(0,1fr) auto;gap:14px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.nxi.two{grid-template-columns:minmax(0,1fr) auto}
+.nxd{background:var(--surface);border-radius:14px;text-align:center;padding:6px 4px;border:1.5px solid var(--line)}
+.nxd b{display:block;font-family:var(--serif);font-size:1rem;line-height:1.1;color:var(--head)}
+.nxd span{font-size:.7rem;font-weight:700;color:var(--accent)}
+.nxt{display:block;line-height:1.25;font-size:.95rem}
+.nxi small{color:var(--muted);font-size:.82rem}
+.nxi a{font-weight:700;font-size:.85rem}
+.nx .cover2{margin:6px 0 4px}
+@media (max-width:860px){.nextgrid{grid-template-columns:1fr}}
+
+/* concentration and minors */
+.progpick{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin:0 0 6px}
+.pgroup{margin:14px 0 18px}
+.pgroup h3{font-size:1.05rem;margin:0 0 2px}
+.pm{list-style:none;margin:6px 0;padding:0}
+.pm li.ok{padding:3px 0;color:var(--accent);font-weight:600;font-size:.92rem}
+.pm small{color:var(--muted);font-weight:500}
+details summary{cursor:pointer;color:var(--head);font-weight:600;font-size:.9rem;margin:6px 0}
+
+/* save, share, print */
+.saverow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:4px 0 0}
+.sheet{background:#fff;color:#111;border:1.5px solid var(--line);border-radius:12px;padding:28px 32px;max-width:920px;margin:0 auto}
+.sheet h1{font-size:1.9rem;margin:0 0 4px;color:#011F5B}
+.sheet h2{font-size:1.2rem;margin:20px 0 8px;color:#011F5B;border-bottom:1.5px solid #cfd6e6;padding-bottom:3px}
+.sheet h3{font-size:.98rem;margin:0 0 3px;color:#011F5B}
+.sheet h3 small{font-weight:500;color:#555;margin-left:6px}
+.sheet p{margin:4px 0;font-size:.92rem}
+.sheet ul{margin:2px 0 8px;padding-left:0;list-style:none}
+.sheet li{font-size:.86rem;line-height:1.35;padding:1px 0}
+.sheet small{color:#555}
+.sh-meta{color:#444}
+.sheet-plan{width:100%;border-collapse:collapse;font-size:.86rem}
+.sheet-plan th,.sheet-plan td{border:1px solid #cfd6e6;padding:6px 8px;vertical-align:top;text-align:left}
+.sheet-plan th{background:#eef1f8;font-weight:700}
+.sheet-plan td ul{margin:0}
+.sct{color:#990000;font-weight:700;font-size:.78rem!important}
+.sh-grid{columns:2;column-gap:26px}
+.sh-cat{break-inside:avoid;margin-bottom:10px}
+.sheet li b{display:inline-block;min-width:54px;font-size:.72rem;text-transform:none}
+.sheet li.st-done b{color:#1a6b2f}
+.sheet li.st-planned b{color:#990000}
+.sheet li.st-todo b{color:#666}
+.sh-foot{margin-top:18px!important;color:#555;font-size:.8rem!important}
+@media (max-width:700px){.sh-grid{columns:1}.sheet{padding:18px}}
+@media print{
+  @page{margin:12mm}
+  .topbar,.fab,.scrim,.drawer,footer.site,.noprint,.toast{display:none!important}
+  body{background:#fff!important;color:#000!important;font-size:10pt}
+  .page{animation:none!important}
+  .sheet{border:0;padding:0;max-width:none}
+  .sheet li{font-size:8.6pt}
+  .sheet p{font-size:9pt}
+}
+
 /* drawer */
 .fab{position:fixed;right:22px;bottom:22px;z-index:20;background:var(--accent);color:#fff;border:0;border-radius:999px;padding:14px 22px;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.25)}
 html[data-theme="dark"] .fab{color:#1B0000}
@@ -389,6 +449,8 @@ html[data-theme="dark"] .fab{color:#1B0000}
       </div>
     </div>
     <div class="wrap">
+      <div class="sec-head" style="margin-top:36px"><div><h2>What's next for you</h2><p class="sec-sub">Your deadlines and your degree, in one place.</p></div></div>
+      <div class="nextgrid" id="nextBox"></div>
       <div id="blindSec" hidden>
         <div class="sec-head"><div><h2>Your blind spots</h2><p class="sec-sub" id="blindSub"></p></div></div>
         <div id="blindList"></div>
@@ -397,8 +459,6 @@ html[data-theme="dark"] .fab{color:#1B0000}
         <div class="sec-head"><div><h2>Stretch picks</h2><p class="sec-sub" id="stretchSub"></p></div><a class="btn-link" href="#/for-you">See more</a></div>
         <div class="grid" id="stretchGrid"></div>
       </div>
-      <div class="sec-head"><div><h2>Next up</h2></div><a class="btn-link" href="#/events">See all events</a></div>
-      <div id="homeEvents"></div>
       <div class="sec-head"><div><h2>What's inside</h2></div></div>
       <ol class="doors" id="doors"></ol>
     </div>
@@ -461,6 +521,7 @@ html[data-theme="dark"] .fab{color:#1B0000}
       <div class="tabs">
         <button class="fchip" type="button" data-rtab="plan" aria-pressed="true">My four-year plan</button>
         <button class="fchip" type="button" data-rtab="checklist" aria-pressed="false">Requirement checklist</button>
+        <button class="fchip" type="button" data-rtab="prog" aria-pressed="false">Concentration and minors</button>
       </div>
       <div id="reqBody"></div>
       <div class="cnote" id="reqNote"></div>
@@ -478,6 +539,17 @@ html[data-theme="dark"] .fab{color:#1B0000}
       <div id="recFilters"></div>
       <div id="recBody"></div>
       <div class="cnote" id="recHelp"></div>
+    </div>
+  </div>
+
+  <!-- ADVISOR SHEET -->
+  <div class="page" data-page="sheet" hidden>
+    <div class="wrap">
+      <div class="noprint" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:32px 0 14px">
+        <button class="btn" id="printSheet" type="button">Print or save as PDF</button>
+        <a class="btn-link" href="#/requirements">Back to requirements</a>
+      </div>
+      <div id="sheetBody"></div>
     </div>
   </div>
 
@@ -568,8 +640,8 @@ const HUE = {finance:222,consulting:250,entre:22,tech:192,science:168,health:352
 const ACTS = {career_prep:'Career prep',competition:'Competitions',building_projects:'Building projects',learning_workshops:'Workshops',performance:'Performances',advocacy:'Advocacy',volunteering:'Volunteering',social_events:'Social events',mentorship:'Mentorship',research:'Research'};
 const LK = [['instagram','Instagram'],['linkedin','LinkedIn'],['listserv','Listserv'],['website','Website'],['facebook','Facebook'],['youtube','YouTube'],['twitter','X / Twitter'],['github','GitHub']];
 const GBM = /\b(gbm|general body|general meeting|info(rmation)? session|interest meeting)\b/i;
-const PAGES = {'':'home', 'events':'events', 'for-you':'foryou', 'courses':'courses', 'requirements':'requirements', 'recruiting':'recruiting', 'following':'following', 'quick-links':'quick', 'explore':'explore'};
-const TITLES = {home:'Wharton Compass', events:'Coming up', foryou:'For you', courses:'Courses', requirements:'Requirements', recruiting:'Recruiting', following:'Following', quick:'Quick links', explore:'Explore'};
+const PAGES = {'':'home', 'events':'events', 'for-you':'foryou', 'courses':'courses', 'requirements':'requirements', 'recruiting':'recruiting', 'sheet':'sheet', 'following':'following', 'quick-links':'quick', 'explore':'explore'};
+const TITLES = {home:'Wharton Compass', events:'Coming up', foryou:'For you', courses:'Courses', requirements:'Requirements', recruiting:'Recruiting', sheet:'Advisor sheet', following:'Following', quick:'Quick links', explore:'Explore'};
 const BANDS = ['Close to me', 'Branch out', 'Far from my usual'];
 const APPLY = {1:'Open to all', 2:'Audition', 3:'Tryout', 4:'Application', 5:'Application + interview'};
 const N = IDS.length;
@@ -590,7 +662,7 @@ const S = {
   saved: new Set(store.get('wc_saved', [])),
   follow: new Set(store.get('wc_follow', [])),
   req: new Set(store.get('wc_req', [])), reqTab: 'plan',
-  plan: Object.assign({terms:{}, slots:{}, conc:''}, store.get('wc_plan', {})),
+  plan: Object.assign({terms:{}, slots:{}, conc:'', conc1:'', conc2:'', minors:[]}, store.get('wc_plan', {})),
   seen: new Set(store.get('wc_seen', [])),
   looked: new Set(store.get('wc_looked', [])),
   stretch: store.get('wc_stretch', 0),
@@ -609,6 +681,7 @@ var CR = {data:null, loading:false, stats:null, depts:[], pendingQ:''};
 var REQ = {data:null, loading:false};
 var ATTR = {by:null, tried:false, updated:null};
 var APPS = {data:null, dates:null, loading:false};
+var PROGS = {data:null, loading:false, tried:false};
 
 /* ---------- theme ---------- */
 function applyTheme(t){
@@ -628,6 +701,8 @@ function route(){
   if(page === 'courses') loadCourses();
   if(page === 'requirements') loadReq();
   if(page === 'recruiting') loadApps();
+  if(page === 'home') renderNext();
+  if(page === 'sheet'){ loadHomeData(); renderSheet(); }
   openDrawer(false);
   window.scrollTo(0, 0);
   if(S.routed){ const h = $(`.page[data-page="${page}"] h1`); if(h) h.focus({preventScroll:true}); }
@@ -884,7 +959,6 @@ function renderBlind(){
 
 function renderHome(){
   const ups = upcoming();
-  $('#homeEvents').innerHTML = ups.slice(0, 3).map(evRow).join('') || '<p class="empty">No upcoming public events found.</p>';
   const clubsWithLinks = ITEMS.filter(i => i.type === 'club' && i.links && Object.keys(i.links).length).length;
   const clubs = ITEMS.filter(i => i.type === 'club').length;
   const doors = [
@@ -1040,7 +1114,7 @@ function renderDrawer(){
     + ((evs.length || clubs.length) ? '<button class="btn ghost" id="clearList" type="button">Clear list</button>' : '');
 }
 
-function renderAll(){ renderHero(); renderBlind(); renderHome(); renderEvents(); renderForYou(); renderFollowing(); renderQuick(); renderExplore(); renderDrawer(); if(APPS.data) renderRecruiting(); }
+function renderAll(){ renderHero(); renderBlind(); renderHome(); renderEvents(); renderForYou(); renderFollowing(); renderQuick(); renderExplore(); renderDrawer(); renderNext(); if(APPS.data) renderRecruiting(); }
 
 function downloadIcs(){
   const fmt = d => new Date(d).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
@@ -1232,18 +1306,19 @@ function loadAttrs(){
     const by = {};
     Object.keys(d.attrs).forEach(a => d.attrs[a].forEach(code => { (by[code] = by[code] || new Set()).add(a); }));
     ATTR.by = by; ATTR.updated = d.updated;
-    if(REQ.data) renderReq();
+    if(REQ.data){ renderReq(); renderSheet(); }
   }).catch(() => {});
 }
 function loadReq(){
   loadAttrs();
+  loadProgs();
   if(!CR.data && !CR.loading) loadCourses();
   if(REQ.data){ renderReq(); return; }
   if(REQ.loading) return;
   REQ.loading = true;
   $('#reqBody').innerHTML = '<p class="empty">Loading requirements...</p>';
   fetch('../data/wharton_requirements.json').then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
-    REQ.data = d; REQ.loading = false; renderReq();
+    REQ.data = d; REQ.loading = false; renderReq(); renderSheet();
   }).catch(() => {
     REQ.loading = false;
     $('#reqBody').innerHTML = '<p class="empty">Could not load data/wharton_requirements.json.</p>';
@@ -1294,7 +1369,7 @@ function breadthOK(c){
   const p = codeParts(c.code);
   if(!p || !WHARTON_DEPTS.has(p.dept) || p.num < 1000 || p.num >= 5000) return false;
   if(namedCodes().has(c.code) || BREADTH_EXCEPT.has(c.code)) return false;
-  if(S.plan.conc && p.dept === S.plan.conc) return false;
+  if(homeDept() && p.dept === homeDept()) return false;
   return true;
 }
 const ELIG = {
@@ -1364,12 +1439,36 @@ function reqState(){
     const cands = all.filter(c => !sets.main.has(c.key) && accepts(it, c)).sort((a, b) => (b.done ? 1 : 0) - (a.done ? 1 : 0));
     if(cands.length){ sets.main.add(cands[0].key); res[it.id] = {course:cands[0], how:'auto'}; }
   });
+  // concentration, second concentration, and minors, matched from the catalog lists
+  const progs = [];
+  const poolFor = excl => all.filter(c => c.code && !excl.has(c.key)).sort((a, b) => (b.done ? 1 : 0) - (a.done ? 1 : 0));
+  const prog1 = progById(S.plan.conc1);
+  if(prog1){
+    const m1 = matchProgram(prog1, poolFor(sets.main));
+    progs.push({prog:prog1, role:'Concentration', m:m1});
+    const slots = items.filter(it => it.id.indexOf('co') === 0 && !res[it.id] && !S.req.has(it.id));
+    m1.groups.flatMap(e => e.matched.map(x => x.course)).slice(0, slots.length).forEach((c, i) => {
+      sets.main.add(c.key); res[slots[i].id] = {course:c, how:'auto', via:prog1.name + ' concentration'};
+    });
+  }
+  const prog2 = progById(S.plan.conc2);
+  if(prog2){
+    const m2 = matchProgram(prog2, poolFor(sets.main));
+    progs.push({prog:prog2, role:'Second concentration', m:m2});
+    let cuUsed = 0;
+    m2.groups.forEach(e => e.matched.forEach(x => {
+      const c = x.course; sets.main.add(c.key);
+      const slot = items.find(it => it.id.indexOf('el') === 0 && !res[it.id] && !S.req.has(it.id));
+      if(slot && cuUsed + (+c.cu || 1) <= 3){ cuUsed += +c.cu || 1; res[slot.id] = {course:c, how:'auto', via:prog2.name + ' (second concentration)'}; }
+    }));
+  }
+  (S.plan.minors || []).forEach(id => { const mp = progById(id); if(mp) progs.push({prog:mp, role:'Minor', m:matchProgram(mp, all.filter(c => c.code))}); });
   // 3a. requirements tied to an attribute: find the best overall fit
   const attrSlots = open(['capstone', 'wuge', 'wuti', 'nsme', 'hum', 'ss']);
   const m = matchSlots(attrSlots, free(), (sl, c) => ELIG[sl.id](c));
   Object.keys(m).forEach(id => take(items.find(i => i.id === id), m[id]));
   // 3b. Business Breadth: Wharton courses from different departments, outside the home department
-  if(S.plan.conc){
+  if(homeDept()){
     const usedDepts = new Set(items.filter(it => it.id.indexOf('br') === 0 && res[it.id]).map(it => codeParts(res[it.id].course.code) && codeParts(res[it.id].course.code).dept));
     open(['br1', 'br2', 'br3']).forEach(sl => {
       const c = free().filter(ELIG.br).sort(byPref).find(x => { const dp = codeParts(x.code).dept; return dp === 'WH' || !usedDepts.has(dp); });
@@ -1400,7 +1499,7 @@ function reqState(){
     const r = res[it.id];
     status[it.id] = (S.req.has(it.id) || (r && r.course.done)) ? 'done' : (r ? 'planned' : 'todo');
   });
-  return {all, items, res, status, main:sets.main, ccp:sets.ccp, fl:sets.fl, setFor};
+  return {all, items, res, status, progs, main:sets.main, ccp:sets.ccp, fl:sets.fl, setFor};
 }
 function cuTotals(){
   let done = 0, planned = 0;
@@ -1409,13 +1508,68 @@ function cuTotals(){
 }
 function courseNote(c, st){
   const tags = [];
-  st.items.forEach(it => { const r = st.res[it.id]; if(r && r.course.key === c.key) tags.push(it.name.split(' (')[0]); });
+  st.items.forEach(it => { const r = st.res[it.id]; if(r && r.course.key === c.key){ const lab = r.via || it.name.split(' (')[0]; if(tags.indexOf(lab) < 0) tags.push(lab); } });
   if(tags.length) return 'Counts toward: ' + tags.join(' and ');
   const can = ['capstone', 'wuge', 'wuti', 'hum', 'nsme', 'ss', 'ccp'].filter(k => ELIG[k](c)).map(k => KIND_LABEL[k]);
   if(whartonDept(c) && codeParts(c.code).num >= 1000) can.push('Business Breadth (outside your concentration)', 'your concentration (if it is on the list)');
   if(ELIG.fl(c)) can.push('Foreign language');
   can.push('an unrestricted elective');
   return 'Could count toward: ' + can.join(', ');
+}
+
+/* concentrations and minors, read from the catalog PDFs */
+function loadProgs(){
+  if(PROGS.data || PROGS.loading || PROGS.tried) return;
+  PROGS.tried = true; PROGS.loading = true;
+  fetch('../data/programs.json').then(r => r.ok ? r.json() : null).then(d => {
+    PROGS.loading = false;
+    if(d && d.programs){ PROGS.data = d; renderNext(); renderReq(); renderSheet(); }
+  }).catch(() => { PROGS.loading = false; });
+}
+function progById(id){ return (id && PROGS.data && PROGS.data.programs.find(p => p.id === id)) || null; }
+function homeDept(){ const p = progById(S.plan.conc1); return (p && p.home) || S.plan.conc || ''; }
+function matchProgram(prog, pool){
+  const used = new Set(), out = {groups:[], have:0};
+  prog.groups.forEach(g => {
+    const e = {g, matched:[], have:0};
+    if(g.kind === 'required'){
+      g.courses.forEach(c => {
+        const codes = [c.code].concat(c.alts || []);
+        const hit = pool.find(x => !used.has(x.key) && codes.indexOf(x.code) >= 0);
+        if(hit){ used.add(hit.key); e.matched.push({course:hit, req:c}); e.have += +hit.cu || c.cu || 1; }
+      });
+    } else {
+      const codes = new Set(g.courses.flatMap(c => [c.code].concat(c.alts || [])));
+      for(const x of pool){
+        if(e.have >= g.need) break;
+        if(!used.has(x.key) && codes.has(x.code)){ used.add(x.key); e.matched.push({course:x}); e.have += +x.cu || 1; }
+      }
+    }
+    out.groups.push(e);
+    out.have += Math.min(e.have, g.need);
+  });
+  return out;
+}
+function progBlock(pr){
+  const p = pr.prog, m = pr.m;
+  const warn = p.review_note ? `<p class="rwarn">${esc(p.review_note)}</p>` : '';
+  if(!p.groups || !p.groups.length) return `<section class="rcat"><h2>${esc(p.name)}</h2><p class="rmeta">${esc(pr.role)}.</p>${warn}</section>`;
+  const notes = (p.notes || []).map(n => `<p class="rnote">${esc(n)}</p>`).join('');
+  const groups = m.groups.map(e => {
+    const g = e.g, hit = new Set(e.matched.map(x => x.course.code));
+    const title = g.title || (g.kind === 'pick' ? 'Choose from this list' : 'Required courses');
+    const line = g.kind === 'pick' ? `Select ${g.need} CU. ${Math.min(e.have, g.need)} of ${g.need} CU in your plan.` : `Required. ${e.matched.length} of ${g.courses.length} in your plan.`;
+    const matched = e.matched.map(x => `<li class="ok">${esc(x.course.code)} ${esc(x.course.title)} <small>${x.course.done ? 'done' : 'planned'}</small></li>`).join('');
+    const rest = g.courses.filter(c => ![c.code].concat(c.alts || []).some(cd => hit.has(cd)));
+    const opts = rest.map(c => `<button class="lk" type="button" data-ropt="${esc(c.code)}" title="${esc(c.title)}">${esc(c.code)}</button>`).join('');
+    return `<div class="pgroup"><h3>${esc(title)}</h3><p class="rmeta">${esc(line)}</p>${matched ? `<ul class="pm">${matched}</ul>` : ''}${rest.length ? `<details><summary>${g.kind === 'pick' ? rest.length + ' options' : 'Still needed'}</summary><div class="ropts" style="margin-left:0">${opts}</div></details>` : ''}</div>`;
+  }).join('');
+  return `<section class="rcat"><h2>${esc(p.name)}</h2><p class="rmeta">${esc(pr.role)}. ${m.have} of ${p.cu} CU matched from your plan.</p>${warn}${notes}${groups}</section>`;
+}
+function progTab(st){
+  if(!PROGS.data) return '<p class="empty">Concentration lists are not loaded. Save the catalog PDFs, run ingest/parse_programs.py, and refresh.</p>';
+  if(!st.progs.length) return '<p class="empty">Choose your concentration above, and a second concentration or a minor if you have one. Its requirements show here and update from your plan.</p>';
+  return st.progs.map(progBlock).join('');
 }
 
 /* the add-a-course search box */
@@ -1485,7 +1639,7 @@ function itemHtml(it, st){
   const s = st.status[it.id], r = st.res[it.id];
   const label = {done:'Done', planned:'Planned', todo:'To do'}[s];
   const specific = (it.accept && it.accept.length) || (it.accept_range && it.accept_range.length);
-  const using = r ? `<p class="rusing">Using ${esc(r.course.code ? r.course.code + ' ' : '')}${esc(r.course.title)} (${esc(termName(r.course.term))}${r.how === 'assigned' ? ', assigned by you' : ''}).</p>` : '';
+  const using = r ? `<p class="rusing">Using ${esc(r.course.code ? r.course.code + ' ' : '')}${esc(r.course.title)} (${esc(termName(r.course.term))}${r.how === 'assigned' ? ', assigned by you' : ''})${r.via ? '. Counts toward ' + esc(r.via) : ''}.</p>` : '';
   let assign = '';
   if(!specific){
     const kind = slotKind(it.id), taken = st.setFor(it), mine = S.plan.slots[it.id];
@@ -1509,17 +1663,36 @@ function renderReq(focusSel){
   const total = st.items.length;
   const done = st.items.filter(it => st.status[it.id] === 'done').length;
   const planned = st.items.filter(it => st.status[it.id] === 'planned').length;
+  const concs = PROGS.data ? PROGS.data.programs.filter(p => p.kind === 'concentration') : [];
+  const minors = PROGS.data ? PROGS.data.programs.filter(p => p.kind === 'minor') : [];
+  const opt = (list, cur, blank) => `<option value="">${blank}</option>` + list.map(p => `<option value="${esc(p.id)}"${cur === p.id ? ' selected' : ''}>${esc(p.name)}</option>`).join('');
+  const concUI = concs.length
+    ? `<div class="progpick"><label class="rassign" style="margin:0">My concentration: <select data-prog="conc1">${opt(concs, S.plan.conc1, 'Not chosen yet')}</select></label>
+        <label class="rassign" style="margin:0">Second concentration: <select data-prog="conc2">${opt(concs.filter(p => p.id !== S.plan.conc1), S.plan.conc2, 'None')}</select></label>
+        ${minors.length ? `<label class="rassign" style="margin:0">Add a minor: <select data-prog="minoradd">${opt(minors.filter(p => !(S.plan.minors || []).includes(p.id)), '', 'Choose one')}</select></label>` : ''}
+        ${(S.plan.minors || []).map(id => { const mp = progById(id); return mp ? `<button class="lk" type="button" data-minorrm="${esc(id)}">${esc(mp.name)} (remove)</button>` : ''; }).join('')}</div>
+      <p class="rmeta" style="margin:6px 0 10px">Business Breadth is placed using your concentration's main department. Check it by hand if your concentration spans several departments.</p>`
+    : `<label class="rassign" style="margin:0 0 6px">My concentration's home department, used to place Business Breadth courses: <select data-conc><option value="">Not chosen yet</option>${CONC_DEPTS.map(([k, n]) => `<option value="${k}"${S.plan.conc === k ? ' selected' : ''}>${n} (${k})</option>`).join('')}</select></label>
+      <p class="rmeta" style="margin:0 0 10px">Concentration lists are not loaded. Save the catalog PDFs and run ingest/parse_programs.py to pick yours by name.</p>`;
+  const lastB = store.get('wc_backup', null);
+  const saveRow = `<div class="saverow"><button class="lk" type="button" data-sv="export">Download backup</button>
+      <label class="lk" for="importFile" style="cursor:pointer">Restore from backup</label><input id="importFile" type="file" accept="application/json,.json" hidden>
+      <button class="lk" type="button" data-sv="share">Copy share link</button>
+      <a class="lk" href="#/sheet">Advisor sheet to print</a></div>
+    <p class="rmeta" style="margin:6px 0 12px">Your plan is saved only in this browser. ${lastB ? 'Last backup: ' + esc(new Date(lastB).toLocaleDateString([], {month:'short', day:'numeric', year:'numeric'})) + '.' : 'Download a backup so you do not lose it.'}</p>`;
   const attrNote = ATTR.by ? '' : '<p class="rwarn">Wharton\'s course attribute lists are not loaded, so Humanities, Science, Social Science, and Cross-Cultural matches are limited. Run ingest/fetch_attributes.py and refresh.</p>';
   $('#reqBar').innerHTML = `<div class="reqprog"><p>${done} of ${total} requirements done${planned ? `, ${planned} more planned` : ''}</p>
     <div class="cover2" role="img" aria-label="${done} done and ${planned} planned out of ${total} requirements"><i class="d" style="width:${(done / total * 100).toFixed(1)}%"></i><i class="p" style="width:${(planned / total * 100).toFixed(1)}%"></i></div>
     <p class="rmeta">${cu.done.toFixed(1)} CU completed and ${cu.planned.toFixed(1)} CU planned, out of ${d.total_cu}. Only courses in your plan are counted.</p></div>
     ${attrNote}
-    <label class="rassign" style="margin:0 0 6px">My concentration's home department, used to place Business Breadth courses: <select data-conc><option value="">Not chosen yet</option>${CONC_DEPTS.map(([k, n]) => `<option value="${k}"${S.plan.conc === k ? ' selected' : ''}>${n} (${k})</option>`).join('')}</select></label>
-    <p class="rmeta" style="margin:0 0 10px">Concentrations that span several departments need a manual check of Business Breadth. Pick the closest one.</p>
+    ${concUI}
+    ${saveRow}
     <button class="reset" type="button" data-rreset="1" style="padding:0 0 14px">Reset my plan and checkmarks</button>`;
   if(S.reqTab === 'plan'){
     $('#reqBody').innerHTML = `<p class="rnote">Add each course you have taken or plan to take, then tick the box when you finish it. Each course shows what it counts toward. Courses from the Courses tab can be added here too, using the menu on each card.</p>` +
       ['First year', 'Second year', 'Third year', 'Fourth year'].map(y => `<h2 class="pyear">${y}</h2><div class="plan">${TERMS.filter(t => t.year === y).map(t => termCardHtml(t, st)).join('')}</div>`).join('');
+  } else if(S.reqTab === 'prog'){
+    $('#reqBody').innerHTML = progTab(st);
   } else {
     $('#reqBody').innerHTML = d.categories.map(cat => {
       const n = cat.items.filter(it => st.status[it.id] === 'done').length;
@@ -1528,7 +1701,7 @@ function renderReq(focusSel){
         const dbl = st.all.filter(c => st.main.has(c.key) && st.ccp.has(c.key)).length;
         if(dbl > 2) warn = `<p class="rwarn">Only two Cross-Cultural Perspectives courses may double-count. You have ${dbl}.</p>`;
       }
-      if(cat.id === 'breadth' && !S.plan.conc) warn = '<p class="rwarn">Choose your concentration\'s home department above to have Business Breadth filled in automatically.</p>';
+      if(cat.id === 'breadth' && !homeDept()) warn = '<p class="rwarn">Choose your concentration above to have Business Breadth filled in automatically.</p>';
       return `<section class="rcat"><h2>${esc(cat.title)}</h2>
         <p class="rmeta">${n} of ${cat.items.length} done</p>
         ${cat.note ? `<p class="rnote">${esc(cat.note)}</p>` : ''}${warn}
@@ -1662,6 +1835,218 @@ function downloadRecIcs(){
   a.click();
 }
 
+/* ---------- what's next (Home) ---------- */
+const NEXT_ORDER = ['econ', 'calc', 'writ', 'wh1010', 'acct1010', 'fnce1000', 'stat1', 'mgmt1010', 'bepp2500', 'fnce1010', 'mktg1010', 'oidd1010', 'lgst', 'acct1020', 'stat2', 'wh2010', 'mgmt3010'];
+function loadHomeData(){
+  loadAttrs();
+  loadProgs();
+  if(!REQ.data && !REQ.loading){
+    REQ.loading = true;
+    fetch('../data/wharton_requirements.json').then(r => r.ok ? r.json() : null).then(d => {
+      REQ.loading = false;
+      if(d){ REQ.data = d; renderNext(); renderReq(); renderSheet(); }
+    }).catch(() => { REQ.loading = false; });
+  }
+  if(!APPS.data && !APPS.loading){
+    APPS.loading = true;
+    Promise.all([
+      fetch('../data/applications.json').then(r => r.ok ? r.json() : null),
+      fetch('../data/recruiting_dates.json').then(r => r.ok ? r.json() : null).catch(() => null)
+    ]).then(([a, d]) => {
+      APPS.loading = false;
+      if(a){ APPS.data = a; APPS.dates = d; renderNext(); renderRecruiting(); }
+    }).catch(() => { APPS.loading = false; });
+  }
+}
+function renderNext(){
+  const box = $('#nextBox'); if(!box || !ITEMS.length) return;
+  const now = new Date();
+  const entry = (d, tag, title, sub, href) => ({d, tag, title, sub, href});
+
+  /* deadlines: clubs you follow and events you saved, soonest first */
+  const rows = APPS.data ? recRows(now) : [];
+  const mine = rows.filter(r => S.follow.has(r.club.id));
+  const rowEntry = r => entry(r.kind === 'open' ? r.end : r.start, r.kind === 'open' ? 'due' : r.kind === 'announced' ? 'opens' : 'expected',
+    r.club.title, (APPLY[r.club.application] || 'Application') + ', ' + r.label, r.kind === 'expected' ? r.club.url : (r.w.url || r.club.url));
+  const evEntry = i => entry(new Date(i.start), 'event', i.title, i.organizer || '', i.url);
+  let list = [...mine.map(rowEntry), ...upcoming().filter(i => S.saved.has(i.id) || (i.club_code && S.follow.has('club-' + i.club_code))).map(evEntry)]
+    .sort((a, b) => a.d - b.d).slice(0, 6);
+  let sub = 'From the clubs you follow and the events you saved.';
+  if(!list.length){
+    list = [...rows.filter(r => r.club.is_wharton).sort((a, b) => a.start - b.start).slice(0, 3).map(rowEntry), ...upcoming().slice(0, 2).map(evEntry)].sort((a, b) => a.d - b.d);
+    sub = 'Soonest Wharton club dates and public events. Follow clubs and this becomes yours.';
+  }
+  const weekKey = d => { const x = new Date(d); x.setHours(0, 0, 0, 0); x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); return x.getTime(); };
+  const byWeek = {};
+  mine.forEach(r => { const k = weekKey(r.end); byWeek[k] = (byWeek[k] || 0) + 1; });
+  const crunch = Object.keys(byWeek).filter(k => byWeek[k] >= 3).sort()[0];
+  const warn = crunch ? `<p class="rwarn">Heads up: ${byWeek[crunch]} of your clubs' deadlines fall in the week of ${esc(fmtMD(new Date(+crunch)))}.</p>` : '';
+  const dl = list.length ? list.map(x => `<div class="nxi"><div class="nxd"><b>${esc(fmtMD(x.d))}</b><span>${esc(x.tag)}</span></div>
+      <div><b class="nxt">${esc(x.title)}</b><small>${esc(x.sub)}</small></div>${safe(x.href) ? `<a href="${esc(x.href)}" target="_blank" rel="noopener">Open</a>` : '<span></span>'}</div>`).join('')
+    : `<p class="empty">${APPS.data ? 'No dates to show yet.' : 'Loading application dates...'}</p>`;
+
+  /* degree: what is still open */
+  let degree;
+  if(!REQ.data){
+    degree = '<p class="empty">Loading your requirements...</p>';
+  } else {
+    const st = reqState();
+    const total = st.items.length;
+    const done = st.items.filter(it => st.status[it.id] === 'done').length;
+    const planned = st.items.filter(it => st.status[it.id] === 'planned').length;
+    const specific = it => (it.accept && it.accept.length) || (it.accept_range && it.accept_range.length);
+    const todo = st.items.filter(it => st.status[it.id] === 'todo');
+    const ordered = [...NEXT_ORDER.map(id => todo.find(it => it.id === id)).filter(Boolean), ...todo.filter(it => NEXT_ORDER.indexOf(it.id) < 0)];
+    const picks = ordered.slice(0, 4).map(it => {
+      const code = specific(it) ? (it.options || []).find(o => !/^[A-Z]{2,5}$/.test(o)) : null;
+      return `<div class="nxi two"><div><b class="nxt">${esc(it.name)}</b><small>${st.all.length ? 'Not in your plan yet' : 'Required'}</small></div>
+        ${code ? `<button class="lk" type="button" data-ropt="${esc(code)}">See ratings</button>` : '<a href="#/requirements">Open checklist</a>'}</div>`;
+    }).join('');
+    const cpr = st.progs.find(x => x.role === 'Concentration');
+    const concLine = cpr ? `<p class="nxsub" style="margin-top:-4px">Concentration: ${esc(cpr.prog.name)}, ${cpr.m.have} of ${cpr.prog.cu} CU matched.</p>` : '';
+    degree = `${concLine}<p class="nxsub">${st.all.length ? `${done} of ${total} requirements done, ${planned} more planned.` : 'Add the courses you have taken or plan to take and this tracks what is left.'}</p>
+      <div class="cover2" role="img" aria-label="${done} done and ${planned} planned out of ${total} requirements"><i class="d" style="width:${(done / total * 100).toFixed(1)}%"></i><i class="p" style="width:${(planned / total * 100).toFixed(1)}%"></i></div>
+      ${picks || '<p class="empty">Every requirement is covered or planned.</p>'}
+      <p style="margin:12px 0 0"><a class="btn-link" href="#/requirements">${st.all.length ? 'Open my plan' : 'Start my four-year plan'}</a></p>`;
+  }
+
+  box.innerHTML = `<div class="nx"><h3>Deadlines</h3><p class="nxsub">${esc(sub)}</p>${warn}${dl}<p style="margin:12px 0 0"><a class="btn-link" href="#/recruiting">Open the recruiting calendar</a></p></div>
+    <div class="nx"><h3>Degree progress</h3>${REQ.data ? '' : '<p class="nxsub">Your Wharton requirements, from the 2026-27 catalog.</p>'}${degree}</div>`;
+}
+
+/* ---------- save, share, and print ---------- */
+const BACKUP_KEYS = ['wc_name', 'wc_interests', 'wc_saved', 'wc_follow', 'wc_seen', 'wc_looked', 'wc_stretch', 'wc_last', 'wc_req', 'wc_plan'];
+const itemIdOk = x => /^[a-z]+-[A-Za-z0-9._:-]+$/.test(x);
+function cleanList(a, ok, max){ return Array.isArray(a) ? a.filter(x => typeof x === 'string' && x.length <= 120 && (!ok || ok(x))).slice(0, max || 500) : []; }
+function cleanPlan(p){
+  const out = {terms:{}, slots:{}, conc:'', conc1:'', conc2:'', minors:[]};
+  if(!p || typeof p !== 'object') return out;
+  TERMS.forEach(t => {
+    const list = Array.isArray(p.terms && p.terms[t.id]) ? p.terms[t.id] : [];
+    out.terms[t.id] = list.slice(0, 15).filter(c => c && typeof c === 'object').map(c => ({
+      key: String(c.key || '').slice(0, 60),
+      code: /^[A-Z]{2,5} \d{4}$/.test(c.code || '') ? c.code : '',
+      title: String(c.title || '').slice(0, 80),
+      cu: Math.min(2, Math.max(0, +c.cu || 1)),
+      done: !!c.done
+    })).filter(c => c.key);
+  });
+  if(p.slots && typeof p.slots === 'object') Object.keys(p.slots).slice(0, 60).forEach(k => { if(/^[a-z0-9]+$/.test(k) && typeof p.slots[k] === 'string') out.slots[k] = p.slots[k].slice(0, 60); });
+  ['conc', 'conc1', 'conc2'].forEach(k => { if(typeof p[k] === 'string' && /^[A-Za-z0-9-]*$/.test(p[k])) out[k] = p[k].slice(0, 80); });
+  out.minors = cleanList(p.minors, x => /^[a-z0-9-]+$/.test(x), 10);
+  return out;
+}
+function cleanBackup(raw){
+  const d = raw && raw.app === 'wharton-compass' && raw.data;
+  if(!d || typeof d !== 'object') throw new Error('not a backup');
+  const out = {};
+  if(typeof d.wc_name === 'string') out.wc_name = d.wc_name.slice(0, 24);
+  out.wc_interests = cleanList(d.wc_interests, x => IDS.includes(x));
+  out.wc_saved = cleanList(d.wc_saved, itemIdOk, 300);
+  out.wc_follow = cleanList(d.wc_follow, itemIdOk, 300);
+  out.wc_seen = cleanList(d.wc_seen, itemIdOk, 300);
+  out.wc_looked = cleanList(d.wc_looked, x => IDS.includes(x));
+  out.wc_stretch = [0, 1, 2].includes(+d.wc_stretch) ? +d.wc_stretch : 0;
+  out.wc_last = IDS.includes(d.wc_last) ? d.wc_last : null;
+  out.wc_req = cleanList(d.wc_req, x => /^[a-z0-9]+$/.test(x), 100);
+  out.wc_plan = cleanPlan(d.wc_plan);
+  return out;
+}
+const planCount = plan => Object.values(plan.terms).reduce((n, l) => n + l.length, 0);
+function applyBackup(clean){ Object.keys(clean).forEach(k => store.set(k, clean[k])); }
+function exportBackup(){
+  const data = {};
+  BACKUP_KEYS.forEach(k => { data[k] = store.get(k, null); });
+  const blob = new Blob([JSON.stringify({app:'wharton-compass', version:1, exported:new Date().toISOString(), data}, null, 1)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'wharton-compass-backup-' + new Date().toISOString().slice(0, 10) + '.json';
+  a.click();
+  store.set('wc_backup', new Date().toISOString());
+  toast('Backup downloaded. Keep the file somewhere safe.');
+  if(REQ.data) renderReq();
+}
+function importBackup(file){
+  if(!file) return;
+  if(file.size > 600000){ toast('That file is too large to be a Compass backup.'); return; }
+  const r = new FileReader();
+  r.onload = () => {
+    try{
+      const clean = cleanBackup(JSON.parse(r.result));
+      if(!confirm('Restore this backup? It has ' + planCount(clean.wc_plan) + ' courses in the plan and replaces what is saved in this browser.')) return;
+      applyBackup(clean); toast('Backup restored.'); setTimeout(() => location.reload(), 600);
+    } catch(e){ toast('That file is not a Wharton Compass backup.'); }
+  };
+  r.readAsText(file);
+}
+const b64u = x => btoa(unescape(encodeURIComponent(x))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+const unb64u = x => decodeURIComponent(escape(atob(x.replace(/-/g, '+').replace(/_/g, '/'))));
+function shareLink(){
+  const t = {};
+  TERMS.forEach(tm => {
+    const l = (S.plan.terms[tm.id] || []).map(c => [c.key, c.code, String(c.title || '').slice(0, 50), c.cu, c.done ? 1 : 0]);
+    if(l.length) t[tm.id] = l;
+  });
+  const payload = {v:1, i:[...S.mine], f:[...S.follow], s:[...S.saved], r:[...S.req], t, sl:S.plan.slots, c1:S.plan.conc1, c2:S.plan.conc2, m:S.plan.minors, d:S.plan.conc};
+  return location.href.split('#')[0].split('?')[0] + '?plan=' + b64u(JSON.stringify(payload));
+}
+function copyShareLink(){
+  const url = shareLink();
+  const done = () => toast(url.length > 6000 ? 'Link copied, but it is long. A backup file is safer for a big plan.' : 'Link copied. Anyone with it can load your plan.');
+  if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done).catch(() => prompt('Copy this link:', url));
+  else prompt('Copy this link:', url);
+}
+function fromShare(x){
+  const terms = {}, t = (x && x.t) || {};
+  Object.keys(t).forEach(k => { terms[k] = (Array.isArray(t[k]) ? t[k] : []).map(a => ({key:a[0], code:a[1], title:a[2], cu:a[3], done:!!a[4]})); });
+  return {
+    wc_interests: cleanList(x.i, v => IDS.includes(v)), wc_follow: cleanList(x.f, itemIdOk, 300),
+    wc_saved: cleanList(x.s, itemIdOk, 300), wc_req: cleanList(x.r, v => /^[a-z0-9]+$/.test(v), 100),
+    wc_plan: cleanPlan({terms, slots:x.sl, conc1:x.c1, conc2:x.c2, minors:x.m, conc:x.d})
+  };
+}
+function checkSharedPlan(){
+  const q = new URLSearchParams(location.search).get('plan');
+  if(!q) return;
+  let clean;
+  try{ clean = fromShare(JSON.parse(unb64u(q))); } catch(e){ toast('That share link could not be read.'); return; }
+  const go = confirm('This link carries a plan with ' + planCount(clean.wc_plan) + ' courses. Load it? It replaces the plan saved in this browser.');
+  history.replaceState(null, '', location.href.split('?')[0] + location.hash);
+  if(go){ applyBackup(clean); location.reload(); }
+}
+
+function renderSheet(){
+  const box = $('#sheetBody'); if(!box) return;
+  if(!REQ.data){ box.innerHTML = '<p class="empty">Loading your requirements...</p>'; return; }
+  const d = REQ.data, st = reqState(), cu = cuTotals();
+  const total = st.items.length;
+  const done = st.items.filter(it => st.status[it.id] === 'done').length;
+  const planned = st.items.filter(it => st.status[it.id] === 'planned').length;
+  const today = new Date().toLocaleDateString([], {year:'numeric', month:'long', day:'numeric'});
+  const cell = id => {
+    const l = S.plan.terms[id] || [], sum = l.reduce((a, c) => a + (+c.cu || 0), 0);
+    return l.length ? `<ul>${l.map(c => `<li>${esc((c.code ? c.code + ' ' : '') + c.title)} <small>${esc(c.cu)} CU${c.done ? ', done' : ''}</small></li>`).join('')}</ul><p class="sct">${sum.toFixed(1)} CU</p>` : '<p class="sct">Nothing added</p>';
+  };
+  const years = ['First year', 'Second year', 'Third year', 'Fourth year'];
+  const planTable = `<table class="sheet-plan"><thead><tr><th></th><th>Fall</th><th>Spring</th></tr></thead><tbody>${years.map((y, i) => `<tr><th>${y}</th><td>${cell(TERMS[i * 2].id)}</td><td>${cell(TERMS[i * 2 + 1].id)}</td></tr>`).join('')}</tbody></table>`;
+  const reqs = d.categories.map(cat => {
+    const n = cat.items.filter(it => st.status[it.id] === 'done').length;
+    return `<div class="sh-cat"><h3>${esc(cat.title)} <small>${n} of ${cat.items.length} done</small></h3><ul>${cat.items.map(it => {
+      const r = st.res[it.id], lab = {done:'Done', planned:'Planned', todo:'To do'}[st.status[it.id]];
+      return `<li class="st-${st.status[it.id]}"><b>${lab}</b> ${esc(it.name)}${r ? ` <small>${esc(r.course.code || r.course.title)}</small>` : ''}</li>`;
+    }).join('')}</ul></div>`;
+  }).join('');
+  const progLine = st.progs.length ? `<p class="sh-sum">${st.progs.map(pr => `<b>${esc(pr.role)}:</b> ${esc(pr.prog.name)}, ${pr.m.have} of ${pr.prog.cu} CU matched`).join('. ')}.</p>` : '';
+  const usedKeys = new Set(Object.values(st.res).map(r => r.course.key));
+  const loose = st.all.filter(c => !usedKeys.has(c.key));
+  const looseHtml = loose.length ? `<h2>Courses not matched to a requirement</h2><p>${loose.map(c => esc((c.code ? c.code + ' ' : '') + c.title)).join('; ')}.</p>` : '';
+  box.innerHTML = `<div class="sheet"><h1>Wharton degree plan</h1>
+    <p class="sh-meta">${S.name ? esc(S.name) + '. ' : ''}Prepared ${esc(today)}. Single-degree Wharton BS in Economics, entering Fall 2026 or later (${esc(d.catalog)} catalog).</p>
+    <p class="sh-sum"><b>${done} of ${total}</b> requirements done, ${planned} more planned. <b>${cu.done.toFixed(1)}</b> CU completed and ${cu.planned.toFixed(1)} CU planned, of ${d.total_cu}.</p>${progLine}
+    <h2>Four-year plan</h2>${planTable}<h2>Requirements</h2><div class="sh-grid">${reqs}</div>${looseHtml}
+    <p class="sh-foot">A planning aid, not a degree audit. Prepared with Wharton Compass, an unofficial student project. Confirm every requirement in Path@Penn and with your advisor.</p></div>`;
+}
+
 /* ---------- actions ---------- */
 function init(){
   buildWheel();
@@ -1684,10 +2069,11 @@ function init(){
   const ac = {}; ITEMS.forEach(i => (i.activities || []).forEach(x => ac[x] = 1));
   $('#fActs').innerHTML = Object.keys(ACTS).filter(k => ac[k]).map(k => `<button class="fchip" type="button" data-fa="${k}" aria-pressed="false">${ACTS[k]}</button>`).join('');
   renderAll();
+  loadHomeData();
   setTimeout(() => { S.intro = true; setNeedle(); }, 300);
 }
 
-function refreshAfterProfile(){ if(APPS.data) renderRecruiting(); persist(); renderHero(); renderBlind(); renderHome(); renderEvents(); renderForYou(); renderExplore(); }
+function refreshAfterProfile(){ renderNext(); if(APPS.data) renderRecruiting(); persist(); renderHero(); renderBlind(); renderHome(); renderEvents(); renderForYou(); renderExplore(); }
 function toggleInterest(id, select){
   if(S.mine.has(id)){ S.mine.delete(id); if(S.last === id) S.last = [...S.mine].pop() || null; } else { S.mine.add(id); S.last = id; }
   S.forShown = 12;
@@ -1706,7 +2092,7 @@ function openDrawer(open){
   $('#drawer').setAttribute('aria-hidden', !open);
   if(open) renderDrawer();
 }
-function afterListChange(){ if(APPS.data) renderRecruiting(); persist(); renderHero(); renderBlind(); renderHome(); renderEvents(); renderForYou(); renderFollowing(); renderQuick(); renderExplore(); renderDrawer(); }
+function afterListChange(){ renderNext(); if(APPS.data) renderRecruiting(); persist(); renderHero(); renderBlind(); renderHome(); renderEvents(); renderForYou(); renderFollowing(); renderQuick(); renderExplore(); renderDrawer(); }
 
 document.addEventListener('click', e => {
   const seen = e.target.closest('a[data-seen]');
@@ -1730,9 +2116,13 @@ document.addEventListener('click', e => {
   else if(b.id === 'cMore'){ S.cr.shown += 18; renderCourses(); }
   else if(b.dataset.rcf){ S.rc[b.dataset.rcf] = !S.rc[b.dataset.rcf]; renderRecruiting(); }
   else if(b.id === 'recIcs'){ downloadRecIcs(); }
+  else if(b.dataset.sv === 'export'){ exportBackup(); }
+  else if(b.dataset.sv === 'share'){ copyShareLink(); }
+  else if(b.id === 'printSheet'){ window.print(); }
+  else if(b.dataset.minorrm){ S.plan.minors = (S.plan.minors || []).filter(x => x !== b.dataset.minorrm); persist(); renderReq(); renderNext(); }
   else if(b.dataset.rtab){ S.reqTab = b.dataset.rtab; renderReq(); }
   else if(b.dataset.ropt){ const o = b.dataset.ropt; /^[A-Z]{2,5}$/.test(o) ? openCourseDept(o) : openCourseSearch(o); }
-  else if(b.dataset.rreset){ if(confirm('Clear your plan and all checkmarks?')){ S.req.clear(); S.plan = {terms:{}, slots:{}, conc:''}; persist(); renderReq(); } }
+  else if(b.dataset.rreset){ if(confirm('Clear your plan and all checkmarks?')){ S.req.clear(); S.plan = {terms:{}, slots:{}, conc:'', conc1:'', conc2:'', minors:[]}; persist(); renderReq(); } }
   else if(b.dataset.pick){ const c = CR.byCode && CR.byCode[b.dataset.pick]; if(c) doAdd(b.dataset.term, c); }
   else if(b.dataset.pickcustom){ doAddCustom(b.dataset.term, b.dataset.pickcustom); }
   else if(b.dataset.premove){ removeCourse(b.dataset.premove); renderReq(); }
@@ -1785,6 +2175,7 @@ $('#name').addEventListener('input', e => { S.name = e.target.value.trim(); pers
 $('#q').addEventListener('input', e => { S.ex.q = e.target.value; S.ex.shown = 24; renderExplore(); });
 $('#fCommit').addEventListener('change', e => { S.ex.commit = e.target.value; S.ex.shown = 24; renderExplore(); });
 document.addEventListener('change', e => {
+  if(e.target.id === 'importFile'){ importBackup(e.target.files[0]); e.target.value = ''; return; }
   if(e.target.id === 'cDept'){ S.cr.dept = e.target.value; S.cr.shown = 18; persist(); renderCourses(); }
   const t = e.target;
   if(t.dataset && t.dataset.req){
@@ -1794,6 +2185,12 @@ document.addEventListener('change', e => {
   if(t.dataset && t.dataset.pdone){
     TERMS.forEach(tm => (S.plan.terms[tm.id] || []).forEach(c => { if(c.key === t.dataset.pdone) c.done = t.checked; }));
     persist(); renderReq(`[data-pdone="${t.dataset.pdone}"]`);
+  }
+  if(t.dataset && t.dataset.prog){
+    const k = t.dataset.prog;
+    if(k === 'minoradd'){ if(t.value) (S.plan.minors = S.plan.minors || []).push(t.value); }
+    else { S.plan[k] = t.value; if(k === 'conc1' && S.plan.conc2 === t.value) S.plan.conc2 = ''; }
+    persist(); renderReq(); renderNext();
   }
   if(t.dataset && 'conc' in t.dataset){ S.plan.conc = t.value; persist(); renderReq('[data-conc]'); }
   if(t.dataset && t.dataset.assign){
@@ -1811,6 +2208,7 @@ document.addEventListener('change', e => {
     }
   }
 });
+setTimeout(checkSharedPlan, 400);
 </script>
 </body>
 </html>
