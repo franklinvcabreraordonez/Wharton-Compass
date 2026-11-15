@@ -8904,5 +8904,148 @@
     "target_schools": [],
     "student_types": [],
     "website": "https://whartonpevc.com/"
+  },
+  "summit-for-scientific-proposals-at-penn-sp2": {
+    "name": "Project Lucid",
+    "description": "Project Lucid is a student-run group at Penn that organizes the National Research Conference at Penn (NRCP), an undergraduate research conference hosted at Penn for students across the world. NRCP is an annual event designed to provide a multidisciplinary platform for undergraduate researchers to showcase research findings and gain insights from more senior scholars. By featuring renowned keynote speakers and well-accomplished researchers, we look to connect today's leaders with tomorrow's scholars in the immersion of cutting-edge research. \nThe conference will be a two-day event (during Fall Break) with around 250 participants, featuring:\nPoster Sessions\nLucid Communication Challenge - Elevator pitch grant-proposal competition\nKeynote Speeches and Workshops\nPanel Discussions - Careers in academia and industry\nDinner/Catered Meals - Opportunities for socializing with undergraduate researchers",
+    "how_to_get_involved": "",
+    "signature_events": "",
+    "category": "ACADEMIC & PRE-PROFESSIONAL",
+    "classification": "Undergraduate open",
+    "badges": [],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": "https://upennnrc.org/"
+  },
+  "black-student-athletes-at-penn": {
+    "name": "Black Student-Athletes at Penn (BSAP)",
+    "description": "BSAP is a network of support that fosters an environment for Black student-athletes–alongside those interested in the experience or advocacy of Black student-athletes—to learn from, grow with, and uplift one another. We strive to create a space where members thrive both academically and athletically, while remaining grounded in their shared community and interests.\nAs students, we prioritize academic excellence by offering resources, mentorship, and community support to ensure that every member is empowered to succeed. As athletes, we advocate for the recognition and development of Black talent in sports and academics, championing inclusivity within Penn Athletics and the Ivy League. Furthermore, we aim to uplift our community by building lasting connections and working with West Philly communities.\nIn essence, BSAP stands as a united front of Black student-athletes and committed students dedicated to unity, excellence, and advocacy for a more equitable and just future, both on and off the field.",
+    "how_to_get_involved": "Follow our Instagram and come to events!",
+    "signature_events": "",
+    "category": "PEER EDUCATION & SUPPORT",
+    "classification": "Undergraduate open",
+    "badges": [],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": null
+  },
+  "lambda": {
+    "name": "Lambda Alliance",
+    "description": "Lambda Alliance is the umbrella advocacy student group at the University of Pennsylvania for queer organizations and clubs. In addition to advancing the social equality and creating a LGBTQ+ friendly environment on campus, the Lambda Alliance serves as a forum for its constituent groups to interact and foster a cohesive community.",
+    "how_to_get_involved": "You can contact any of the Executive Board members, and we'd be more than happy to discuss ways to get involved!",
+    "signature_events": "",
+    "category": null,
+    "classification": null,
+    "badges": [
+      "Lambda",
+      "Peer Education/Support",
+      "Peer Groups",
+      "Student Governance"
+    ],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": ""
+  },
+  "sgi-buddhist-club-at-penn": {
+    "name": "SGI Buddhist Club at Penn",
+    "description": "SGI Buddhist Club at Penn is a student organization contributing to the creation of a culture of peace and nonviolence based on the teachings of the Nichiren school of Mahayana Buddhism as practiced in the Soka Gakkai International-USA (SGI-USA). This group aims to help students unlock their hidden potential and achieve creative harmony with their environment through the practice of chanting Nam-Myoho-Renge-Kyo and the philosophy Nichiren Buddhism.",
+    "how_to_get_involved": "Join our mailing list or contact sgipennclub@gmail.com to learn more about our events!",
+    "signature_events": "",
+    "category": "RELIGIOUS & SPIRITUAL",
+    "classification": "Undergraduate open",
+    "badges": [
+      "Religious/Spiritual"
+    ],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": "https://www.sgi-usa.org/"
+  },
+  "bioethics-journal": {
+    "name": "Bioethics Journal at Penn",
+    "description": "Established in 2004, the Penn Bioethics Journal is the premier peer-reviewed undergraduate bioethics journal, hosted by the Department of Medical Ethics and Health Policy at the Perelman School of Medicine. Published papers are on a wide variety of topics, from neuroethics to xenotransplantation and everything in between. Our call for papers goes out to undergraduate and graduate students across the globe. The acceptance process is very competitive with submissions undergoing an initial review, a small-group review, and, if warranted a final review by the full editorial board of approximately 30 students.",
+    "how_to_get_involved": "Members attend hour-long weekly editorial discussion meetings and our voting GBM (1 per semester). If interested, please fill out the Associate Editor application or email Ashrit Challa (achalla@sas.upenn.edu) or Avalon Hinchman (avalonh@sas.upenn.edu).",
+    "signature_events": "",
+    "category": null,
+    "classification": null,
+    "badges": [
+      "PubCo",
+      "Media/Publications",
+      "SAC",
+      "Publications",
+      "Media/Publication"
+    ],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": "http://bioethicsjournal.com/"
+  },
+  "sac": {
+    "name": "Student Allocations Commission",
+    "description": "The Student Allocations Commission (SAC) is one of the University of Pennsylvania's six branches of undergraduate student government. SAC funds and supports 600+ student organizations and represents their interests to the Undergraduate Assembly (UA) and the Penn administration. The UA allocates funding to SAC annually, with the budget for the current academic year being approximately $1.6 million. SAC's primary mission is to improve the state of student organizations at Penn through the equitable allocation and stewardship of financial resources. SAC also organizes the Fall and Spring Activities Fairs, providing student organizations with opportunities to recruit new members.\nSAC operates through an Executive Board, a General Body, and review committees responsible for reviewing and allocating funding to student organizations. SAC Exec provides organizational oversight, while committees evaluate funding requests and make allocation decisions within their respective areas. SAC evaluates student organizations' requests against established funding guidelines to make informed decisions regarding funding requests.",
+    "how_to_get_involved": "",
+    "signature_events": "",
+    "category": "STUDENT GOVERNANCE",
+    "classification": "Undergraduate",
+    "badges": [
+      "Student Governance",
+      "SAC",
+      "Student Governance"
+    ],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": "https://www.sacfunded.net"
+  },
+  "penn-namla": {
+    "name": "National Association of Minority Landscape Architects Students Chapter at the University of Pennsylvania",
+    "description": "The National Association of Minority Landscape Architects (NAMLA) Student Chapter at the University of Pennsylvania is here to grow minority representation in landscape architecture at every level. As the first NAMLA chapter at an Ivy League school, we see this as a real step toward equity and inclusion in our field.\nWe connect students with minority-owned firms through networking and community events, and help each other get professional experience with résumé and portfolio workshops, mock interviews, and mentorship. We share job opportunities, internships, and apprenticeships on our website and social media, and highlight the work and achievements of minority educators, students, and designers.\nWe collaborate with allies across organizations, schools, and businesses to open doors in both practice and academia, and we celebrate design concepts rooted in BIPOC cultural innovation.",
+    "how_to_get_involved": "",
+    "signature_events": "",
+    "category": "CIVIC ENGAGEMENT & COMMUNITY SERVICE",
+    "classification": "Graduate open",
+    "badges": [],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": null
+  },
+  "south-asian-law-students-association": {
+    "name": "South Asian Law Students Association (SALSA)",
+    "description": "An affinity group at the University of Pennsylvania Carey Law School for law students who identify with the heritage and culture of South Asia.",
+    "how_to_get_involved": "Check out the SALSA website for information on how to apply or to contact the group!",
+    "signature_events": "",
+    "category": null,
+    "classification": null,
+    "badges": [],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": "https://pennlawsalsa.com/"
+  },
+  "oral-hope": {
+    "name": "Oral HOPE",
+    "description": "Oral HOPE is a Penn Dental Medicine club comprised of dental students who are working to raise awareness of the importance of oral health, promote oral health equity, and increase access to oral healthcare, especially with historically vulnerable populations or individuals experiencing homelessness. \nThrough monthly volunteer sessions, students are able to provide oral hygiene education and materials, as well as referral services to people visiting meal service sites.",
+    "how_to_get_involved": "",
+    "signature_events": "",
+    "category": "CIVIC ENGAGEMENT & COMMUNITY SERVICE",
+    "classification": "Graduate",
+    "badges": [],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": null
   }
 }

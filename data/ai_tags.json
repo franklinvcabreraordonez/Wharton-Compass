@@ -10720,5 +10720,1532 @@
     ],
     "summary": "Weitzman students explore gardening, connect with local partners, and work with the earth to improve the greater community.",
     "model": "gemini-3.5-flash-lite"
+  },
+  "phi-gamma-nu-professional-business-fraternity": {
+    "interests": [
+      "finance",
+      "consulting"
+    ],
+    "activities": [
+      "career_prep",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "business fraternity",
+      "professional development",
+      "philanthropy",
+      "networking",
+      "brotherhood"
+    ],
+    "summary": "Phi Gamma Nu is a professional business fraternity focused on fostering professionalism, civic responsibility, and community among its members.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "nsbe": {
+    "interests": [
+      "tech",
+      "science"
+    ],
+    "activities": [
+      "career_prep",
+      "learning_workshops",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "engineering",
+      "stem",
+      "professional development",
+      "networking",
+      "corporate partners",
+      "stem majors"
+    ],
+    "summary": "NSBE supports STEM students through professional development workshops, networking with corporate partners, and social events.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-rubiks-cube-club": {
+    "interests": [
+      "arts"
+    ],
+    "activities": [
+      "competition",
+      "learning_workshops",
+      "social_events"
+    ],
+    "commitment": "low",
+    "commitment_evidence": "meetly roughly once a week on Sundays",
+    "beginner_friendly": "yes",
+    "beginner_evidence": "join us with no cubing background",
+    "keywords": [
+      "rubik's cube",
+      "cubing",
+      "speedcubing",
+      "puzzle",
+      "competition",
+      "recreation"
+    ],
+    "summary": "Members cube both competitively and casually, meeting weekly to learn, practice, and enjoy solving Rubik's cubes together.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "hackers-at-penn": {
+    "interests": [
+      "tech",
+      "entre"
+    ],
+    "activities": [
+      "building_projects",
+      "learning_workshops",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "hackathons",
+      "project based learning",
+      "coding",
+      "software development",
+      "technology",
+      "entrepreneurship"
+    ],
+    "summary": "Members participate in project-based learning, build social networks, and organize hackathon events at Penn.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "wharton-israel-club": {
+    "interests": [
+      "culture",
+      "entre",
+      "finance"
+    ],
+    "activities": [
+      "career_prep",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "entrepreneurship",
+      "business",
+      "innovation",
+      "tech ecosystem",
+      "israel trek",
+      "cultural gatherings"
+    ],
+    "summary": "Connects members with Israel's business ecosystem through conferences, treks, speaker events, and cultural gatherings.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "pennsori": {
+    "interests": [
+      "culture",
+      "arts"
+    ],
+    "activities": [
+      "performance"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "a cappella",
+      "korean music",
+      "singing",
+      "k-pop",
+      "music performance"
+    ],
+    "summary": "Members sing and perform Korean and American a cappella music to bridge cultural divides.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "united-minorities-council": {
+    "interests": [
+      "culture",
+      "policy",
+      "impact"
+    ],
+    "activities": [
+      "advocacy"
+    ],
+    "commitment": "low",
+    "commitment_evidence": "holds monthly General Body Meetings",
+    "beginner_friendly": "yes",
+    "beginner_evidence": "anyone is welcome to attend",
+    "keywords": [
+      "intercultural coalition",
+      "equity",
+      "student governance",
+      "umbrella organization",
+      "cultural communities",
+      "university administration",
+      "advocacy"
+    ],
+    "summary": "An intercultural coalition representing cultural student groups, fostering solidarity, and advocating for underrepresented students with the university administration.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "first-love-phily": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "low",
+    "commitment_evidence": "Come to weekly meeting",
+    "beginner_friendly": "yes",
+    "beginner_evidence": "bring the youth together and help them establish",
+    "keywords": [
+      "religious",
+      "spiritual",
+      "christian",
+      "youth",
+      "faith"
+    ],
+    "summary": "Members gather weekly for Christian fellowship and community building with other believers.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "spec-pop-up": {
+    "interests": [],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "student government",
+      "giveaways",
+      "campus events",
+      "spec",
+      "student activities"
+    ],
+    "summary": "Plan and host free spontaneous giveaways, events, and activities to give students a break from classes.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fgli-podcast": {
+    "interests": [
+      "culture",
+      "arts"
+    ],
+    "activities": [
+      "building_projects"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "podcast",
+      "fgli",
+      "media",
+      "first generation",
+      "low income",
+      "audio"
+    ],
+    "summary": "Members produce a student-run podcast that highlights first-generation, low-income stories and discusses unique experiences.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "the-andean-representation": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "andean culture",
+      "latinx",
+      "quechua",
+      "south america",
+      "cultural events"
+    ],
+    "summary": "Members celebrate and share Andean culture through cultural, academic, and social events in partnership with the Quechua at Penn language program.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "pensapenn": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "volunteering",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "christian",
+      "bible study",
+      "prayer",
+      "fellowship",
+      "faith",
+      "religion",
+      "spirituality"
+    ],
+    "summary": "Members participate in Bible studies, prayer meetings, fasting, outreach, and fellowship to build a Christian community.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "wharton-asian-american-assocation-of-mbas-waaam": {
+    "interests": [
+      "culture",
+      "finance"
+    ],
+    "activities": [
+      "career_prep",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "aapi",
+      "asian american",
+      "wharton mba",
+      "business",
+      "cultural"
+    ],
+    "summary": "Celebrate AAPI identities while supporting members professionally, academically, and socially through community events, identity dialogues, partnerships, recruitment support, and social gatherings.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-taekwondo-club-itf": {
+    "interests": [
+      "sports",
+      "health"
+    ],
+    "activities": [
+      "learning_workshops",
+      "social_events"
+    ],
+    "commitment": "medium",
+    "commitment_evidence": "Classes are available to students three times a week",
+    "beginner_friendly": "yes",
+    "beginner_evidence": "come to an open class",
+    "keywords": [
+      "taekwondo",
+      "martial arts",
+      "self defense",
+      "fitness",
+      "conditioning",
+      "black belt"
+    ],
+    "summary": "Members practice traditional Tae Kwon Do in a non-competitive setting, focusing on physical conditioning, forms, techniques, and mental discipline.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "hillel-soup-kitchen": {
+    "interests": [
+      "impact"
+    ],
+    "activities": [
+      "volunteering"
+    ],
+    "commitment": "medium",
+    "commitment_evidence": "We meet every Sunday from 5:15-6:30 pm",
+    "beginner_friendly": "yes",
+    "beginner_evidence": "The club is open to all interested volunteers",
+    "keywords": [
+      "soup kitchen",
+      "community service",
+      "volunteering",
+      "charity",
+      "food service"
+    ],
+    "summary": "Members package snacks, serve hot meals, and build connections with guests at weekly Sunday soup kitchen sessions.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-model-congress": {
+    "interests": [
+      "policy",
+      "impact"
+    ],
+    "activities": [
+      "competition",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "congress",
+      "government",
+      "legislation",
+      "debate",
+      "political issues"
+    ],
+    "summary": "Members host a high school conference, debate bills, and organize panels to understand the U.S. government.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-arab-student-society": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events",
+      "mentorship"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "yes",
+    "beginner_evidence": "all backgrounds are welcome!",
+    "keywords": [
+      "arab culture",
+      "cultural events",
+      "arab heritage",
+      "community building",
+      "big-little program"
+    ],
+    "summary": "Members foster Arab culture and heritage on campus by attending cultural and social events and participating in the Big-Little Program.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1st-year-at-penn": {
+    "interests": [
+      "policy",
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "muslim",
+      "law students",
+      "islam",
+      "community",
+      "penn law"
+    ],
+    "summary": "MLSA fosters a welcoming community for Penn Law students to learn about Islam and gain peer support.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "intervarsity-christian-fellowship": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "christian fellowship",
+      "faith",
+      "scripture study",
+      "interdenominational",
+      "campus ministry",
+      "religious community"
+    ],
+    "summary": "Members explore scripture, grow in faith, and cultivate a welcoming Christian community on campus.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penntorship-dental": {
+    "interests": [
+      "impact",
+      "health"
+    ],
+    "activities": [
+      "volunteering",
+      "mentorship"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "oral health education",
+      "community service",
+      "youth mentorship",
+      "academic enrichment",
+      "career exploration",
+      "west philadelphia"
+    ],
+    "summary": "Members serve West Philadelphia's youth through academic enrichment, career exploration, and oral health education.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-game-day": {
+    "interests": [
+      "sports"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "sports",
+      "tournaments",
+      "leisure",
+      "social",
+      "watch games"
+    ],
+    "summary": "Members gather across campus locations to watch major sports games and tournaments while building new friendships.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "simply-chaos": {
+    "interests": [
+      "arts"
+    ],
+    "activities": [
+      "performance"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "no",
+    "beginner_evidence": "auditions for the Fall Semester are taking place",
+    "keywords": [
+      "stand-up comedy",
+      "comedy collective",
+      "performing arts",
+      "comedy shows",
+      "stand-up"
+    ],
+    "summary": "Penn's stand-up comedy collective performs at events around Philadelphia and produces a semesterly campus show.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "istmo-y-vos": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "central america",
+      "central american",
+      "cultural representation",
+      "diversity",
+      "latino"
+    ],
+    "summary": "Central American identifying students and those interested in the region gather to discuss, share, and connect.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-black-scientist-collective": {
+    "interests": [
+      "science",
+      "health",
+      "impact",
+      "culture"
+    ],
+    "activities": [
+      "career_prep",
+      "learning_workshops",
+      "volunteering"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "black scientists",
+      "stem",
+      "pre-health",
+      "mentorship",
+      "research panels",
+      "health equity",
+      "scientific community"
+    ],
+    "summary": "Black Scientist Collective fosters community, academic excellence, and professional networking for Black students in STEM and pre-health disciplines through mentorship and workshops.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "nutrition-advocacy": {
+    "interests": [
+      "health",
+      "science",
+      "impact"
+    ],
+    "activities": [
+      "learning_workshops",
+      "volunteering"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "nutrition science",
+      "clinical practice",
+      "preventive health",
+      "health advocacy",
+      "whole-person care",
+      "health equity"
+    ],
+    "summary": "NAPP applies nutrition science to clinical practice, preventive health, and everyday well-being through workshops, community engagement, and health advocacy.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "future-practice-owners": {
+    "interests": [
+      "finance",
+      "health"
+    ],
+    "activities": [
+      "learning_workshops",
+      "career_prep"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "dental practice",
+      "business acumen",
+      "dentistry",
+      "practice management",
+      "dental students"
+    ],
+    "summary": "Dental students develop business acumen, technical skills, and ethical standards to run successful future dental practices through faculty and clinician collaboration.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-undergraduate-moot-court-team": {
+    "interests": [
+      "policy",
+      "writing"
+    ],
+    "activities": [
+      "competition",
+      "career_prep",
+      "learning_workshops"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "moot court",
+      "legal briefs",
+      "appellate advocacy",
+      "oral arguments",
+      "pre-law",
+      "law school preparation",
+      "competitive speaking"
+    ],
+    "summary": "Members participate in moot court competitions by writing legal briefs and presenting oral arguments before judges and attorneys.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "kurdish-students-at-penn": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "kurdish culture",
+      "cultural exchange",
+      "kurdish language",
+      "kurdish music",
+      "kurdish dance",
+      "middle eastern"
+    ],
+    "summary": "Members celebrate and share Kurdish culture through language, music, dance, traditions, cultural gatherings, academic discussions, and social events.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "langfitt": {
+    "interests": [
+      "health"
+    ],
+    "activities": [
+      "career_prep",
+      "learning_workshops",
+      "research"
+    ],
+    "commitment": "low",
+    "commitment_evidence": "there are no formal requirements for general membership",
+    "beginner_friendly": "yes",
+    "beginner_evidence": "No prior experience or knowledge of neurosurgery is required.",
+    "keywords": [
+      "neurosurgery",
+      "medical students",
+      "surgery",
+      "clinical experience",
+      "healthcare"
+    ],
+    "summary": "Members explore neurosurgery through educational workshops, research initiatives, and mentorship programs tailored for future medical professionals.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "latinx": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "latinx community",
+      "umbrella organization",
+      "student governance",
+      "latinx student organizations",
+      "community events"
+    ],
+    "summary": "The Latinx Coalition serves as the umbrella organization uniting Latinx student groups, representing the community administratively, and coordinating community events.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fine-arts-design": {
+    "interests": [
+      "arts"
+    ],
+    "activities": [
+      "performance",
+      "building_projects",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "yes",
+    "beginner_evidence": "We welcome all who are artists and/or willing to learn more",
+    "keywords": [
+      "fine arts",
+      "design",
+      "screenprinting",
+      "exhibitions",
+      "flea markets",
+      "art board",
+      "art events"
+    ],
+    "summary": "Members organize and participate in extracurricular art and design events, including screenprinting, exhibitions, and flea markets.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-carey-law-veterans-club": {
+    "interests": [
+      "policy",
+      "culture"
+    ],
+    "activities": [
+      "career_prep",
+      "social_events",
+      "mentorship"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "military veteran",
+      "law veterans",
+      "veteran recruiting",
+      "veteran fellowship",
+      "penn carey law"
+    ],
+    "summary": "Members promote military veteran recruiting, provide veteran fellowship, and advocate for veteran interests at Penn Carey Law.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "wharton-femtech-club": {
+    "interests": [
+      "tech",
+      "health",
+      "entre",
+      "finance"
+    ],
+    "activities": [
+      "career_prep",
+      "learning_workshops",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "femtech",
+      "female health",
+      "wellness",
+      "entrepreneurship",
+      "women in tech",
+      "health tech"
+    ],
+    "summary": "Members learn about, explore, and pursue professional opportunities in the female health and wellness technology space.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "entrepreneurship-club": {
+    "interests": [
+      "entre"
+    ],
+    "activities": [],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "entrepreneurship",
+      "business",
+      "startup ecosystem",
+      "wharton"
+    ],
+    "summary": "Fosters an entrepreneurial ecosystem for Wharton MBA students.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "dancemovement-grad-lab": {
+    "interests": [
+      "arts"
+    ],
+    "activities": [
+      "building_projects",
+      "learning_workshops"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "dance",
+      "movement",
+      "contemporary dance",
+      "ballet",
+      "graduate students",
+      "creative tasks",
+      "training"
+    ],
+    "summary": "Graduate students participate in warm-ups, classical and contemporary dance training, and exploratory movement tasks for creative expression and balance.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-enchord-a-cappella": {
+    "interests": [
+      "arts",
+      "culture"
+    ],
+    "activities": [
+      "performance"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "a cappella",
+      "singing",
+      "chinese-western fusion",
+      "fusion a cappella",
+      "vocal group",
+      "music",
+      "concert"
+    ],
+    "summary": "Members sing in a Chinese-Western fusion a cappella group, arrange original songs, and perform at semester concerts and campus events.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "brazil-club": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "brazil club",
+      "brazilian culture",
+      "latinx coalition",
+      "cultural events",
+      "brazilian student group"
+    ],
+    "summary": "Promotes Brazilian culture within the university community through fun cultural events held throughout the semester.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "wharton-pub": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "medium",
+    "commitment_evidence": "bring the MBA community together each week",
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "mba pub",
+      "wharton mba",
+      "graduate student events",
+      "networking",
+      "social gatherings"
+    ],
+    "summary": "Members gather weekly over food and drinks to unwind, mingle, and connect with other MBA students, professors, and alumni.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-paraguayan-association": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "paraguay",
+      "paraguayan",
+      "latin america",
+      "cultural"
+    ],
+    "summary": "Paraguayan students at Penn build community, share food, and converse regularly.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "upstream": {
+    "interests": [
+      "arts",
+      "science",
+      "climate"
+    ],
+    "activities": [
+      "building_projects",
+      "learning_workshops"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "publishing collective",
+      "print publications",
+      "digital publications",
+      "cross-disciplinary exchange",
+      "collaborative writing",
+      "workshops",
+      "graduate student group"
+    ],
+    "summary": "Upstream is a graduate publishing collective engaging in cross-disciplinary study, workshops, and experimental print and digital publications.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-carey-law-real-estate-club": {
+    "interests": [
+      "finance"
+    ],
+    "activities": [
+      "career_prep",
+      "mentorship"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "real estate",
+      "law and business",
+      "industry networking",
+      "mentorship program",
+      "real estate industry"
+    ],
+    "summary": "Law students interested in real estate participate in meetings, panel discussions, informal activities, and a mentorship program with industry professionals.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "latter-day-saint-student-association": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "latter-day saint",
+      "mormon",
+      "spiritual well-being",
+      "religious community",
+      "church of jesus christ"
+    ],
+    "summary": "Promotes spiritual well-being and community among Latter-day Saint students and their peers through welcoming activities.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "immigration-and-asylum-law-club": {
+    "interests": [
+      "policy"
+    ],
+    "activities": [
+      "career_prep",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "immigration law",
+      "asylum law",
+      "refugee law",
+      "law school",
+      "legal"
+    ],
+    "summary": "Serves as the academic, professional, and social hub for immigration, asylum, and refugee law for interested students.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "philadelphia-oral-care-cancer-5kwalk": {
+    "interests": [
+      "health",
+      "impact"
+    ],
+    "activities": [
+      "advocacy"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "oral cancer",
+      "5k",
+      "walk",
+      "fundraiser",
+      "penn dental medicine"
+    ],
+    "summary": "Students organize an annual walk and 5K to raise awareness and funds for oral cancer research.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2029-class-board": {
+    "interests": [],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "student government",
+      "class board",
+      "class of 2029",
+      "campus traditions",
+      "student events"
+    ],
+    "summary": "Connects, supports, and unites the Class of 2029 through engaging events and campus traditions as part of student government.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "thai-students-association": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events",
+      "performance"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "thai culture",
+      "thai night",
+      "asian pacific student coalition",
+      "cultural community",
+      "thai heritage"
+    ],
+    "summary": "Members build a close-knit Thai community and celebrate heritage by organizing cultural events and the signature Thai Night showcase.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-med-symphony-orchestra": {
+    "interests": [
+      "arts",
+      "health"
+    ],
+    "activities": [
+      "performance"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "yes",
+    "beginner_evidence": "We are open to all skill levels and experiences",
+    "keywords": [
+      "orchestra",
+      "music",
+      "med student orchestra",
+      "symphony",
+      "health sciences music"
+    ],
+    "summary": "Members of the Penn Medicine community play music together in a student orchestra regardless of prior skill level.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "hispanic-dental-student-association": {
+    "interests": [
+      "culture",
+      "health"
+    ],
+    "activities": [
+      "volunteering",
+      "advocacy"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "dental medicine",
+      "oral health",
+      "hispanic community",
+      "community outreach",
+      "health equity"
+    ],
+    "summary": "Members advance oral health and health equity within Hispanic and underserved communities through education, community outreach, and professional development.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "hawaii-club": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "hawaii",
+      "hawaiian culture",
+      "ohana",
+      "aloha",
+      "cultural community"
+    ],
+    "summary": "Members celebrate, explore, and share the culture, history, and traditions of Hawaiʻi through community events.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-carey-law-softball-club": {
+    "interests": [
+      "sports"
+    ],
+    "activities": [
+      "competition",
+      "social_events"
+    ],
+    "commitment": "low",
+    "commitment_evidence": "meet for intermittent practices throughout the year",
+    "beginner_friendly": "yes",
+    "beginner_evidence": "fields multiple competitive and casual teams",
+    "keywords": [
+      "softball",
+      "law school softball",
+      "club sports",
+      "uva law tournament",
+      "recreational softball"
+    ],
+    "summary": "Law students play recreational and competitive softball, practice intermittently, and compete in the annual UVA Law School Softball Tournament.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "wharton-marketing-club": {
+    "interests": [],
+    "activities": [
+      "career_prep",
+      "learning_workshops"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "marketing",
+      "recruiters",
+      "marketing careers",
+      "marketing education",
+      "networking"
+    ],
+    "summary": "Connects students with alumni, faculty, and recruiters to provide education and career opportunities in marketing.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "wharton-africa-students-association-wasa": {
+    "interests": [
+      "culture",
+      "finance"
+    ],
+    "activities": [
+      "career_prep",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "wharton",
+      "africa",
+      "african affairs",
+      "employment",
+      "networking"
+    ],
+    "summary": "Members engage in educational and cultural programming, career treks, and networking events focused on Africa-related activities.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "wharton-beauty-club": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "beauty",
+      "makeup",
+      "skincare",
+      "wharton"
+    ],
+    "summary": "Members bond and connect over their shared interest in beauty, makeup, and skincare.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "wharton-caribbean-business-club-caribiz": {
+    "interests": [
+      "finance",
+      "culture",
+      "policy"
+    ],
+    "activities": [
+      "career_prep",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "caribbean business",
+      "investment ecosystem",
+      "diaspora leaders",
+      "wharton mba",
+      "st. lucia trek",
+      "policy",
+      "innovation"
+    ],
+    "summary": "Connects Wharton members with the Caribbean's investment ecosystem, business operators, and leaders through treks, panels, and networking.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "osaphilly": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "omani culture",
+      "cultural exchange",
+      "international students",
+      "english language program",
+      "omani student organization"
+    ],
+    "summary": "The Omani Student Organization promotes Omani culture and traditions through cultural festivals, lectures, and workshops for the Penn community.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "onyx-senior-honor-society": {
+    "interests": [
+      "culture",
+      "impact"
+    ],
+    "activities": [
+      "volunteering",
+      "learning_workshops",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "senior honor society",
+      "academic excellence",
+      "leadership",
+      "community service",
+      "alumni engagement",
+      "academic support"
+    ],
+    "summary": "Members demonstrate academic excellence and leadership, engaging in community service, academic support workshops, and alumni networking.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "run-club": {
+    "interests": [
+      "sports",
+      "health"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "running",
+      "run club",
+      "fitness",
+      "wellness",
+      "law school sports"
+    ],
+    "summary": "Members of all paces come together to run, reset, and support each other while building community and well-being.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "wharton-private-equity-venture-capital-club-pevc": {
+    "interests": [
+      "finance",
+      "entre"
+    ],
+    "activities": [
+      "career_prep",
+      "learning_workshops"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "yes",
+    "beginner_evidence": "whether or not they have prior PE or VC experience",
+    "keywords": [
+      "private equity",
+      "venture capital",
+      "growth equity",
+      "private credit",
+      "investing",
+      "finance"
+    ],
+    "summary": "Members learn about private equity and venture capital, build industry connections, and pursue careers in the investment space.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "summit-for-scientific-proposals-at-penn-sp2": {
+    "interests": [
+      "science"
+    ],
+    "activities": [
+      "competition",
+      "learning_workshops"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "research conference",
+      "undergraduate research",
+      "poster sessions",
+      "grant-proposal competition",
+      "academic conference"
+    ],
+    "summary": "Members organize the National Research Conference at Penn, an annual event featuring poster sessions, pitch competitions, and keynote speakers for undergraduate researchers.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "black-student-athletes-at-penn": {
+    "interests": [
+      "sports",
+      "culture",
+      "impact"
+    ],
+    "activities": [
+      "advocacy",
+      "mentorship",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "black student athletes",
+      "penn athletics",
+      "community support",
+      "advocacy",
+      "academic excellence"
+    ],
+    "summary": "Black Student-Athletes at Penn fosters a supportive network for Black student-athletes to succeed academically and athletically while advocating for inclusivity.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "lambda": {
+    "interests": [
+      "culture",
+      "policy",
+      "impact"
+    ],
+    "activities": [
+      "advocacy"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "queer organizations",
+      "lgbtq+",
+      "umbrella organization",
+      "advocacy",
+      "social equality"
+    ],
+    "summary": "Lambda Alliance is an umbrella advocacy student group for queer organizations and clubs advancing social equality and LGBTQ+ friendly environments.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "sgi-buddhist-club-at-penn": {
+    "interests": [
+      "culture"
+    ],
+    "activities": [
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "buddhism",
+      "buddhist",
+      "nichiren buddhism",
+      "sgi",
+      "meditation",
+      "spirituality",
+      "peace and nonviolence"
+    ],
+    "summary": "Members explore Nichiren Buddhism teachings, practice chanting Nam-Myoho-Renge-Kyo, and foster a culture of peace, nonviolence, and personal potential.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bioethics-journal": {
+    "interests": [
+      "science",
+      "health",
+      "policy",
+      "writing"
+    ],
+    "activities": [
+      "building_projects"
+    ],
+    "commitment": "medium",
+    "commitment_evidence": "Members attend hour-long weekly editorial discussion meetings",
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "bioethics",
+      "journal",
+      "peer-reviewed",
+      "medical ethics",
+      "publishing",
+      "editorial board",
+      "undergraduate research"
+    ],
+    "summary": "Members review, edit, and publish undergraduate and graduate papers on bioethics topics as part of the editorial board.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "sac": {
+    "interests": [
+      "policy"
+    ],
+    "activities": [
+      "advocacy"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "student government",
+      "funding",
+      "student organizations",
+      "budget allocation",
+      "activities fair"
+    ],
+    "summary": "Allocates funding and provides support to student organizations at Penn, while representing their interests to the university administration.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "penn-namla": {
+    "interests": [
+      "arts",
+      "impact"
+    ],
+    "activities": [
+      "career_prep",
+      "learning_workshops",
+      "mentorship"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "landscape architecture",
+      "minority representation",
+      "design",
+      "networking",
+      "portfolio workshops",
+      "mentorship",
+      "diversity"
+    ],
+    "summary": "Members grow minority representation in landscape architecture through networking events, portfolio workshops, mock interviews, mentorship, and career support.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "south-asian-law-students-association": {
+    "interests": [
+      "culture",
+      "policy"
+    ],
+    "activities": [
+      "mentorship"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "south asian law students",
+      "law school affinity group",
+      "south asian heritage",
+      "legal mentorship",
+      "law students association"
+    ],
+    "summary": "An affinity group providing community, mentorship, and cultural connection for law students identifying with South Asian heritage.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "oral-hope": {
+    "interests": [
+      "impact",
+      "health"
+    ],
+    "activities": [
+      "volunteering",
+      "advocacy"
+    ],
+    "commitment": "low",
+    "commitment_evidence": "monthly volunteer sessions",
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "oral health",
+      "dental medicine",
+      "volunteer",
+      "community service",
+      "healthcare access"
+    ],
+    "summary": "Dental students raise awareness of oral health and provide education, materials, and referrals to vulnerable populations during monthly volunteer sessions.",
+    "model": "gemini-3.5-flash-lite"
   }
 }
