@@ -1528,8 +1528,18 @@ function loadProgs(){
 }
 function progById(id){ return (id && PROGS.data && PROGS.data.programs.find(p => p.id === id)) || null; }
 function homeDept(){ const p = progById(S.plan.conc1); return (p && p.home) || S.plan.conc || ''; }
+function groupTest(g){
+  if(g.kind === 'dept') return x => {
+    const parts = x.code.split(' '), n = parseInt(parts[1], 10);
+    return g.depts.indexOf(parts[0]) >= 0 && (!g.min || n >= g.min) && (!g.max || n <= g.max);
+  };
+  if(g.kind === 'attr') return x => hasAttr(x, g.attr);
+  const codes = new Set(g.courses.flatMap(c => [c.code].concat(c.alts || [])));
+  return x => codes.has(x.code);
+}
 function matchProgram(prog, pool){
   const used = new Set(), out = {groups:[], have:0};
+  let sum = 0;
   prog.groups.forEach(g => {
     const e = {g, matched:[], have:0};
     if(g.kind === 'required'){
@@ -1539,17 +1549,19 @@ function matchProgram(prog, pool){
         if(hit){ used.add(hit.key); e.matched.push({course:hit, req:c}); e.have += +hit.cu || c.cu || 1; }
       });
     } else {
-      const codes = new Set(g.courses.flatMap(c => [c.code].concat(c.alts || [])));
+      const ok = groupTest(g);
       for(const x of pool){
         if(e.have >= g.need) break;
-        if(!used.has(x.key) && codes.has(x.code)){ used.add(x.key); e.matched.push({course:x}); e.have += +x.cu || 1; }
+        if(!used.has(x.key) && ok(x)){ used.add(x.key); e.matched.push({course:x}); e.have += +x.cu || 1; }
       }
     }
     out.groups.push(e);
-    out.have += Math.min(e.have, g.need);
+    sum += e.have;
   });
+  out.have = Math.min(prog.cu || sum, sum);
   return out;
 }
+function courseTitle(code){ const r = recFor(code); return r ? (r.title || '') : ''; }
 function progBlock(pr){
   const p = pr.prog, m = pr.m;
   const warn = p.review_note ? `<p class="rwarn">${esc(p.review_note)}</p>` : '';
@@ -1557,12 +1569,23 @@ function progBlock(pr){
   const notes = (p.notes || []).map(n => `<p class="rnote">${esc(n)}</p>`).join('');
   const groups = m.groups.map(e => {
     const g = e.g, hit = new Set(e.matched.map(x => x.course.code));
-    const title = g.title || (g.kind === 'pick' ? 'Choose from this list' : 'Required courses');
-    const line = g.kind === 'pick' ? `Select ${g.need} CU. ${Math.min(e.have, g.need)} of ${g.need} CU in your plan.` : `Required. ${e.matched.length} of ${g.courses.length} in your plan.`;
+    const title = g.title || (g.kind === 'required' ? 'Required courses' : 'Choose from this list');
+    const line = g.kind === 'required' ? `Required. ${e.matched.length} of ${g.courses.length} in your plan.` : `Select ${g.need} CU. ${Math.min(e.have, g.need)} of ${g.need} CU in your plan.`;
     const matched = e.matched.map(x => `<li class="ok">${esc(x.course.code)} ${esc(x.course.title)} <small>${x.course.done ? 'done' : 'planned'}</small></li>`).join('');
-    const rest = g.courses.filter(c => ![c.code].concat(c.alts || []).some(cd => hit.has(cd)));
-    const opts = rest.map(c => `<button class="lk" type="button" data-ropt="${esc(c.code)}" title="${esc(c.title)}">${esc(c.code)}</button>`).join('');
-    return `<div class="pgroup"><h3>${esc(title)}</h3><p class="rmeta">${esc(line)}</p>${matched ? `<ul class="pm">${matched}</ul>` : ''}${rest.length ? `<details><summary>${g.kind === 'pick' ? rest.length + ' options' : 'Still needed'}</summary><div class="ropts" style="margin-left:0">${opts}</div></details>` : ''}</div>`;
+    let more = '';
+    if(g.kind === 'dept'){
+      more = `<div class="ropts" style="margin-left:0">${g.depts.map(optHtml).join('')}</div>`;
+      if(g.min || g.max) more = `<p class="rmeta">Course numbers ${g.min || 'any'} to ${g.max || 'any'}.</p>` + more;
+    } else if(g.kind === 'attr'){
+      const list = ATTR.by ? Object.keys(ATTR.by).filter(c => ATTR.by[c].has(g.attr) && !hit.has(c)).sort() : [];
+      more = list.length ? `<details><summary>${list.length} courses carry this attribute</summary><div class="ropts" style="margin-left:0">${list.slice(0, 80).map(c => `<button class="lk" type="button" data-ropt="${esc(c)}" title="${esc(courseTitle(c))}">${esc(c)}</button>`).join('')}</div></details>`
+        : `<p class="rmeta">The ${esc(g.attr)} list is not loaded. Save wuod.pdf into data/raw/attributes and run ingest/fetch_attributes.py.</p>`;
+    } else {
+      const rest = g.courses.filter(c => ![c.code].concat(c.alts || []).some(cd => hit.has(cd)));
+      const opts = rest.map(c => `<button class="lk" type="button" data-ropt="${esc(c.code)}" title="${esc(c.title || courseTitle(c.code))}">${esc(c.code)}</button>`).join('');
+      more = rest.length ? `<details><summary>${g.kind === 'pick' ? rest.length + ' options' : 'Still needed'}</summary><div class="ropts" style="margin-left:0">${opts}</div></details>` : '';
+    }
+    return `<div class="pgroup"><h3>${esc(title)}</h3><p class="rmeta">${esc(line)}</p>${matched ? `<ul class="pm">${matched}</ul>` : ''}${more}</div>`;
   }).join('');
   return `<section class="rcat"><h2>${esc(p.name)}</h2><p class="rmeta">${esc(pr.role)}. ${m.have} of ${p.cu} CU matched from your plan.</p>${warn}${notes}${groups}</section>`;
 }
@@ -1667,7 +1690,7 @@ function renderReq(focusSel){
   const minors = PROGS.data ? PROGS.data.programs.filter(p => p.kind === 'minor') : [];
   const opt = (list, cur, blank) => `<option value="">${blank}</option>` + list.map(p => `<option value="${esc(p.id)}"${cur === p.id ? ' selected' : ''}>${esc(p.name)}</option>`).join('');
   const concUI = concs.length
-    ? `<div class="progpick"><label class="rassign" style="margin:0">My concentration: <select data-prog="conc1">${opt(concs, S.plan.conc1, 'Not chosen yet')}</select></label>
+    ? `<div class="progpick"><label class="rassign" style="margin:0">My concentration: <select data-prog="conc1">${opt(concs.filter(p => !p.second_only), S.plan.conc1, 'Not chosen yet')}</select></label>
         <label class="rassign" style="margin:0">Second concentration: <select data-prog="conc2">${opt(concs.filter(p => p.id !== S.plan.conc1), S.plan.conc2, 'None')}</select></label>
         ${minors.length ? `<label class="rassign" style="margin:0">Add a minor: <select data-prog="minoradd">${opt(minors.filter(p => !(S.plan.minors || []).includes(p.id)), '', 'Choose one')}</select></label>` : ''}
         ${(S.plan.minors || []).map(id => { const mp = progById(id); return mp ? `<button class="lk" type="button" data-minorrm="${esc(id)}">${esc(mp.name)} (remove)</button>` : ''; }).join('')}</div>

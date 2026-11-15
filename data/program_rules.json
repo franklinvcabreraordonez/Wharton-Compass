@@ -1,0 +1,2348 @@
+{
+ "note": "Hand-written from the 2026-27 catalog sections. Each program id matches its PDF file name. parse_programs.py applies these over what it reads automatically.",
+ "rules": {
+  "accounting-bs": {
+   "home": "ACCT",
+   "groups": [
+    {
+     "kind": "required",
+     "title": "Required course",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "ACCT 2120",
+       "title": "",
+       "alts": [],
+       "cu": 1
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Choose three",
+     "need": 3.0,
+     "courses": [
+      {
+       "code": "ACCT 2420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ACCT 2430",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ACCT 2640",
+       "title": "",
+       "alts": [
+        "BEPP 2640"
+       ]
+      },
+      {
+       "code": "ACCT 2700",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ACCT 2900",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ACCT 2970",
+       "title": "",
+       "alts": [
+        "FNCE 2970"
+       ]
+      },
+      {
+       "code": "ACCT 3990",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2070",
+       "title": "",
+       "alts": []
+      }
+     ]
+    }
+   ]
+  },
+  "artificial-intelligence-business-bs": {
+   "home": "OIDD",
+   "groups": [
+    {
+     "kind": "required",
+     "title": "Foundational Methods: required course",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "STAT 4230",
+       "title": "",
+       "alts": [],
+       "cu": 1
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Foundational Methods: one more course unit",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "FNCE 2370",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2800",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "HCMG 3570",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2370",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2680",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2210",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3140",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3190",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3250",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 4690",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 4770",
+       "title": "",
+       "alts": [
+        "STAT 4770"
+       ]
+      },
+      {
+       "code": "STAT 4240",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4710",
+       "title": "",
+       "alts": [
+        "STAT 5710"
+       ]
+      },
+      {
+       "code": "STAT 4730",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4810",
+       "title": "",
+       "alts": [
+        "OIDD 4810"
+       ]
+      },
+      {
+       "code": "STAT 4850",
+       "title": "",
+       "alts": []
+      }
+     ]
+    },
+    {
+     "kind": "required",
+     "title": "Impact and Ethics: required course",
+     "need": 0.5,
+     "courses": [
+      {
+       "code": "LGST 2420",
+       "title": "",
+       "alts": [],
+       "cu": 0.5
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Impact and Ethics: one and a half more course units",
+     "need": 1.5,
+     "courses": [
+      {
+       "code": "LGST 2990",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2140",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2340",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2270",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2360",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2430",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2790",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2550",
+       "title": "",
+       "alts": []
+      }
+     ]
+    }
+   ]
+  },
+  "behavioral-economics-bs": {
+   "home": "BEPP",
+   "groups": [
+    {
+     "kind": "required",
+     "title": "Required courses",
+     "need": 2.0,
+     "courses": [
+      {
+       "code": "BEPP 2200",
+       "title": "",
+       "alts": [],
+       "cu": 1
+      },
+      {
+       "code": "OIDD 2900",
+       "title": "",
+       "alts": [],
+       "cu": 1
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Behavioral economics electives",
+     "need": 2.0,
+     "courses": [
+      {
+       "code": "BEPP 2010",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "BEPP 2610",
+       "title": "",
+       "alts": [
+        "FNCE 2610",
+        "OIDD 2610"
+       ]
+      },
+      {
+       "code": "BEPP 2840",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "BEPP 3050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ECON 4100",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ECON 4140",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2390",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2110",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2910",
+       "title": "",
+       "alts": [
+        "MGMT 2910",
+        "LGST 2910"
+       ]
+      },
+      {
+       "code": "OIDD 2920",
+       "title": "",
+       "alts": [
+        "LGST 2920"
+       ]
+      },
+      {
+       "code": "OIDD 3190",
+       "title": "",
+       "alts": []
+      }
+     ]
+    }
+   ]
+  },
+  "business-analytics-bs": {
+   "home": "OIDD",
+   "groups": [
+    {
+     "kind": "pick",
+     "title": "Advanced Data Analysis competency",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "ACCT 2700",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "BEPP 2800",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "CIS 4190",
+       "title": "",
+       "alts": [
+        "CIS 5190"
+       ]
+      },
+      {
+       "code": "CIS 5190",
+       "title": "",
+       "alts": [
+        "CIS 4190"
+       ]
+      },
+      {
+       "code": "CIS 5200",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "CIS 2450",
+       "title": "",
+       "alts": [
+        "CIS 5450"
+       ]
+      },
+      {
+       "code": "CIS 5450",
+       "title": "",
+       "alts": [
+        "CIS 2450"
+       ]
+      },
+      {
+       "code": "COMM 3130",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ESE 3050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ESE 3060",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2170",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2370",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2800",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "HCMG 3570",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2930",
+       "title": "",
+       "alts": [
+        "OIDD 2930"
+       ]
+      },
+      {
+       "code": "MKTG 2120",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2270",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 3090",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 4760",
+       "title": "",
+       "alts": [
+        "STAT 4760"
+       ]
+      },
+      {
+       "code": "OIDD 2200",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2550",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3140",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3150",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3190",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 4690",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 4770",
+       "title": "",
+       "alts": [
+        "STAT 4770"
+       ]
+      },
+      {
+       "code": "OIDD 5250",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "REAL 3700",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4220",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4230",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4310",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4350",
+       "title": "",
+       "alts": [
+        "STAT 5350"
+       ]
+      },
+      {
+       "code": "STAT 4420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4700",
+       "title": "",
+       "alts": [
+        "STAT 5030"
+       ]
+      },
+      {
+       "code": "STAT 4710",
+       "title": "",
+       "alts": [
+        "STAT 5710"
+       ]
+      },
+      {
+       "code": "STAT 4750",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4770",
+       "title": "",
+       "alts": [
+        "OIDD 4770"
+       ]
+      },
+      {
+       "code": "STAT 5200",
+       "title": "",
+       "alts": []
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Data Collection competency",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "ACCT 2700",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "CIS 4500",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "CIS 5450",
+       "title": "",
+       "alts": [
+        "CIS 2450"
+       ]
+      },
+      {
+       "code": "COMM 3130",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2370",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "HCMG 3570",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2930",
+       "title": "",
+       "alts": [
+        "OIDD 2930"
+       ]
+      },
+      {
+       "code": "MKTG 3090",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 1050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2550",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3140",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3150",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3190",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 4690",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 4770",
+       "title": "",
+       "alts": [
+        "STAT 4770"
+       ]
+      },
+      {
+       "code": "OIDD 5250",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "REAL 3700",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4100",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4220",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4350",
+       "title": "",
+       "alts": [
+        "STAT 5350"
+       ]
+      },
+      {
+       "code": "STAT 4700",
+       "title": "",
+       "alts": [
+        "STAT 5030"
+       ]
+      },
+      {
+       "code": "STAT 4710",
+       "title": "",
+       "alts": [
+        "STAT 5710"
+       ]
+      },
+      {
+       "code": "STAT 4750",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4770",
+       "title": "",
+       "alts": [
+        "OIDD 4770"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Optimization competency",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "ESE 3060",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ESE 5060",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2170",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2200",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2210",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2360",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 5250",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4350",
+       "title": "",
+       "alts": [
+        "STAT 5350"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "One more course unit from any list above, or from the extra list",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "ACCT 2700",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "BEPP 2800",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "CIS 4190",
+       "title": "",
+       "alts": [
+        "CIS 5190"
+       ]
+      },
+      {
+       "code": "CIS 5190",
+       "title": "",
+       "alts": [
+        "CIS 4190"
+       ]
+      },
+      {
+       "code": "CIS 5200",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "CIS 2450",
+       "title": "",
+       "alts": [
+        "CIS 5450"
+       ]
+      },
+      {
+       "code": "CIS 5450",
+       "title": "",
+       "alts": [
+        "CIS 2450"
+       ]
+      },
+      {
+       "code": "COMM 3130",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ESE 3050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ESE 3060",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2170",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2370",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2800",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "HCMG 3570",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2930",
+       "title": "",
+       "alts": [
+        "OIDD 2930"
+       ]
+      },
+      {
+       "code": "MKTG 2120",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2270",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 3090",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 4760",
+       "title": "",
+       "alts": [
+        "STAT 4760"
+       ]
+      },
+      {
+       "code": "OIDD 2200",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2550",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3140",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3150",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3190",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 4690",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 4770",
+       "title": "",
+       "alts": [
+        "STAT 4770"
+       ]
+      },
+      {
+       "code": "OIDD 5250",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "REAL 3700",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4220",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4230",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4310",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4350",
+       "title": "",
+       "alts": [
+        "STAT 5350"
+       ]
+      },
+      {
+       "code": "STAT 4420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4700",
+       "title": "",
+       "alts": [
+        "STAT 5030"
+       ]
+      },
+      {
+       "code": "STAT 4710",
+       "title": "",
+       "alts": [
+        "STAT 5710"
+       ]
+      },
+      {
+       "code": "STAT 4750",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4770",
+       "title": "",
+       "alts": [
+        "OIDD 4770"
+       ]
+      },
+      {
+       "code": "STAT 5200",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "CIS 4500",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 1050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4100",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ESE 5060",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2210",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2360",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ESE 3010",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3800",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4300",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4330",
+       "title": "",
+       "alts": []
+      }
+     ]
+    }
+   ]
+  },
+  "entrepreneurship-innovation-bs": {
+   "home": "MGMT",
+   "review_note": "Catalog structure: a foundation (MGMT 2300, plus one of MGMT 2120 or MGMT 2670), then three course units from the approved lists, with at least one from Entrepreneurial Activity Within Organizations and at least one from the Ecosystem Surrounding the Organization. Compass checks the 4 CU total against the combined list, not those minimums."
+  },
+  "impact-value-sustainable-business-bs": {
+   "home": "LGST",
+   "notes": [
+    "Social and Governance track (catalog): at least 3 CU from the Social and Governance list, and up to 1 CU from the full approved list. Environmental track (program website): at least 2 CU from the Environmental list. Compass checks the 4 CU total, not the track minimums.",
+    "Up to 1 CU may come from the pre-approved list of courses outside Wharton, such as EAS, ENMG, ENVS, and MSE courses."
+   ],
+   "groups": [
+    {
+     "kind": "pick",
+     "title": "Four course units from the approved lists",
+     "need": 4.0,
+     "courses": [
+      {
+       "code": "ACCT 2640",
+       "title": "",
+       "alts": [
+        "BEPP 2640"
+       ]
+      },
+      {
+       "code": "BEPP 2640",
+       "title": "",
+       "alts": [
+        "ACCT 2640"
+       ]
+      },
+      {
+       "code": "FNCE 2610",
+       "title": "",
+       "alts": [
+        "BEPP 2610",
+        "OIDD 2610"
+       ]
+      },
+      {
+       "code": "BEPP 2610",
+       "title": "",
+       "alts": [
+        "FNCE 2610",
+        "OIDD 2610"
+       ]
+      },
+      {
+       "code": "OIDD 2610",
+       "title": "",
+       "alts": [
+        "FNCE 2610",
+        "BEPP 2610"
+       ]
+      },
+      {
+       "code": "BEPP 2630",
+       "title": "",
+       "alts": [
+        "OIDD 2630"
+       ]
+      },
+      {
+       "code": "OIDD 2630",
+       "title": "",
+       "alts": [
+        "BEPP 2630"
+       ]
+      },
+      {
+       "code": "LGST 2150",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2600",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 8970",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 5250",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ACCT 2700",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "BEPP 2010",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "BEPP 2300",
+       "title": "",
+       "alts": [
+        "FNCE 2300",
+        "REAL 2300"
+       ]
+      },
+      {
+       "code": "FNCE 2300",
+       "title": "",
+       "alts": [
+        "BEPP 2300",
+        "REAL 2300"
+       ]
+      },
+      {
+       "code": "REAL 2300",
+       "title": "",
+       "alts": [
+        "BEPP 2300",
+        "FNCE 2300"
+       ]
+      },
+      {
+       "code": "FNCE 2540",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 4020",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2020",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2080",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2160",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2180",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2190",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2200",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2240",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2260",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2300",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2430",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2090",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2120",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2240",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2410",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 3530",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "CBE 5050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "EAS 3010",
+       "title": "",
+       "alts": [
+        "EAS 5010"
+       ]
+      },
+      {
+       "code": "EAS 5010",
+       "title": "",
+       "alts": [
+        "EAS 3010"
+       ]
+      },
+      {
+       "code": "EAS 3060",
+       "title": "",
+       "alts": [
+        "EAS 5060"
+       ]
+      },
+      {
+       "code": "EAS 5060",
+       "title": "",
+       "alts": [
+        "EAS 3060"
+       ]
+      },
+      {
+       "code": "EAS 4020",
+       "title": "",
+       "alts": [
+        "EAS 5020"
+       ]
+      },
+      {
+       "code": "EAS 5020",
+       "title": "",
+       "alts": [
+        "EAS 4020"
+       ]
+      },
+      {
+       "code": "EAS 5050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ENMG 5120",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ENMG 5400",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ENVS 6300",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ENVS 6530",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "ENVS 6550",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LAW 9190",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MSE 5480",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MSE 7900",
+       "title": "",
+       "alts": []
+      }
+     ]
+    }
+   ]
+  },
+  "individualized-bs": {
+   "home": "",
+   "review_note": "You design this concentration yourself: four course units united by a common theme, planned with the concentration advisor. See the catalog page for the steps.",
+   "groups": []
+  },
+  "leading-across-differences-bs": {
+   "home": "MGMT",
+   "groups": [
+    {
+     "kind": "pick",
+     "title": "Foundational courses (at least 1.5 CU)",
+     "need": 1.5,
+     "courses": [
+      {
+       "code": "LGST 2420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2240",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2280",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2390",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2950",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2380",
+       "title": "",
+       "alts": []
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Remaining 2.5 CU, from the foundational list or this list",
+     "need": 2.5,
+     "courses": [
+      {
+       "code": "LGST 2420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2240",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2280",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2390",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2950",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2380",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2080",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "LGST 2180",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2410",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2910",
+       "title": "",
+       "alts": [
+        "OIDD 2910",
+        "LGST 2910"
+       ]
+      },
+      {
+       "code": "MGMT 2930",
+       "title": "",
+       "alts": [
+        "OIDD 2930"
+       ]
+      },
+      {
+       "code": "OIDD 2900",
+       "title": "",
+       "alts": []
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "With permission from the Management Department faculty advisor, up to 1 CU may come from Global Modular Courses, research theses, independent studies, or related College coursework. Compass does not count those."
+   ]
+  },
+  "management-general-track-bs": {
+   "home": "MGMT",
+   "notes": [
+    "The catalog adds footnotes about exceptions. Check the catalog page if a course does not count here."
+   ],
+   "groups": [
+    {
+     "kind": "dept",
+     "title": "Any four course units of MGMT courses",
+     "need": 4.0,
+     "depts": [
+      "MGMT"
+     ]
+    }
+   ]
+  },
+  "management-multinational-management-track-bs": {
+   "home": "MGMT",
+   "groups": [
+    {
+     "kind": "required",
+     "title": "Required",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "MGMT 1110",
+       "title": "",
+       "alts": [],
+       "cu": 1
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Choose at least 2 CU",
+     "need": 2.0,
+     "courses": [
+      {
+       "code": "MGMT 1170",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2090",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2750",
+       "title": "",
+       "alts": [
+        "MGMT 8750"
+       ]
+      },
+      {
+       "code": "MGMT 2880",
+       "title": "",
+       "alts": []
+      }
+     ]
+    },
+    {
+     "kind": "dept",
+     "title": "Any MGMT elective worth 1 CU",
+     "need": 1.0,
+     "depts": [
+      "MGMT"
+     ]
+    }
+   ]
+  },
+  "management-organizational-effectiveness-track-bs": {
+   "home": "MGMT",
+   "groups": [
+    {
+     "kind": "pick",
+     "title": "Choose at least 3 CU",
+     "need": 3.0,
+     "courses": [
+      {
+       "code": "MGMT 2240",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2280",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2380",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2390",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2430",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2480",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2910",
+       "title": "",
+       "alts": [
+        "OIDD 2910",
+        "LGST 2910"
+       ]
+      },
+      {
+       "code": "MGMT 2930",
+       "title": "",
+       "alts": [
+        "OIDD 2930"
+       ]
+      },
+      {
+       "code": "MGMT 2950",
+       "title": "",
+       "alts": []
+      }
+     ]
+    },
+    {
+     "kind": "dept",
+     "title": "Any MGMT elective worth 1 CU (numbered 1011 to 4180)",
+     "need": 1.0,
+     "depts": [
+      "MGMT"
+     ],
+     "min": 1011,
+     "max": 4180
+    }
+   ]
+  },
+  "management-strategic-management-track-bs": {
+   "home": "MGMT",
+   "groups": [
+    {
+     "kind": "required",
+     "title": "Required",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "MGMT 2230",
+       "title": "",
+       "alts": [],
+       "cu": 1
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Choose at least 2 CU",
+     "need": 2.0,
+     "courses": [
+      {
+       "code": "MGMT 2110",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2140",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2250",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2370",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2490",
+       "title": "",
+       "alts": []
+      }
+     ]
+    },
+    {
+     "kind": "dept",
+     "title": "Any MGMT elective worth 1 CU",
+     "need": 1.0,
+     "depts": [
+      "MGMT"
+     ]
+    }
+   ]
+  },
+  "marketing-bs": {
+   "home": "MKTG",
+   "notes": [
+    "Some courses carry footnote conditions in the catalog, such as experimental or special-topic status. Check the catalog page if a course does not count."
+   ],
+   "groups": [
+    {
+     "kind": "required",
+     "title": "Required",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "MKTG 2110",
+       "title": "",
+       "alts": [],
+       "cu": 1
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Select one",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "MKTG 2120",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 3090",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 4710",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 4760",
+       "title": "",
+       "alts": [
+        "STAT 4760"
+       ]
+      },
+      {
+       "code": "MKTG 9400",
+       "title": "",
+       "alts": [
+        "MKTG 9410"
+       ]
+      },
+      {
+       "code": "MKTG 9410",
+       "title": "",
+       "alts": [
+        "MKTG 9400"
+       ]
+      },
+      {
+       "code": "MKTG 9420",
+       "title": "",
+       "alts": [
+        "MKTG 9430"
+       ]
+      },
+      {
+       "code": "MKTG 9430",
+       "title": "",
+       "alts": [
+        "MKTG 9420"
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Select two course units",
+     "need": 2.0,
+     "courses": [
+      {
+       "code": "MKTG 2250",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2270",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2340",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2370",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2380",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2390",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2470",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2520",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2540",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2650",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2680",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2770",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2780",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2790",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2880",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 3060",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 3090",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 3990",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 4010",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 4710",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 4760",
+       "title": "",
+       "alts": [
+        "STAT 4760"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "marketing-communication-bs": {
+   "home": "MKTG",
+   "second_only": true,
+   "review_note": "This is a dual concentration: you complete the Marketing concentration, then four courses in the Annenberg School of Communication, for 8 CU in all. It cannot be your only concentration. Compass counts any COMM course here. Check the catalog page for the approved list.",
+   "groups": [
+    {
+     "kind": "dept",
+     "title": "Four courses in Communication (COMM)",
+     "need": 4.0,
+     "depts": [
+      "COMM"
+     ]
+    }
+   ]
+  },
+  "operations-information-decisions-decision-processes-track-bs": {
+   "home": "OIDD",
+   "groups": [
+    {
+     "kind": "required",
+     "title": "Required",
+     "need": 2.0,
+     "courses": [
+      {
+       "code": "OIDD 2900",
+       "title": "",
+       "alts": [],
+       "cu": 1
+      },
+      {
+       "code": "OIDD 2910",
+       "title": "",
+       "alts": [
+        "MGMT 2910",
+        "LGST 2910"
+       ],
+       "cu": 1
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Decision Processes electives",
+     "need": 2.0,
+     "courses": [
+      {
+       "code": "OIDD 2000",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2210",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2610",
+       "title": "",
+       "alts": [
+        "FNCE 2610",
+        "BEPP 2610"
+       ]
+      },
+      {
+       "code": "OIDD 2920",
+       "title": "",
+       "alts": [
+        "LGST 2920"
+       ]
+      },
+      {
+       "code": "OIDD 2990",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3190",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 4690",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "BEPP 2840",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2380",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MGMT 2950",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "FNCE 2390",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2110",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2370",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "MKTG 2380",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "PSYC 2737",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "PSYC 2750",
+       "title": "",
+       "alts": []
+      }
+     ]
+    }
+   ]
+  },
+  "operations-information-decisions-general-track-bs": {
+   "home": "OIDD",
+   "groups": [
+    {
+     "kind": "attr",
+     "title": "Four course units with the WUOD attribute",
+     "need": 4.0,
+     "attr": "WUOD"
+    }
+   ]
+  },
+  "operations-information-decisions-operations-management-science-track-bs": {
+   "home": "OIDD",
+   "groups": [
+    {
+     "kind": "required",
+     "title": "Required",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "OIDD 2200",
+       "title": "",
+       "alts": [
+        "OIDD 2210"
+       ],
+       "cu": 1
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Operations Management / Management Science electives",
+     "need": 3.0,
+     "courses": [
+      {
+       "code": "OIDD 2200",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2210",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 2360",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 3800",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 4150",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "OIDD 6970",
+       "title": "",
+       "alts": []
+      }
+     ]
+    }
+   ]
+  },
+  "real-estate-bs": {
+   "home": "REAL",
+   "groups": [
+    {
+     "kind": "required",
+     "title": "Required",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "REAL 2090",
+       "title": "",
+       "alts": [
+        "FNCE 2090"
+       ],
+       "cu": 1
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Select three course units",
+     "need": 3.0,
+     "courses": [
+      {
+       "code": "REAL 2040",
+       "title": "",
+       "alts": [
+        "LGST 2040"
+       ]
+      },
+      {
+       "code": "REAL 2050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "REAL 2080",
+       "title": "",
+       "alts": [
+        "BEPP 2080"
+       ]
+      },
+      {
+       "code": "REAL 2150",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "REAL 2300",
+       "title": "",
+       "alts": [
+        "BEPP 2300",
+        "FNCE 2300"
+       ]
+      },
+      {
+       "code": "REAL 2360",
+       "title": "",
+       "alts": [
+        "BEPP 2360"
+       ]
+      },
+      {
+       "code": "REAL 2400",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "REAL 3210",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "REAL 3700",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "REAL 3750",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "REAL 3960",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "REAL 3990",
+       "title": "",
+       "alts": []
+      }
+     ]
+    }
+   ]
+  },
+  "retailing-bs": {
+   "home": "MKTG",
+   "second_only": true,
+   "review_note": "Retailing is a secondary concentration only, so it cannot be your primary or sole concentration. It combines core retailing courses with electives from Wharton and the College. See the catalog page for the course list.",
+   "groups": []
+  },
+  "statistics-data-science-bs": {
+   "home": "STAT",
+   "groups": [
+    {
+     "kind": "required",
+     "title": "Required",
+     "need": 1.0,
+     "courses": [
+      {
+       "code": "STAT 4300",
+       "title": "",
+       "alts": [],
+       "cu": 1
+      }
+     ]
+    },
+    {
+     "kind": "pick",
+     "title": "Three more course units from the electives",
+     "need": 3.0,
+     "courses": [
+      {
+       "code": "STAT 4050",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4100",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4220",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4230",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4240",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4320",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4330",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4350",
+       "title": "",
+       "alts": [
+        "STAT 5350"
+       ]
+      },
+      {
+       "code": "STAT 4420",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4700",
+       "title": "",
+       "alts": [
+        "STAT 5030"
+       ]
+      },
+      {
+       "code": "STAT 4710",
+       "title": "",
+       "alts": [
+        "STAT 5710"
+       ]
+      },
+      {
+       "code": "STAT 4730",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4750",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4760",
+       "title": "",
+       "alts": [
+        "MKTG 4760"
+       ]
+      },
+      {
+       "code": "STAT 4770",
+       "title": "",
+       "alts": [
+        "OIDD 4770"
+       ]
+      },
+      {
+       "code": "STAT 4800",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4810",
+       "title": "",
+       "alts": [
+        "OIDD 4810"
+       ]
+      },
+      {
+       "code": "STAT 4830",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4850",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 4920",
+       "title": "",
+       "alts": []
+      },
+      {
+       "code": "STAT 5350",
+       "title": "",
+       "alts": [
+        "STAT 4350"
+       ]
+      },
+      {
+       "code": "STAT 5900",
+       "title": "",
+       "alts": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

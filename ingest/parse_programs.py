@@ -6,6 +6,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).resolve().parent.parent
 FOLDERS = {"concentration": ROOT / "data" / "raw" / "concentrations", "minor": ROOT / "data" / "raw" / "minors"}
 OUT = ROOT / "data" / "programs.json"
+RULES = ROOT / "data" / "program_rules.json"
 
 CODE = re.compile(r"^([A-Z]{2,5})\s+(\d{4})[A-Z]?\b\s*(.*)$")
 OR_CODE = re.compile(r"^or\s+([A-Z]{2,5})\s+(\d{4})[A-Z]?\b\s*(.*)$", re.I)
@@ -162,7 +163,29 @@ def parse_program(text, fallback_name="", keep=False):
 
 def read_pdf(path):
     from pypdf import PdfReader
-    return "\n".join((p.extract_text() or "") for p in PdfReader(str(path)).pages)
+    text = "\n".join((p.extract_text() or "") for p in PdfReader(str(path)).pages)
+    return text.replace("\ufb01", "fi").replace("\ufb02", "fl")
+
+
+def apply_rule(p, r):
+    """Hand-written rules (data/program_rules.json) replace what was read automatically."""
+    if "groups" in r:
+        p["groups"] = r["groups"]
+        p["cu"] = float(sum(g["need"] for g in r["groups"]))
+    if "home" in r:
+        p["home"] = r["home"]
+    if "notes" in r:
+        p["notes"] = r["notes"]
+    if r.get("second_only"):
+        p["second_only"] = True
+    note = r.get("review_note", "")
+    if note:
+        p["review_note"] = note
+        p["review"] = True
+    else:
+        p.pop("review_note", None)
+        p.pop("review", None)
+    p["rules"] = True
 
 
 def main():
@@ -193,6 +216,17 @@ def main():
             for g in p["groups"]:
                 label = f"select {g['need']:g} CU" if g["kind"] == "pick" else "required"
                 print(f"      {g['title'] or '(untitled)'}: {label} from {len(g['courses'])} courses")
+    rules = json.loads(RULES.read_text(encoding="utf-8")).get("rules", {}) if RULES.exists() else {}
+    applied = 0
+    for p in programs:
+        if p["id"] in rules:
+            apply_rule(p, rules[p["id"]])
+            applied += 1
+    unknown = [k for k in rules if k not in {p["id"] for p in programs}]
+    print(f"\nhand-written rules applied to {applied} programs" + (f" | no PDF for: {', '.join(unknown)}" if unknown else ""))
+    still = [p["name"] for p in programs if p.get("review") and not p.get("rules")]
+    if still:
+        print("still read automatically with a simplified list:", ", ".join(still))
     (ROOT / "data" / "raw" / "program_sections.txt").write_text("\n\n".join(dump), encoding="utf-8")
     OUT.write_text(json.dumps({"updated": datetime.date.today().isoformat(), "catalog": stamp, "programs": programs},
                               ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

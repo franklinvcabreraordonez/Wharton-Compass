@@ -46,7 +46,7 @@ Applications
 Impact and Ethics (I) Pillar
 Required Course
 LGST 2420 Big Data, Big Responsibilities: Toward
-Accountable Artiﬁcial Intelligence
+Accountable Artificial Intelligence
 0.5
 Complete one and a half additional course units from the
 Impact and Ethics (I) Electives:
@@ -61,7 +61,7 @@ MGMT 2430 Work and Technology: Choices and
 Outcomes
 MKTG 2790 AI in Our Lives: The Behavioral Science of
 Autonomous Technology
-OIDD 2550 Artiﬁcial Intelligence, Business, and Society
+OIDD 2550 Artificial Intelligence, Business, and Society
 
 ======================================================================
 behavioral-economics-bs.pdf
@@ -111,7 +111,7 @@ MKTG 3090 Experiments for Business Decision Making
 (Center Special Topic)
 MKTG 4760 Applied Probability Models in Marketing
 OIDD 2200 Operations Management Analytics
-OIDD 2550 Artiﬁcial Intelligence, Business, and Society
+OIDD 2550 Artificial Intelligence, Business, and Society
 OIDD 3140 Enabling Technologies
 OIDD 3150 Databases for Analytics
 OIDD 3190 Advanced Decision Systems: Evolutionary
@@ -144,7 +144,7 @@ MGMT 2930 People Analytics
 MKTG 3090 Experiments for Business Decision Making
 (Center Special Topic)
 OIDD 1050 Analytics in Excel VBA
-OIDD 2550 Artiﬁcial Intelligence, Business, and Society
+OIDD 2550 Artificial Intelligence, Business, and Society
 OIDD 3140 Enabling Technologies
 OIDD 3150 Databases for Analytics
 OIDD 3190 Advanced Decision Systems: Evolutionary
@@ -182,7 +182,7 @@ electives or the equivalent from the following:
 1
 ESE 3010 Engineering Probability
 LGST 2420 Big Data, Big Responsibilities: Toward
-Accountable Artiﬁcial Intelligence
+Accountable Artificial Intelligence
 OIDD 2210 Optimization and Analytics
 OIDD 3190 Advanced Decision Systems: Evolutionary
 Computation
@@ -416,7 +416,7 @@ Capitalism
 LGST 2300 Social Impact and Responsibility:
 Foundations
 LGST 2420 Big Data, Big Responsibilities: Toward
-Accountable Artiﬁcial Intelligence
+Accountable Artificial Intelligence
 LGST 2430 Other People's Money: The Law, Politics,
 and History of Financial Institutions
 2026-27 Catalog | Generated 09/04/26
@@ -505,10 +505,10 @@ At least 1.5 credit units must come from these foundational
 courses:
 1.5
 LGST 2420 Big Data, Big Responsibilities: Toward
-Accountable Artiﬁcial Intelligence
+Accountable Artificial Intelligence
 MGMT 2240 Leading Across Cultural and Relational
 Differences
-MGMT 2280 Navigating Difﬁcult Conversations in
+MGMT 2280 Navigating Difficult Conversations in
 Business and Beyond
 MGMT 2390 Leading and Managing Teams
 MGMT 2950 Synchrony at Work
@@ -531,7 +531,7 @@ OIDD 2900 Decision Processes
 With permission from the Management Department Faculty
 Advisor, up to 1 cu may be composed of relevant Global
 Modular Courses, Global Virtual Courses, Research Theses,
-Independent Studies with signiﬁcantly related content, or
+Independent Studies with significantly related content, or
 related coursework from the College of Arts & Sciences
 
 ======================================================================
@@ -560,7 +560,7 @@ LGST 2280 Sports Law
 LGST 2300 Social Impact and Responsibility:
 Foundations
 LGST 2420 Big Data, Big Responsibilities: Toward
-Accountable Artiﬁcial Intelligence
+Accountable Artificial Intelligence
 LGST 2430 Other People's Money: The Law, Politics,
 and History of Financial Institutions
 LGST 2910 Negotiations
@@ -590,7 +590,7 @@ management-organizational-effectiveness-track-bs.pdf
 Choose at least 3 credit units from the following: 3
 MGMT 2240 Leading Across Cultural and Relational
 Differences
-MGMT 2280 Navigating Difﬁcult Conversations in
+MGMT 2280 Navigating Difficult Conversations in
 Business and Beyond
 MGMT 2380 Organizational Behavior
 MGMT 2390 Leading and Managing Teams
@@ -686,14 +686,14 @@ to take four courses in the Annenberg School of Communication and
 have this cluster of courses recognized on their transcript as a second
 concentration.
 Students who wish to pursue a second concentration in communication
-must ﬁrst declare a primary concentration in marketing. The
+must first declare a primary concentration in marketing. The
 concentration in communication may not be used as a primary or sole
 concentration.
 For more information: https://marketing.wharton.upenn.edu/programs/
 undergraduate/marketing-and-communication-dual-concentration/
 The degree and major requirements displayed are intended as a guide
 for students entering in the Fall of 2026 and later. Students should
-consult with their academic program regarding ﬁnal certiﬁcations and
+consult with their academic program regarding final certifications and
 requirements for graduation.
 
 ======================================================================
@@ -763,7 +763,7 @@ catalog.upenn.edu/attributes/wuod/)
 operations-information-decisions-information-systems-track-bs.pdf
 Take any four CU from the following list of electives: 4
 OIDD 1050 Analytics in Excel VBA
-OIDD 2550 Artiﬁcial Intelligence, Business, and Society
+OIDD 2550 Artificial Intelligence, Business, and Society
 OIDD 2900 Decision Processes
 OIDD 3140 Enabling Technologies
 OIDD 3150 Databases for Analytics
@@ -826,7 +826,7 @@ For more information: https://marketing.wharton.upenn.edu/programs/
 undergraduate/retailing-secondary-concentration/
 The degree and major requirements displayed are intended as a guide
 for students entering in the Fall of 2026 and later. Students should
-consult with their academic program regarding ﬁnal certiﬁcations and
+consult with their academic program regarding final certifications and
 requirements for graduation.
 
 ======================================================================

@@ -28,6 +28,7 @@ ATTRS = {
     "WUGE": "Global Economy, Business & Society",
     "WUTI": "Technology, Innovation & Analytics",
     "WUCP": "Senior Capstone",
+    "WUOD": "Operations, Information & Decisions (concentration)",
 }
 # Wharton's liberal arts course list. Its page fills its table from this data address.
 REPORT_DATA = "https://apps.wharton.upenn.edu/reports/2737/data/?&course_dept=all&req_satisfied=all&ccp_flag=all"
