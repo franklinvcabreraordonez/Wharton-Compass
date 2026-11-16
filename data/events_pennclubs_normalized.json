@@ -1,90 +1,5 @@
 [
  {
-  "id": "pcevent-6068-5068",
-  "type": "event",
-  "kind": "event",
-  "title": "Thrown Weapons Practice (off campus)",
-  "summary": "Hosted by Society for Creative Anachronism at Penn. (walking distance from the Regional Rail) 320 North Ave, Secane, PA 19018, USA Open practice for anyone interested in thrown weapons: axes, knives, spears and plumbata. All are welcome. No",
-  "interests": [],
-  "activities": [],
-  "commitment": "unknown",
-  "beginner_friendly": "unknown",
-  "keywords": [],
-  "tags": [],
-  "category": null,
-  "is_wharton": false,
-  "accepting_members": false,
-  "member_count": 0,
-  "favorite_count": 0,
-  "start": "2026-11-15T10:00:00-05:00",
-  "end": "2026-11-15T12:00:00-05:00",
-  "location": null,
-  "organizer": "Society for Creative Anachronism at Penn",
-  "club_code": "society-for-creative-anachronism",
-  "url": "https://pennclubs.com/club/society-for-creative-anachronism",
-  "source": "pennclubs",
-  "updated": "2026-11-15",
-  "event_type": "Other"
- },
- {
-  "id": "pcevent-6069-5077",
-  "type": "event",
-  "kind": "event",
-  "title": "Target Archery Practice",
-  "summary": "Hosted by Society for Creative Anachronism at Penn. (walking distance from the Regional Rail) 320 North Ave, Secane, PA 19018, USA Open practice for anyone interested in archery. No experience is required, training can be provided and loane",
-  "interests": [],
-  "activities": [],
-  "commitment": "unknown",
-  "beginner_friendly": "unknown",
-  "keywords": [],
-  "tags": [],
-  "category": null,
-  "is_wharton": false,
-  "accepting_members": false,
-  "member_count": 0,
-  "favorite_count": 0,
-  "start": "2026-11-15T12:30:00-05:00",
-  "end": "2026-11-15T14:30:00-05:00",
-  "location": null,
-  "organizer": "Society for Creative Anachronism at Penn",
-  "club_code": "society-for-creative-anachronism",
-  "url": "https://pennclubs.com/club/society-for-creative-anachronism",
-  "source": "pennclubs",
-  "updated": "2026-11-15",
-  "event_type": "Other"
- },
- {
-  "id": "pcevent-6023-5010",
-  "type": "event",
-  "kind": "meeting",
-  "title": "UA General Body Meeting #1",
-  "summary": "Hosted by Undergraduate Assembly (UA). Our first GBM will be on Sunday, August 30th at 8:00pm in JMHH 370. Attendance is open to members of the public!",
-  "interests": [
-   "arts"
-  ],
-  "activities": [
-   "social_events"
-  ],
-  "commitment": "unknown",
-  "beginner_friendly": "unknown",
-  "keywords": [],
-  "tags": [],
-  "category": null,
-  "is_wharton": false,
-  "accepting_members": false,
-  "member_count": 0,
-  "favorite_count": 0,
-  "start": "2026-11-15T19:00:00-05:00",
-  "end": "2026-11-15T21:00:00-05:00",
-  "location": "JMHH 370",
-  "organizer": "Undergraduate Assembly (UA)",
-  "club_code": "undergraduate-assembly-ua",
-  "url": "https://pennclubs.com/club/undergraduate-assembly-ua",
-  "source": "pennclubs",
-  "updated": "2026-11-15",
-  "event_type": "GBM"
- },
- {
   "id": "pcevent-6070-5083",
   "type": "event",
   "kind": "meeting",
@@ -110,7 +25,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "(Login to view url)",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "GBM"
  },
  {
@@ -139,7 +54,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "Other"
  },
  {
@@ -166,7 +81,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "Other"
  },
  {
@@ -193,7 +108,38 @@
   "club_code": "society-of-hispanic-professional-engineers",
   "url": "https://pennclubs.com/club/society-of-hispanic-professional-engineers",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
+  "event_type": "Recruitment"
+ },
+ {
+  "id": "pcevent-6080-5092",
+  "type": "event",
+  "kind": "event",
+  "title": "rideshare to 100 Minutes War (off campus)",
+  "summary": "Hosted by Society for Creative Anachronism at Penn. Members of the Society for Creative Anachronism at Penn are visiting New Jersey for a weekend SCA event. We can help you find something to wear, get there, meet new people, and learn new s",
+  "interests": [
+   "arts",
+   "consulting",
+   "health"
+  ],
+  "activities": [],
+  "commitment": "unknown",
+  "beginner_friendly": "unknown",
+  "keywords": [],
+  "tags": [],
+  "category": null,
+  "is_wharton": false,
+  "accepting_members": false,
+  "member_count": 0,
+  "favorite_count": 0,
+  "start": "2026-11-21T09:00:00-05:00",
+  "end": "2026-11-21T19:00:00-05:00",
+  "location": "Camp Sacajawea 251 White Lake Rd., Sparta, NJ 07871",
+  "organizer": "Society for Creative Anachronism at Penn",
+  "club_code": "society-for-creative-anachronism",
+  "url": "https://pennclubs.com/club/society-for-creative-anachronism",
+  "source": "pennclubs",
+  "updated": "2026-11-16",
   "event_type": "Recruitment"
  },
  {
@@ -220,7 +166,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "Other"
  },
  {
@@ -247,7 +193,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "Other"
  },
  {
@@ -278,7 +224,7 @@
   "club_code": "undergraduate-assembly-ua",
   "url": "https://pennclubs.com/club/undergraduate-assembly-ua",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "GBM"
  },
  {
@@ -308,7 +254,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "Other"
  },
  {
@@ -335,7 +281,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "Other"
  },
  {
@@ -362,7 +308,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "Other"
  },
  {
@@ -389,7 +335,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "Other"
  },
  {
@@ -420,7 +366,7 @@
   "club_code": "undergraduate-assembly-ua",
   "url": "https://pennclubs.com/club/undergraduate-assembly-ua",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "GBM"
  },
  {
@@ -449,7 +395,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "Other"
  },
  {
@@ -476,7 +422,61 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
+  "event_type": "Other"
+ },
+ {
+  "id": "pcevent-6068-5071",
+  "type": "event",
+  "kind": "event",
+  "title": "Thrown Weapons Practice (off campus)",
+  "summary": "Hosted by Society for Creative Anachronism at Penn. (walking distance from the Regional Rail) 320 North Ave, Secane, PA 19018, USA Open practice for anyone interested in thrown weapons: axes, knives, spears and plumbata. All are welcome. No",
+  "interests": [],
+  "activities": [],
+  "commitment": "unknown",
+  "beginner_friendly": "unknown",
+  "keywords": [],
+  "tags": [],
+  "category": null,
+  "is_wharton": false,
+  "accepting_members": false,
+  "member_count": 0,
+  "favorite_count": 0,
+  "start": "2026-12-06T10:00:00-05:00",
+  "end": "2026-12-06T12:00:00-05:00",
+  "location": null,
+  "organizer": "Society for Creative Anachronism at Penn",
+  "club_code": "society-for-creative-anachronism",
+  "url": "https://pennclubs.com/club/society-for-creative-anachronism",
+  "source": "pennclubs",
+  "updated": "2026-11-16",
+  "event_type": "Other"
+ },
+ {
+  "id": "pcevent-6069-5080",
+  "type": "event",
+  "kind": "event",
+  "title": "Target Archery Practice",
+  "summary": "Hosted by Society for Creative Anachronism at Penn. (walking distance from the Regional Rail) 320 North Ave, Secane, PA 19018, USA Open practice for anyone interested in archery. No experience is required, training can be provided and loane",
+  "interests": [],
+  "activities": [],
+  "commitment": "unknown",
+  "beginner_friendly": "unknown",
+  "keywords": [],
+  "tags": [],
+  "category": null,
+  "is_wharton": false,
+  "accepting_members": false,
+  "member_count": 0,
+  "favorite_count": 0,
+  "start": "2026-12-06T12:30:00-05:00",
+  "end": "2026-12-06T14:30:00-05:00",
+  "location": null,
+  "organizer": "Society for Creative Anachronism at Penn",
+  "club_code": "society-for-creative-anachronism",
+  "url": "https://pennclubs.com/club/society-for-creative-anachronism",
+  "source": "pennclubs",
+  "updated": "2026-11-16",
   "event_type": "Other"
  },
  {
@@ -506,7 +506,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "Other"
  },
  {
@@ -533,7 +533,7 @@
   "club_code": "society-of-hispanic-professional-engineers",
   "url": "https://pennclubs.com/club/society-of-hispanic-professional-engineers",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "Recruitment"
  },
  {
@@ -562,7 +562,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "(Login to view url)",
   "source": "pennclubs",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "event_type": "GBM"
  }
 ]
