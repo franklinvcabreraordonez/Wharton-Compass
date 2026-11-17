@@ -12247,5 +12247,52 @@
     ],
     "summary": "Dental students raise awareness of oral health and provide education, materials, and referrals to vulnerable populations during monthly volunteer sessions.",
     "model": "gemini-3.5-flash-lite"
+  },
+  "spec-spring-fling": {
+    "interests": [
+      "arts"
+    ],
+    "activities": [
+      "building_projects",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "yes",
+    "beginner_evidence": "No application need to be a part of the committee.",
+    "keywords": [
+      "spring fling",
+      "festival planning",
+      "event marketing",
+      "logistics planning",
+      "sponsorship",
+      "student festival"
+    ],
+    "summary": "Members organize Penn's annual Spring Fling Daytime Festival by working on marketing, logistics, and sponsorships.",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bridge-to-math": {
+    "interests": [
+      "edu",
+      "science"
+    ],
+    "activities": [
+      "mentorship",
+      "learning_workshops",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "math",
+      "calculus",
+      "tutoring",
+      "study halls",
+      "freshmen"
+    ],
+    "summary": "Bridge to Math helps undergraduates taking introductory calculus by offering study halls with TAs and a summer prep program.",
+    "model": "gemini-3.5-flash-lite"
   }
 }

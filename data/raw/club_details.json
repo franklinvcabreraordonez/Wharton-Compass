@@ -9047,5 +9047,38 @@
     "target_schools": [],
     "student_types": [],
     "website": null
+  },
+  "spec-spring-fling": {
+    "name": "SPEC Spring Fling Daytime",
+    "description": "SPEC Daytime is a student group that organizes Penn's Annual Spring Fling Daytime Festival! Since 1973, Spring Fling has been the ultimate student festival at Penn and is the largest student-run festival in the East Coast. Spring Fling spans over two days in April.\nAs part of the Spring Fling Daytime committee, you will get the chance to be involved in the marketing, logistics, and sponsorship planning of the festival. No application need to be a part of the committee.",
+    "how_to_get_involved": "No applications are required to join any of SPEC's committees. To join, subscribe to our newsletter, follow us on Instagram @upennspringfling & @upennspec, and attend our General Body Meetings.\nListserv Sign Up: http://eepurl.com/4m3hn",
+    "signature_events": "",
+    "category": "STUDENT GOVERNANCE",
+    "classification": "Undergraduate open",
+    "badges": [
+      "UA",
+      "SPEC",
+      "Student Governance",
+      "Student Governance"
+    ],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": "https://www.specevents.net/spring-fling-daytime/get-involved"
+  },
+  "bridge-to-math": {
+    "name": "Bridge to Math",
+    "description": "Bridge to Math is a student-run organization dedicated to helping undergrads taking intro-calculus sequence math courses at Penn. We organize our annual Bridge to Math Program over the summer, which hopes to expose incoming freshmen to college level math course content with the intention of helping them anticipate what is coming and review topics, as well as reducing anxiety about taking math in college. We also host our semester-ly Study Halls for students taking intro math courses, which feature math TAs and lots of free food!",
+    "how_to_get_involved": "Check out our website and important links here: https://linktr.ee/bridgetomath.upenn\nSign up for our listserv to receive updates about our events https://tinyurl.com/BridgeToMathListserv and follow us on Instagram!\nReach out to us via email at bridgetomath.upenn@gmail.com if you're interested in joining our team! We recruit executive board positions at the start of each calendar year and summer program positions in the Spring.",
+    "signature_events": "",
+    "category": "ACADEMIC & PRE-PROFESSIONAL",
+    "classification": "Undergraduate",
+    "badges": [],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": "https://sites.google.com/view/bridge-to-math/home"
   }
 }

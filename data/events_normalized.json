@@ -41,39 +41,7 @@
   "organizer": "Wharton Asia Exchange",
   "url": "https://groups.wharton.upenn.edu/rsvp?id=125900",
   "source": "wharton-campusgroups",
-  "updated": "2026-11-16"
- },
- {
-  "id": "event-126330",
-  "type": "event",
-  "title": "Potted Plant Workshop",
-  "summary": "Hosted by Wharton Wellness Board. Join Wharton Wellness for a Build Your Own Potted Plant Workshop featuring Professor Eugenia South! Professor South will briefly discuss her research on the connection between green spaces and mental health",
-  "interests": [
-   "edu"
-  ],
-  "activities": [],
-  "commitment": "unknown",
-  "beginner_friendly": "unknown",
-  "keywords": [
-   "wwb",
-   "educational/awareness"
-  ],
-  "tags": [
-   "WWB",
-   "Educational/Awareness"
-  ],
-  "category": null,
-  "is_wharton": true,
-  "accepting_members": false,
-  "member_count": 0,
-  "favorite_count": 0,
-  "start": "2026-11-17T22:00:00+00:00",
-  "end": "2026-11-17T23:00:00+00:00",
-  "location": "JMHH F55, 3620 Locust Walk, Philadelphia, PA 19104, United States",
-  "organizer": "Wharton Wellness Board",
-  "url": "https://groups.wharton.upenn.edu/rsvp?id=126330",
-  "source": "wharton-campusgroups",
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
  },
  {
   "id": "event-126279",
@@ -120,13 +88,13 @@
   "organizer": "Wharton Undergraduate Energy Group",
   "url": "https://groups.wharton.upenn.edu/rsvp?id=126279",
   "source": "wharton-campusgroups",
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
  },
  {
   "id": "event-124946",
   "type": "event",
   "title": "Launchpad Talks: Philip Johnston, CEO of Starcloud — In Person",
-  "summary": "Hosted by Wharton Undergraduate Entrepreneurship Club. Philip Johnston is coming to Wharton IN PERSON! Join the Co-Founder & CEO of Starcloud and Wharton MBA for a fireside chat on building data centers in space, raising for hard tech, and ",
+  "summary": "Hosted by Wharton Undergraduate Entrepreneurship Club. Philip Johnston is coming to Wharton IN PERSON! Join the Co-Founder & CEO of Starcloud and Wharton MBA Starcloud is the former fastest unicorn in YC history. A Wharton MBA behind the ho",
   "interests": [
    "entre"
   ],
@@ -154,6 +122,6 @@
   "organizer": "Wharton Undergraduate Entrepreneurship Club",
   "url": "https://groups.wharton.upenn.edu/rsvp?id=124946",
   "source": "wharton-campusgroups",
-  "updated": "2026-11-16"
+  "updated": "2026-11-17"
  }
 ]

@@ -1,34 +1,5 @@
 [
  {
-  "id": "pcevent-6070-5083",
-  "type": "event",
-  "kind": "meeting",
-  "title": "November Business Meeting",
-  "summary": "Hosted by Society for Creative Anachronism at Penn. ",
-  "interests": [],
-  "activities": [
-   "social_events"
-  ],
-  "commitment": "unknown",
-  "beginner_friendly": "unknown",
-  "keywords": [],
-  "tags": [],
-  "category": null,
-  "is_wharton": false,
-  "accepting_members": false,
-  "member_count": 0,
-  "favorite_count": 0,
-  "start": "2026-11-16T19:15:00-05:00",
-  "end": "2026-11-16T20:15:00-05:00",
-  "location": null,
-  "organizer": "Society for Creative Anachronism at Penn",
-  "club_code": "society-for-creative-anachronism",
-  "url": "(Login to view url)",
-  "source": "pennclubs",
-  "updated": "2026-11-16",
-  "event_type": "GBM"
- },
- {
   "id": "pcevent-6061-5050",
   "type": "event",
   "kind": "event",
@@ -54,7 +25,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -81,7 +52,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -108,7 +79,7 @@
   "club_code": "society-of-hispanic-professional-engineers",
   "url": "https://pennclubs.com/club/society-of-hispanic-professional-engineers",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Recruitment"
  },
  {
@@ -139,7 +110,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Recruitment"
  },
  {
@@ -166,7 +137,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -193,7 +164,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -224,7 +195,7 @@
   "club_code": "undergraduate-assembly-ua",
   "url": "https://pennclubs.com/club/undergraduate-assembly-ua",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "GBM"
  },
  {
@@ -254,7 +225,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -281,7 +252,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -308,7 +279,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -335,7 +306,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -366,7 +337,7 @@
   "club_code": "undergraduate-assembly-ua",
   "url": "https://pennclubs.com/club/undergraduate-assembly-ua",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "GBM"
  },
  {
@@ -395,7 +366,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -422,7 +393,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -449,7 +420,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -476,7 +447,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -506,7 +477,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "https://pennclubs.com/club/society-for-creative-anachronism",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Other"
  },
  {
@@ -533,7 +504,7 @@
   "club_code": "society-of-hispanic-professional-engineers",
   "url": "https://pennclubs.com/club/society-of-hispanic-professional-engineers",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "Recruitment"
  },
  {
@@ -562,7 +533,7 @@
   "club_code": "society-for-creative-anachronism",
   "url": "(Login to view url)",
   "source": "pennclubs",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "event_type": "GBM"
  }
 ]
