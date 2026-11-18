@@ -12294,5 +12294,29 @@
     ],
     "summary": "Bridge to Math helps undergraduates taking introductory calculus by offering study halls with TAs and a summer prep program.",
     "model": "gemini-3.5-flash-lite"
+  },
+  "military-denstistry-club": {
+    "interests": [
+      "health",
+      "culture"
+    ],
+    "activities": [
+      "career_prep",
+      "mentorship",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "military dentistry",
+      "dental medicine",
+      "military scholarship",
+      "military professionals",
+      "networking"
+    ],
+    "summary": "Builds a community for military scholarship dental students through mentorship, networking, and career insights.",
+    "model": "gemini-3.5-flash-lite"
   }
 }
