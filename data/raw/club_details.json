@@ -9094,5 +9094,19 @@
     "target_schools": [],
     "student_types": [],
     "website": null
+  },
+  "aied-penn": {
+    "name": "Artificial Intelligence in Education at Penn",
+    "description": "AIED@Penn aims to create a vibrant community for students passionate about the intersection of artificial intelligence and education. We advance knowledge through research and dialogue, foster collaboration and innovation, and support students’ professional and social growth within the field of AI in Education.",
+    "how_to_get_involved": "Apply through the link",
+    "signature_events": "",
+    "category": "ACADEMIC & PRE-PROFESSIONAL",
+    "classification": "Graduate open",
+    "badges": [],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": "https://www.aiedatpenn.com/"
   }
 }

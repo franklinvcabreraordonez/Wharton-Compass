@@ -12318,5 +12318,30 @@
     ],
     "summary": "Builds a community for military scholarship dental students through mentorship, networking, and career insights.",
     "model": "gemini-3.5-flash-lite"
+  },
+  "aied-penn": {
+    "interests": [
+      "tech",
+      "edu",
+      "science"
+    ],
+    "activities": [
+      "research",
+      "career_prep",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "artificial intelligence",
+      "education technology",
+      "ai in education",
+      "academic research",
+      "professional development"
+    ],
+    "summary": "Members explore the intersection of artificial intelligence and education through research, dialogue, and professional and social activities.",
+    "model": "gemini-3.5-flash-lite"
   }
 }
