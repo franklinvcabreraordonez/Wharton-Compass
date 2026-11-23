@@ -1,35 +1,5 @@
 [
  {
-  "id": "event-126528",
-  "type": "event",
-  "title": "Freshman Sophmore Brunch",
-  "summary": "Hosted by Black Wharton Undergraduate Association. Black Wharton was proud to host our Freshman-Sophomore Brunch, bringing together underclassmen to build community, share experiences, and strengthen connections within our organization! RSV",
-  "interests": [],
-  "activities": [],
-  "commitment": "unknown",
-  "beginner_friendly": "unknown",
-  "keywords": [
-   "bwua",
-   "mentorship"
-  ],
-  "tags": [
-   "BWUA",
-   "Mentorship"
-  ],
-  "category": null,
-  "is_wharton": true,
-  "accepting_members": false,
-  "member_count": 0,
-  "favorite_count": 0,
-  "start": "2026-11-22T17:00:00+00:00",
-  "end": "2026-11-22T19:00:00+00:00",
-  "location": null,
-  "organizer": "Black Wharton Undergraduate Association",
-  "url": "https://groups.wharton.upenn.edu/rsvp?id=126528",
-  "source": "wharton-campusgroups",
-  "updated": "2026-11-22"
- },
- {
   "id": "event-124946",
   "type": "event",
   "title": "Launchpad Talks: Philip Johnston, CEO of Starcloud — In Person",
@@ -61,6 +31,6 @@
   "organizer": "Wharton Undergraduate Entrepreneurship Club",
   "url": "https://groups.wharton.upenn.edu/rsvp?id=124946",
   "source": "wharton-campusgroups",
-  "updated": "2026-11-22"
+  "updated": "2026-11-23"
  }
 ]
