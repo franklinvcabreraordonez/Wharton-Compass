@@ -12343,5 +12343,28 @@
     ],
     "summary": "Members explore the intersection of artificial intelligence and education through research, dialogue, and professional and social activities.",
     "model": "gemini-3.5-flash-lite"
+  },
+  "college-republicans": {
+    "interests": [
+      "policy"
+    ],
+    "activities": [
+      "advocacy",
+      "social_events"
+    ],
+    "commitment": "unknown",
+    "commitment_evidence": null,
+    "beginner_friendly": "unknown",
+    "beginner_evidence": null,
+    "keywords": [
+      "conservative",
+      "politics",
+      "speaker events",
+      "campaign initiatives",
+      "advocacy",
+      "civic engagement"
+    ],
+    "summary": "Promote conservative values through speaker events, grassroots campaign initiatives, and social gatherings for Penn students.",
+    "model": "gemini-3.5-flash-lite"
   }
 }

@@ -9108,5 +9108,25 @@
     "target_schools": [],
     "student_types": [],
     "website": "https://www.aiedatpenn.com/"
+  },
+  "college-republicans": {
+    "name": "College Republicans",
+    "description": "The College Republicans at Penn, established in 1892 by patriotic young men, strives to promote conservative values and ideals on campus by bringing together Penn’s conservative students. We hold speaker events, organize grassroots campaign initiatives, and host social events each semester.",
+    "how_to_get_involved": "Apply here to join! While our general GBMs are open to the public, members have access to our group chat and exclusive social events.",
+    "signature_events": "",
+    "category": "POLITICAL & ADVOCACY",
+    "classification": "Undergraduate",
+    "badges": [
+      "Political/Advocacy",
+      "SAC",
+      "Political/Advocacy",
+      "Political/Advocacy",
+      "Political/Advocacy"
+    ],
+    "target_majors": [],
+    "target_years": [],
+    "target_schools": [],
+    "student_types": [],
+    "website": ""
   }
 }
