@@ -2,10 +2,11 @@
  {
   "id": "event-124946",
   "type": "event",
-  "title": "Launchpad Talks: Philip Johnston, CEO of Starcloud — In Person",
-  "summary": "Hosted by Wharton Undergraduate Entrepreneurship Club. Philip Johnston is coming to Wharton IN PERSON! Join the Co-Founder & CEO of Starcloud and Wharton MBA Starcloud is the former fastest unicorn in YC history. A Wharton MBA behind the ho",
+  "title": "Launchpad Talks × AI & Analytics Club: Philip Johnston, CEO of Starcloud — In Person",
+  "summary": "Hosted by Wharton Undergraduate Entrepreneurship Club. Philip Johnston is coming to Wharton IN PERSON! Join the Co-Founder & CEO of Starcloud and Wharton MBA In collaboration with the Wharton AI & Analytics Club Starcloud is the former fast",
   "interests": [
-   "entre"
+   "entre",
+   "tech"
   ],
   "activities": [
    "learning_workshops"
@@ -31,6 +32,6 @@
   "organizer": "Wharton Undergraduate Entrepreneurship Club",
   "url": "https://groups.wharton.upenn.edu/rsvp?id=124946",
   "source": "wharton-campusgroups",
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
  }
 ]
